@@ -16,13 +16,13 @@ npc:
         lineHeight: -1.0
         viewRange: -1
       location:
-        bodyYaw: 138.21498
+        bodyYaw: 83.6557
         world: lobby
         x: '33.5'
-        y: '-64.0633'
+        y: '71.0'
         z: '20.5'
-        yaw: '131.4938'
-        pitch: '-2.9706'
+        yaw: '102.7537'
+        pitch: '21.7895'
       spawned: true
       type: PLAYER
       skintrait:
@@ -80,13 +80,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -66.935555
+        bodyYaw: -53.72945
         world: lobby
         x: '-89.5'
-        y: '-64.0633'
+        y: '71.0'
         z: '-13.5'
-        yaw: '-66.9356'
-        pitch: '14.0223'
+        yaw: '-53.7295'
+        pitch: '25.5071'
       spawned: true
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -132,13 +132,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 42.87967
+        bodyYaw: 82.21039
         world: lobby
         x: '-81.5'
-        y: '-64.0633'
+        y: '71.0'
         z: '-13.5'
-        yaw: '42.8797'
-        pitch: '23.6255'
+        yaw: '82.2104'
+        pitch: '22.2766'
       spawned: true
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -184,13 +184,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -20.359924
+        bodyYaw: -1.4834442
         world: lobby
         x: '-89.5'
-        y: '-64.0633'
+        y: '71.0'
         z: '-17.5'
-        yaw: '-20.3599'
-        pitch: '2.7228'
+        yaw: '-1.4834'
+        pitch: '0.0'
       spawned: true
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -236,13 +236,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 60.64946
+        bodyYaw: 48.360016
         world: lobby
         x: '-81.5'
-        y: '-64.0633'
+        y: '71.0'
         z: '-17.5'
-        yaw: '60.6495'
-        pitch: '-6.2928'
+        yaw: '48.36'
+        pitch: '22.9502'
       spawned: true
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -289,13 +289,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 39.589798
+        bodyYaw: 4.6947784
         world: lobby
         x: '-85.5'
-        y: '-64.0633'
+        y: '71.0'
         z: '-21.5'
-        yaw: '39.5898'
-        pitch: '0.0'
+        yaw: '4.6948'
+        pitch: '20.5865'
       spawned: true
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -320,13 +320,13 @@ npc:
     uuid: 05a1d7c0-c970-480a-b827-43e9608ec71a
     traits:
       location:
-        bodyYaw: -86.245094
+        bodyYaw: 61.624664
         world: lobby
         x: '-6.5'
         y: '73.0'
         z: '-6.5'
-        yaw: '-86.2451'
-        pitch: '11.1683'
+        yaw: '61.6247'
+        pitch: '-0.2414'
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
@@ -484,12 +484,12 @@ npc:
     uuid: ba22015d-08dc-4f20-a361-19ed66fb777d
     traits:
       location:
-        bodyYaw: 125.9565
+        bodyYaw: -169.20874
         world: lobby
         x: '7.5'
         y: '73.0'
         z: '7.5'
-        yaw: '107.9748'
+        yaw: '170.7913'
         pitch: '0.0'
       villagertrait:
         level: 5
@@ -558,13 +558,13 @@ npc:
     uuid: 97afb678-f5e8-4cda-8020-0dbaccdf881c
     traits:
       location:
-        bodyYaw: -144.37648
+        bodyYaw: -134.91966
         world: lobby
         x: '-6.5'
         y: '73.0'
         z: '7.5'
-        yaw: '-144.3765'
-        pitch: '6.6031'
+        yaw: '-134.9197'
+        pitch: '21.981'
       skintrait:
         fetchDefaultSkin: true
         signature: sUHh6q0h4rbEm/BZGdNkF7TmNSJwz0BKLq1AGDSsNZKu05QjxHJOK9vw1ATtYbbWFZ5J+ARVeVtgxJlp1opcpLRMHQeFy7/0HWJxls7hZnStWXsuw6dpBkH8kKh6tWGFVpKftwzj53UC4DaYOeNKGrs2QkWVvzOlik+4/efg3t5fi3tYLJBEjaxu41iryjiJZc9Xi3joEtMTAH+THquTT607EEeEIFw1oJP913VRseYgDJ10g08RruTzkoMiDVO8nQzVAwxz7cy94OIrt6Zz2NA2RVTacGe+a/QecFRNeIBml5wXbjRAr7Is3XCWGMEYf3pQTZr5GQUyBoU1Kvo9CpawjyHZVCkDufbJ66R86nvQcZicSHvze1smZaIhWti8QuGuCflNR3nJItbo4aYMIUbVXGIx35+Hok3HdMxivvNuQ3eVYOWna4/9orXJ45WoKXsVhCW27UIrLUbVzKdJY+HY/xS6woDaSE9BNUXLN1LWMmtrdN8O7Dz2VQrnj8yf90MHCtQIQ+LaN1I2W43yrFF4fi+z6ptq6SaKopLV3g0CJempx0NbBjUU/QX2t3pCFOjXuQm+yaqu6S8cgSx1ownOyZjHyo+JYSar2gkLPp0M50o/JuHR1pH1i9rdVs075+TXyOrCOOGbeijJWXABpptXiYpmk34LbvG60bjnB4A=
