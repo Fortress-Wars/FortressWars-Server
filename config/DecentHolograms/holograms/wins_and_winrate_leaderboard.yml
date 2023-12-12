@@ -1,0 +1,124 @@
+location: lobby:47.5:71.0:-44.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: ' &7===== &aTop Wins &7===== '
+    height: 0.3
+  - content: '&e#1. &a%fortresswars_leaderboards_total-wins_1_name% &7- &a%fortresswars_leaderboards_total-wins_1_value_INT%'
+    height: 0.3
+  - content: '&e#2. &a%fortresswars_leaderboards_total-wins_2_name% &7- &a%fortresswars_leaderboards_total-wins_2_value_INT%'
+    height: 0.3
+  - content: '&e#3. &a%fortresswars_leaderboards_total-wins_3_name% &7- &a%fortresswars_leaderboards_total-wins_3_value_INT%'
+    height: 0.3
+  - content: '&e#4. &a%fortresswars_leaderboards_total-wins_4_name% &7- &a%fortresswars_leaderboards_total-wins_4_value_INT%'
+    height: 0.3
+  - content: '&e#5. &a%fortresswars_leaderboards_total-wins_5_name% &7- &a%fortresswars_leaderboards_total-wins_5_value_INT%'
+    height: 0.3
+  - content: '&e#6. &a%fortresswars_leaderboards_total-wins_6_name% &7- &a%fortresswars_leaderboards_total-wins_6_value_INT%'
+    height: 0.3
+  - content: '&e#7. &a%fortresswars_leaderboards_total-wins_7_name% &7- &a%fortresswars_leaderboards_total-wins_7_value_INT%'
+    height: 0.3
+  - content: '&e#8. &a%fortresswars_leaderboards_total-wins_8_name% &7- &a%fortresswars_leaderboards_total-wins_8_value_INT%'
+    height: 0.3
+  - content: '&e#9. &a%fortresswars_leaderboards_total-wins_9_name% &7- &a%fortresswars_leaderboards_total-wins_9_value_INT%'
+    height: 0.3
+  - content: '&e#10. &a%fortresswars_leaderboards_total-wins_10_name% &7-&a%fortresswars_leaderboards_total-wins_10_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PAGE:3
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Win Rate &7===== '
+    height: 0.3
+  - content: '&e#1. &a%fortresswars_leaderboards_win-rate_1_name%
+      &7- &a%fortresswars_leaderboards_win-rate_1_value_PERCENT%'
+    height: 0.3
+  - content: '&e#2. &a%fortresswars_leaderboards_win-rate_2_name%
+      &7- &a%fortresswars_leaderboards_win-rate_2_value_PERCENT%'
+    height: 0.3
+  - content: '&e#3. &a%fortresswars_leaderboards_win-rate_3_name%
+      &7- &a%fortresswars_leaderboards_win-rate_3_value_PERCENT%'
+    height: 0.3
+  - content: '&e#4. &a%fortresswars_leaderboards_win-rate_4_name%
+      &7- &a%fortresswars_leaderboards_win-rate_4_value_PERCENT%'
+    height: 0.3
+  - content: '&e#5. &a%fortresswars_leaderboards_win-rate_5_name%
+      &7- &a%fortresswars_leaderboards_win-rate_5_value_PERCENT%'
+    height: 0.3
+  - content: '&e#6. &a%fortresswars_leaderboards_win-rate_6_name%
+      &7- &a%fortresswars_leaderboards_win-rate_6_value_PERCENT%'
+    height: 0.3
+  - content: '&e#7. &a%fortresswars_leaderboards_win-rate_7_name%
+      &7- &a%fortresswars_leaderboards_win-rate_7_value_PERCENT%'
+    height: 0.3
+  - content: '&e#8. &a%fortresswars_leaderboards_win-rate_8_name%
+      &7- &a%fortresswars_leaderboards_win-rate_8_value_PERCENT%'
+    height: 0.3
+  - content: '&e#9. &a%fortresswars_leaderboards_win-rate_9_name%
+      &7- &a%fortresswars_leaderboards_win-rate_9_value_PERCENT%'
+    height: 0.3
+  - content: '&e#10. &a%fortresswars_leaderboards_win-rate_10_name%
+      &7- &a%fortresswars_leaderboards_win-rate_10_value_PERCENT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Games Played &7===== '
+    height: 0.3
+  - content: '&e#1. &a%fortresswars_leaderboards_games-played_1_name% &7-
+      &a%fortresswars_leaderboards_games-played_1_value_INT%'
+    height: 0.3
+  - content: '&e#2. &a%fortresswars_leaderboards_games-played_2_name% &7-
+      &a%fortresswars_leaderboards_games-played_2_value_INT%'
+    height: 0.3
+  - content: '&e#3. &a%fortresswars_leaderboards_games-played_3_name% &7-
+      &a%fortresswars_leaderboards_games-played_3_value_INT%'
+    height: 0.3
+  - content: '&e#4. &a%fortresswars_leaderboards_games-played_4_name% &7-
+      &a%fortresswars_leaderboards_games-played_4_value_INT%'
+    height: 0.3
+  - content: '&e#5. &a%fortresswars_leaderboards_games-played_5_name% &7-
+      &a%fortresswars_leaderboards_games-played_5_value_INT%'
+    height: 0.3
+  - content: '&e#6. &a%fortresswars_leaderboards_games-played_6_name% &7-
+      &a%fortresswars_leaderboards_games-played_6_value_INT%'
+    height: 0.3
+  - content: '&e#7. &a%fortresswars_leaderboards_games-played_7_name% &7-
+      &a%fortresswars_leaderboards_games-played_7_value_INT%'
+    height: 0.3
+  - content: '&e#8. &a%fortresswars_leaderboards_games-played_8_name% &7-
+      &a%fortresswars_leaderboards_games-played_8_value_INT%'
+    height: 0.3
+  - content: '&e#9. &a%fortresswars_leaderboards_games-played_9_name% &7-
+      &a%fortresswars_leaderboards_games-played_9_value_INT%'
+    height: 0.3
+  - content: '&e#10. &a%fortresswars_leaderboards_games-played_10_name% &7-
+      &a%fortresswars_leaderboards_games-played_10_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PAGE:1
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK

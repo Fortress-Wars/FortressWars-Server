@@ -1,0 +1,12 @@
+id: "musketeer_gamemode"
+description: "Musketeer hitscan or something"
+default_kit: musketeer
+whitelisted_kits:
+- musketeer
+data:
+  musketeer:
+  - BULLET_SPEED=50
+  - HAS_BULLET_GRAVITY=0
+  - HAS_BULLET_SPREAD=0
+  - BULLET_BASE_DAMAGE=14
+  - MAX_DAMAGE_RANGE=100

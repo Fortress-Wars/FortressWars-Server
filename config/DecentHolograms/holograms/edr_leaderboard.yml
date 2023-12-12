@@ -1,0 +1,37 @@
+location: lobby:40.5:71.0:-51.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: ' &7===== &aTop EDR &7===== '
+    height: 0.3
+  - content: '&e#1. &a%fortresswars_leaderboards_edr_1_name% &7- &a%fortresswars_leaderboards_edr_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#2. &a%fortresswars_leaderboards_edr_2_name% &7- &a%fortresswars_leaderboards_edr_2_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#3. &a%fortresswars_leaderboards_edr_3_name% &7- &a%fortresswars_leaderboards_edr_3_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#4. &a%fortresswars_leaderboards_edr_4_name% &7- &a%fortresswars_leaderboards_edr_4_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#5. &a%fortresswars_leaderboards_edr_5_name% &7- &a%fortresswars_leaderboards_edr_5_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#6. &a%fortresswars_leaderboards_edr_6_name% &7- &a%fortresswars_leaderboards_edr_6_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#7. &a%fortresswars_leaderboards_edr_7_name% &7- &a%fortresswars_leaderboards_edr_7_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#8. &a%fortresswars_leaderboards_edr_8_name% &7- &a%fortresswars_leaderboards_edr_8_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#9. &a%fortresswars_leaderboards_edr_9_name% &7- &a%fortresswars_leaderboards_edr_9_value_DOUBLE%'
+    height: 0.3
+  - content: '&e#10. &a%fortresswars_leaderboards_edr_10_name% &7-
+      &a%fortresswars_leaderboards_edr_10_value_DOUBLE%'
+    height: 0.3
+  - content: ' &7=================== '
+    height: 0.3
+  actions:
+    SHIFT_RIGHT:
+    - SOUND:BLOCK_END_PORTAL_SPAWN

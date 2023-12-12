@@ -1,0 +1,16 @@
+location: lobby:39:71.000:-33
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: "&7===== &aLeaderboards &7====="
+    height: 0.3
+  - content: "&bMust have &e1 &bhour of play time"
+    height: 0.3
+  - content: "&bUpdates every &e15 &bminutes"
+    height: 0.3
+  actions: {}

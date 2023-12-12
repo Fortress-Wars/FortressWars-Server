@@ -1,0 +1,254 @@
+location: lobby:33.5:71.000:-35.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: ' &7===== &aTop Kit: Crusader &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_crusader-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_crusader-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_crusader-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_crusader-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bShield Bashes: &a%fortresswars_leaderboards_crusader-shield-bashes_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-shield-bashes_1_value_INT%'
+    height: 0.3
+  - content: '&bShield Bash Hits: &a%fortresswars_leaderboards_crusader-shield-bashes-hit_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-shield-bashes-hit_1_value_INT%'
+    height: 0.3
+  - content: '&bShield Bash Kills: &a%fortresswars_leaderboards_crusader-shield-bash-kills_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-shield-bash-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Shield Bash Double Kills: &a%fortresswars_leaderboards_crusader-shield-bash-plus-2-kills_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-shield-bash-plus-2-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Shield Bash Triple Kills: &a%fortresswars_leaderboards_crusader-shield-bash-plus-3-kills_1_name%
+      &7- &a%fortresswars_leaderboards_crusader-shield-bash-plus-3-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PAGE:6
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Demolitionist &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_demolitionist-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_demolitionist-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_demolitionist-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_demolitionist-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bBombs Created: &a%fortresswars_leaderboards_demolitionist-bombs-created_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-bombs-created_1_value_INT%'
+    height: 0.3
+  - content: '&bBombs Blocks Broken: &a%fortresswars_leaderboards_demolitionist-bomb-blocks-broken_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-bomb-blocks-broken_1_value_INT%'
+    height: 0.3
+  - content: '&bBomb Kills: &a%fortresswars_leaderboards_demolitionist-bomb-kills_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-bomb-kills_1_value_INT%'
+    height: 0.3
+  - content: '&bBomb Double Kills: &a%fortresswars_leaderboards_demolitionist-double-bomb-kills_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-double-bomb-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Bomb Triple Kills: &a%fortresswars_leaderboards_demolitionist-triple-bomb-kills_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-triple-bomb-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Bomb Quadruple Kills: &a%fortresswars_leaderboards_demolitionist-quadruple-bomb-kills_1_name%
+      &7- &a%fortresswars_leaderboards_demolitionist-quadruple-bomb-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Golem &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_golem-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_golem-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_golem-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_golem-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_golem-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_golem-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_golem-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_golem-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bEarth Shatter Spells Cast: &a%fortresswars_leaderboards_golem-earth-shatters-casted_1_name%
+      &7- &a%fortresswars_leaderboards_golem-earth-shatters-casted_1_value_INT%'
+    height: 0.3
+  - content: '&bEarth Shatter Kills: &a%fortresswars_leaderboards_golem-earth-shatter-kills_1_name%
+      &7- &a%fortresswars_leaderboards_golem-earth-shatter-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Earth Shatter Double Kills: &a%fortresswars_leaderboards_golem-earth-shatter-plus-2-kills_1_name%
+      &7- &a%fortresswars_leaderboards_golem-earth-shatter-plus-2-kills_1_value_INT%'
+    height: 0.3
+  - content: '&bEarth Walls Created: &a%fortresswars_leaderboards_golem-earth-walls-created_1_name%
+      &7- &a%fortresswars_leaderboards_golem-earth-walls-created_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Knight &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_knight-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_knight-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_knight-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_knight-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_knight-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_knight-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_knight-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_knight-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&5Shield Kills: &a%fortresswars_leaderboards_knight-shield-kills_1_name%
+      &7- &a%fortresswars_leaderboards_knight-shield-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Slime &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_slime-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_slime-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_slime-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_slime-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_slime-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_slime-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_slime-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_slime-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bSlime Armor Provided: &a%fortresswars_leaderboards_slime-slime-armor-provided_1_name%
+      &7- &a%fortresswars_leaderboards_slime-slime-armor-provided_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Mitigated: &a%fortresswars_leaderboards_slime-ally-damage-mitigated_1_name%
+      &7- &a%fortresswars_leaderboards_slime-ally-damage-mitigated_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bSlimes Summoned: &a%fortresswars_leaderboards_slime-slimes-summoned_1_name%
+      &7- &a%fortresswars_leaderboards_slime-slimes-summoned_1_value_INT%'
+    height: 0.3
+  - content: '&5Slime Kills: &a%fortresswars_leaderboards_slime-kills_1_name% &7-
+      &a%fortresswars_leaderboards_slime-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Snowman &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_snowman-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_snowman-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_snowman-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_snowman-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bSnowball Spells Cast: &a%fortresswars_leaderboards_snowman-snowballs-casted_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-snowballs-casted_1_value_INT%'
+    height: 0.3
+  - content: '&bSnowstorm Spells Cast: &a%fortresswars_leaderboards_snowman-snowstorms-casted_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-snowstorms-casted_1_value_INT%'
+    height: 0.3
+  - content: '&bEnemies Frozen: &a%fortresswars_leaderboards_snowman-enemies-frozen_1_name%
+      &7- &a%fortresswars_leaderboards_snowman-enemies-frozen_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Spider &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_spider-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_spider-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_spider-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_spider-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_spider-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_spider-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_spider-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_spider-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bTraps Set: &a%fortresswars_leaderboards_spider-traps-set_1_name% &7-
+      &a%fortresswars_leaderboards_spider-traps-set_1_value_INT%'
+    height: 0.3
+  - content: '&bTraps Collected: &a%fortresswars_leaderboards_spider-traps-collected_1_name%
+      &7- &a%fortresswars_leaderboards_spider-traps-collected_1_value_INT%'
+    height: 0.3
+  - content: '&bTraps Activated: &a%fortresswars_leaderboards_spider-traps-activated_1_name%
+      &7- &a%fortresswars_leaderboards_spider-traps-activated_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PAGE:1
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK

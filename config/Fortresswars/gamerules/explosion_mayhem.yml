@@ -1,0 +1,42 @@
+id: explosion_mayhem
+description: Explosion kits only
+default_kit: soldier
+whitelisted_kits:
+- solider
+- bomber
+- pyrotechnic
+- sonic
+- builder
+- mercy
+blacklisted_kits:
+- brute
+data:
+  shared:
+  - test=1.0
+  soldier:
+  - COOLDOWN=3
+  - GRENADE_DAMAGE=5
+  - GRENADE_KNOCKBACK_MULTIPLIER=0.4
+  - GRENADE_SELF_DAMAGE_MULTIPLIER=0.1
+  builder:
+  - MAX_BRICKS=64
+  - NUM_BRICKS_TO_REMOVE=0
+  - MAX_LADDERS=32
+  sonic:
+  - COOLDOWN=3
+  - KNOCKBACK_MULTIPLIER=3
+  - RECOIL_MULTIPLIER=0.8
+  mercy:
+  - test_mercy=1
+  - MERCY_BEAM_RANGE=25
+  bomber:
+  - BOMB_PLACE_ICD=1
+  - MAX_BOMBS=8
+  - curBombsInv=5
+  - BOMB_SELF_DAMAGE_MULTIPLIER=0.2
+  - BOMB_MAX_DAMAGE=6
+  - BOMB_MIN_PLACE_DISTANCE=1
+  - BOMB_REGEN_RATE_TICKS=60
+  - BOMB_FUSE_TICKS=60
+  pyrotechnic:
+  - test_pyrotechnic=1

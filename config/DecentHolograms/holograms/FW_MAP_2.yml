@@ -1,0 +1,14 @@
+location: lobby:9.500:73.500:-5.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: '&7- &b3 Gamemodes!'
+    height: 0.3
+  - content: '&7- &b30+ Maps!'
+    height: 0.3
+  actions: {}

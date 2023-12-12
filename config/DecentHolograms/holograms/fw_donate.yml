@@ -1,0 +1,21 @@
+location: lobby:29.5:70.55:35.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&r'
+    height: 0.0
+  - content: '&aWant to earn 2x credits, gain access to cosmetics and more?'
+    height: 0.3
+  - content: '&b[Click here]&a to learn more or type /buy'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/buy
+    RIGHT:
+    - COMMAND:/buy
+

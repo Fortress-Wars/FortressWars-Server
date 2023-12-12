@@ -1,0 +1,191 @@
+VoteSites:
+  # VoteSite key
+  # Used for saving data for votesites
+  # Use a short name if you can
+  ExampleVoteSite:
+    # Enable voteSite
+    # If false, votesite will not be loaded by plugin
+    # Default: false
+    Enabled: false
+    
+    # Display name of voting site
+    Name: ExampleVoteSite
+    
+    # Priority of this site
+    # Used for sorted list
+    # High prority, higher on the list
+    Priority: 5
+    
+    # If true, voteside will be hidden from some GUI's, similar to being disabled
+    Hidden: false
+    
+    # The serviceName from the vote, has to be correct to work correctly
+    # Gotten from voting on the site (will be in console/log)
+    # Usually is the main part of the url(e.g. PlanetMinecraft.com), but not always
+    # See console when you vote (it will notify you if the plugin didn't find a votingsite matching the service site
+    ServiceSite: PlanetMinecraft.com
+    
+    # vote url for /vote
+    # Format for this can be set in Config.yml
+    # Do not include colors here
+    # If you need to force a url set the url as this:
+    # VoteURL: '[Text="ANY TEXT TO CLICK ON HERE",url="URLHERE"]'
+    VoteURL: link to vote URL here, used in /vote
+    
+    # Time between votes in hours (used for /vote next)
+    # Most sites are 24 hours
+    VoteDelay: 24
+    
+    # Use to have a minute votedelay
+    # VoteDelayMin: 30
+
+        # Require waiting until votedelay time has pasted in order to accept vote
+    # Recommend: false
+    WaitUntilVoteDelay: false
+    
+    # Reset vote delay each day (for certain sites that do this)
+    # Recommend: false
+    VoteDelayDaily: false
+    
+    # Offset time for /vote next caculations
+    # TimeOffSet: 0
+
+        # If true, rewards can be executed offline (requires ForceOffline to be true in the reward)
+    # Setting this to true will execute the reward offline while the player is offline
+    # This basiclly disables offline voting if set to true, don't misinterpret this option
+    ForceOffline: false
+    
+    # VoteSite Material for some GUI's
+    # Removing this may result in an error, required on each site
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 1
+    
+    # Rewards to give
+    # https://github.com/BenCodez/AdvancedCore/wiki/Rewards
+    Rewards:
+      # Execute console commands
+      Commands:
+      - say hello
+      # Send player a message
+      Messages:
+        Player: You voted
+  # Site 2 example
+  PlanetMinecraft:
+    Enabled: true
+    Name: Planet Minecraft
+    ServiceSite: PlanetMinecraft.com
+    VoteURL: https://www.planetminecraft.com/server/fortress-wars-team-kit-pvp-mini-game/vote/
+    VoteDelay: 24
+    DisplayItem:
+      Material: GRASS_BLOCK
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+  Sparked Host:
+    Enabled: false
+    ServiceSite: Sparked Host
+    VoteURL: VoteURL
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+  TopMinecraftServers:
+    Enabled: true
+    Name: Top Minecraft Servers
+    ServiceSite: TopMinecraftServers
+    VoteURL: https://topminecraftservers.org/vote/34298
+    VoteDelay: 24
+    DisplayItem:
+      Material: GLASS_BLOCK
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+  Minecraft-Server_net:
+    Enabled: true
+    Name: Minecraft Server Net
+    ServiceSite: Minecraft-Server.net
+    VoteURL: https://minecraft-server.net/vote/Fortress_Wars/
+    VoteDelay: 24
+    DisplayItem:
+      Material: DIAMOND_BLOCK
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+  TopG_org:
+    Enabled: true
+    ServiceSite: TopG.org
+    VoteURL: https://topg.org/minecraft-servers/server-655726
+    VoteDelay: 24
+    DisplayItem:
+      Material: GOLD_BLOCK
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+  MCSL:
+    Enabled: true
+    Name: Minecraft Server List
+    ServiceSite: MCSL
+    VoteURL: https://minecraft-server-list.com/server/498073/vote/
+    VoteDelay: 24
+    DisplayItem:
+      Material: IRON_BLOCK
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+  Minecraft-MP_com:
+    Enabled: true
+    ServiceSite: Minecraft-MP.com
+    VoteURL: https://minecraft-mp.com/server/321955/vote/
+    VoteDelay: 24
+    DisplayItem:
+      Material: COAL_BLOCK
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+  FindMCServer:
+    Enabled: true
+    ServiceSite: The Official Server List of Minecraft
+    VoteURL: https://findmcserver.com/server/dxpxkhoLek
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: CREEPER_HEAD
+      Amount: 1
+    Rewards:
+      Commands:
+      - credits add %player% 15
+      - achievements checkVotingAchievement %player%
+      Messages:
+        Player: '&2You voted and received 15 credits!'
+
+# Reward for any site
+# Similar to AnySiteReward
+# This requires the site to be configured in order to get the reward.
+EverySiteReward: {}

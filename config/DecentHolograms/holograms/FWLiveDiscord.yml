@@ -1,0 +1,20 @@
+location: lobby:0.500:71.250:-8.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: '&r'
+    height: 0.0
+  - content: '&aJoin our Discord!'
+    height: 0.3
+  - content: '&b[Click Here]'
+    height: 1.25
+  actions:
+    LEFT:
+    - MESSAGE:&6https://discord.gg/HbH2S5RVnK
+    RIGHT:
+    - MESSAGE:&6https://discord.gg/HbH2S5RVnK

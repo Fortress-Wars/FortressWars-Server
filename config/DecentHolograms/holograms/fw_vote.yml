@@ -1,0 +1,20 @@
+location: lobby:24.5:70.950:-11.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: true
+pages:
+- lines:
+  - content: '&r'
+    height: 0.0
+  - content: '&aNo credits?'
+    height: 0.3
+  - content: '&aType &6/vote &aand earn some credits now!'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/vote
+    RIGHT:
+    - COMMAND:/vote
