@@ -46,7 +46,7 @@ damage-format:
   100: "%rainbow%-%value%" # <-- The %rainbow% placeholder can be used to randomize indicator colors (fancy display for insta-kill tools like /kill)
 
 # Whether damage heal indicators should be shown.
-heal-indicators: true
+heal-indicators: false
 
 # Format used when players heal
 # Each heal value represents half a heart (20 points = 10 hearts)

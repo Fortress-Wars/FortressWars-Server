@@ -346,6 +346,13 @@ settings:
     - suicides
     - time_played
     - total_wins
+    - vitalist_time_played
+    - vitalist_total_wins_unweighted
+    - vitalist_eliminations
+    - vitalist_damage_dealt
+    - vitalist_final_blows
+    - vitalist_crossbow_kills
+    - vitalist_healing_done
     - wizard_chain_lightning_kills
     - wizard_chain_lightnings_casted
     - wizard_damage_dealt

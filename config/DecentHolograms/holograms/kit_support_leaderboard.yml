@@ -37,7 +37,7 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
-    - PAGE:5
+    - PAGE:6
     - SOUND:UI_BUTTON_CLICK
 - lines:
   - content: ' &7===== &aTop Kit: Buff Master &7===== '
@@ -93,7 +93,7 @@ pages:
   - content: '&bDamage Dealt: &a%fortresswars_leaderboards_medic-damage-dealt_1_name%
       &7- &a%fortresswars_leaderboards_medic-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bTotal Healing: &a%fortresswars_leaderboards_medic-healing-done_1_name%
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_medic-healing-done_1_name%
       &7- &a%fortresswars_leaderboards_medic-healing-done_1_value_DOUBLE%'
     height: 0.3
   - content: '&bPlayers Healed: &a%fortresswars_leaderboards_medic-players-healed_1_name%
@@ -123,14 +123,14 @@ pages:
   - content: '&bDamage Dealt: &a%fortresswars_leaderboards_mercy-damage-dealt_1_name%
       &7- &a%fortresswars_leaderboards_mercy-damage-dealt_1_value_DOUBLE%'
     height: 0.3
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_mercy-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_mercy-healing-done_1_value_DOUBLE%'
+    height: 0.3
   - content: '&5Final Blows: &a%fortresswars_leaderboards_mercy-final-blows_1_name%
       &7- &a%fortresswars_leaderboards_mercy-final-blows_1_value_INT%'
     height: 0.3
   - content: '&5Decay Kills: &a%fortresswars_leaderboards_mercy-decay-kills_1_name%
       &7- &a%fortresswars_leaderboards_mercy-decay-kills_1_value_INT%'
-    height: 0.3
-  - content: '&bHealing Done: &a%fortresswars_leaderboards_mercy-healing-done_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-healing-done_1_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7===========   &a-> '
     height: 0.3
@@ -173,6 +173,39 @@ pages:
     height: 0.3
   - content: '&5Burn Kills: &a%fortresswars_leaderboards_priest-burn-kills_1_name%
       &7- &a%fortresswars_leaderboards_priest-burn-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7===========   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: Vitalist &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_vitalist-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-time-played_1_value_TIME%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_vitalist-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_vitalist-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_vitalist-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_vitalist-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-healing-done_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&5Final Blows: &a%fortresswars_leaderboards_vitalist-final-blows_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-final-blows_1_value_INT%'
+    height: 0.3
+  - content: '&5Crossbow Kills: &a%fortresswars_leaderboards_vitalist-crossbow-kills_1_name%
+      &7- &a%fortresswars_leaderboards_vitalist-crossbow-kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7===========   &a-> '
     height: 0.3
