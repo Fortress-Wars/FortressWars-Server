@@ -105,7 +105,7 @@ pages:
   - content: '&5Axe Swirl Kills: &a%fortresswars_leaderboards_brute-axe-swirl-kills_1_name%
       &7- &a%fortresswars_leaderboards_brute-axe-swirl-kills_1_value_INT%'
     height: 0.3
-  - content: '&5Axe Swirl INT Kills: &a%fortresswars_leaderboards_brute-axe-swirl-double-kills_1_name%
+  - content: '&5Axe Swirl Double Kills: &a%fortresswars_leaderboards_brute-axe-swirl-double-kills_1_name%
       &7- &a%fortresswars_leaderboards_brute-axe-swirl-double-kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7===========   &a-> '
