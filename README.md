@@ -8,8 +8,7 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
 
 Create an .env file in the root directory with the the following content
 
-```
-MYSQL_HOST=__value__
+```_
 MYSQL_DATABASE=__value__
 MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__
@@ -32,8 +31,8 @@ Optional Plugins:
 
 ## Running
 
-Run `docker compose up` to build and start the MySQL DB, Adminer, and PaperMC Server
+Run `docker compose up` to build and start MySQL DB, phpmypadmin, and PaperMC Server
 
-Adminger is hosted on http://localhost:8080
+phpmypadmin is hosted on http://localhost:8080
 
-To open the console run `docker attach papermc`
+Run `console.bat` to open console

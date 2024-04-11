@@ -4,7 +4,7 @@ services:
 
   # mysql
   db:
-    container_name: mysql
+    container_name: db
     image: mysql
     restart: always
     ports:
@@ -28,6 +28,8 @@ services:
   papermc:
     container_name: papermc
     build: .
+    depends_on:
+      - db
     ports:
       - "25565:25565"      
     tty: true
@@ -40,10 +42,7 @@ services:
       VERSION: 1.19.4
       MEMORY: 8G
       EULA: true
-      ICON: /assets/server-icon.png
       OVERRIDE_ICON : true
-      WORLD: /worlds/lobby.zip
-      FORCE_WORLD_COPY: true
       REPLACE_ENV_VARIABLES: true
       ENV_VARIABLE_PREFIX: MYSQL_
       ENABLE_ROLLING_LOGS: true
@@ -54,7 +53,7 @@ services:
       MODE: survival
       LEVEL: lobby
     volumes:
-      - ./data:/data
-      - ./worlds:/worlds:readonly
-      - ./assets:/assets:readonly
-      - ./config:/config:readonly
+      - mc-paper:/data
+
+volumes:
+  mc-paper: {}
