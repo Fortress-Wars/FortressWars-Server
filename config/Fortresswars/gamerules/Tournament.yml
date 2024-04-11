@@ -1,5 +1,0 @@
-id: TOURNAMENT_GAME_RULE
-description: This is the gamerule settings for tournaments
-default_kit: default
-blacklisted_kits:
-  - fish

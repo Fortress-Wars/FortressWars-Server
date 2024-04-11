@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+
+  # mysql
+  db:
+    container_name: mysql
+    image: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    env_file:
+      - .env
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: true
+    
+  # phpmyadmin
+  phpmyadmin:
+    container_name: phpadmin
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+
+  # papermc server
+  papermc:
+    container_name: papermc
+    build: .
+    ports:
+      - "25565:25565"      
+    tty: true
+    stdin_open: true
+    env_file:
+      - .env
+    environment:
+      UID: 0
+      TYPE: PAPER
+      VERSION: 1.19.4
+      MEMORY: 8G
+      EULA: true
+      ICON: /assets/server-icon.png
+      OVERRIDE_ICON : true
+      WORLD: /worlds/lobby.zip
+      FORCE_WORLD_COPY: true
+      REPLACE_ENV_VARIABLES: true
+      ENV_VARIABLE_PREFIX: MYSQL_
+      ENABLE_ROLLING_LOGS: true
+      ALLOW_NETHER: false
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: false
+      ENABLE_COMMAND_BLOCK: true
+      FORCE_GAMEMODE: true
+      MODE: survival
+      LEVEL: lobby
+    volumes:
+      - ./data:/data
+      - ./worlds:/worlds:readonly
+      - ./assets:/assets:readonly
+      - ./config:/config:readonly

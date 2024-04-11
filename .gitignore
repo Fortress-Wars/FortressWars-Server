@@ -1,0 +1,8 @@
+# env
+.env
+
+# Server Data Dir
+/data
+
+# Plugin Jars
+plugins/*.jar
