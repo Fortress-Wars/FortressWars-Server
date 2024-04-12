@@ -15,6 +15,8 @@ services:
       - .env
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: true
+    volumes:
+      - ./db:/var/lib/mysql
     
   # phpmyadmin
   phpmyadmin:
@@ -53,7 +55,5 @@ services:
       MODE: survival
       LEVEL: lobby
     volumes:
-      - mc-paper:/data
-
-volumes:
-  mc-paper: {}
+      - ./server:/data
+      - ./worlds:/worlds:ro

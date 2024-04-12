@@ -1,8 +1,14 @@
 # env
 .env
 
+# DB Files
+db
+
 # Server Data Dir
-/data
+server/*
+!server/spigot.yml
+!server/server-icon.png
+!server/dev-server-icon.png
 
 # Plugin Jars
 plugins/*.jar
