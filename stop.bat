@@ -1,0 +1,1 @@
+docker stop db phpadmin paper
