@@ -11,6 +11,8 @@
 : "${REPLACE_ENV_VARIABLES_EXCLUDE_PATHS:=}"
 : "${COPY_DEST:="/data"}"
 
+set -e
+
 if isTrue "${SYNC_SKIP_NEWER_IN_DESTINATION}"; then
   updateArg="--skip-newer-in-destination"
 fi
@@ -43,4 +45,4 @@ mc-image-helper \
 # Log FW Finish Message
 log "[FW] Script Finish"
 
-exec "${SCRIPTS:-/}start" "$@"
+exec "${SCRIPTS:-/}start-configuration" "$@"

@@ -41,7 +41,7 @@ services:
     environment:
       TYPE: PAPER
       VERSION: 1.19.4
-      MEMORY: 8G
+      MEMORY: 16G
       EULA: true
       OVERRIDE_ICON : true
       REPLACE_ENV_VARIABLES: true

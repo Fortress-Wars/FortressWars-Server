@@ -87,10 +87,10 @@ MessageOptions:
   FakeJoinQuitMessages:
     # Should SV broadcast any kind of announcement (fake quit or player vanished) when a player vanishes?
     # You can change the messages in the messages.yml file.
-    BroadcastFakeQuitOnVanish: false
+    BroadcastFakeQuitOnVanish: true
     # Should SV broadcast any kind of announcement (fake join or player reappeared) when a player reappears?
     # You can change the messages in the messages.yml file.
-    BroadcastFakeJoinOnReappear: false
+    BroadcastFakeJoinOnReappear: true
     # Should players with the permission 'sv.see' get an admin announcement instead of a fake join/quit message?
     # You can change the messages in the messages.yml file.
     AnnounceVanishReappearToAdmins: true
@@ -115,7 +115,7 @@ MessageOptions:
   RemindVanishedOnJoin: true
   # Should invisible players have an action bar which tells them that they're invisible?
   # You can change the action bar in the messages.yml file.
-  DisplayActionBar: false
+  DisplayActionBar: true
 
 ############## Restrictive Options ###############
 RestrictiveOptions:

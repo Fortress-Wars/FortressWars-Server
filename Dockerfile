@@ -18,8 +18,8 @@ COPY worlds /worlds/
 COPY extras /extras/
 
 # Copy Scipts
-COPY --chmod=755 scripts/fw-start /
-RUN dos2unix /fw-start
+COPY --chmod=755 scripts/start-fw* /
+RUN dos2unix /start-fw*
 
 # Modify Entry Point
-ENTRYPOINT [ "/fw-start" ]
+ENTRYPOINT [ "/start-fw" ]

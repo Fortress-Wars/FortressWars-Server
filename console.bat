@@ -1,1 +1,1 @@
-docker attach papermc
+docker attach paper

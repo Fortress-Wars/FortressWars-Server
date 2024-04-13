@@ -48,7 +48,7 @@ Default:
 #      NONE (keep them as is, will probably fail), SCALE (scale them to the correct size)
 --- !Plugin
 PlayerTracking:
-  Enabled: true
+  Enabled: false
   Storage: !JSONStorage
     Enabled: true
     SaveDelay: 5m
