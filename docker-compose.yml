@@ -16,7 +16,7 @@ services:
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: true
     volumes:
-      - ./db:/var/lib/mysql
+      - db:/var/lib/mysql
     
   # phpmyadmin
   phpmyadmin:
@@ -26,9 +26,9 @@ services:
     ports:
       - 8080:80
 
-  # papermc server
-  papermc:
-    container_name: papermc
+  # paper
+  paper:
+    container_name: paper
     build: .
     depends_on:
       - db
@@ -39,7 +39,6 @@ services:
     env_file:
       - .env
     environment:
-      UID: 0
       TYPE: PAPER
       VERSION: 1.19.4
       MEMORY: 8G
@@ -55,5 +54,7 @@ services:
       MODE: survival
       LEVEL: lobby
     volumes:
-      - ./server:/data
-      - ./worlds:/worlds:ro
+      - ./data:/data
+
+volumes:
+  db: {}
