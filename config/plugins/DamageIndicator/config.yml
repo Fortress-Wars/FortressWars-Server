@@ -46,7 +46,7 @@ damage-format:
   100: "%rainbow%-%value%" # <-- The %rainbow% placeholder can be used to randomize indicator colors (fancy display for insta-kill tools like /kill)
 
 # Whether damage heal indicators should be shown.
-heal-indicators: false
+heal-indicators: true
 
 # Format used when players heal
 # Each heal value represents half a heart (20 points = 10 hearts)
@@ -66,6 +66,12 @@ disabled-worlds:
 
 # If enabled, damage indicators will only be shown if a player caused it.
 only-show-entity-damage-from-players: false
+
+# if enabled, indicators will not be shown for players/entities that are invisible.
+ignore-invisible-entities: true
+
+# if enabled, indicators will not be shown for players that are sneaking.
+ignore-sneaking-players: true
 
 # Toggles the below entity type whitelist/blacklist.
 entity-type-list-enabled: true

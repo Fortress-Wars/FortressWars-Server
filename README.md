@@ -6,7 +6,7 @@
 
 Install [Docker](https://www.docker.com/products/docker-desktop/)
 
-Create an .env file in the root directory with the the following content
+Create an .env file in the root directory with the the following content and replace `__value__` with the value you want.
 
 ```_
 MYSQL_DATABASE=__value__
@@ -14,7 +14,7 @@ MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__
 ```
 
-Download the latest versions of the following plugins and place them in the `/plugins` directory
+Download the latest versions of the following plugins and place them in the `/plugins` directory.
 Requried PLugins:
 - [FortressWars](https://github.com/Fortress-Wars/FortressWars-3.0/releases)
 - [PlaceholdersAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
@@ -24,6 +24,7 @@ Requried PLugins:
 - [TAB](https://modrinth.com/plugin/tab-was-taken)
 
 Optional Plugins:
+- [Decent Holograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
 - [Plugins Hide](https://www.spigotmc.org/resources/plugin-hide-1-13-1-20-choose-which-commands-players-can-execute-and-see.68767/)
 - [ServerListPlus](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens](https://www.spigotmc.org/resources/citizens.13811/)
