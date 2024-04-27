@@ -24,6 +24,7 @@ Requried PLugins:
 - [TAB](https://modrinth.com/plugin/tab-was-taken)
 
 Optional Plugins:
+- [Via Version](https://github.com/ViaVersion/ViaVersion/releases)
 - [Decent Holograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
 - [Plugins Hide](https://www.spigotmc.org/resources/plugin-hide-1-13-1-20-choose-which-commands-players-can-execute-and-see.68767/)
 - [ServerListPlus](https://www.spigotmc.org/resources/serverlistplus.241/)
