@@ -119,12 +119,12 @@ world-settings:
       hopper-check: 1
     hopper-amount: 1
     entity-tracking-range:
-      display: 128
-      players: 128
-      animals: 128
-      monsters: 128
-      misc: 128
-      other: 128
+      display: 256
+      players: 256
+      animals: 256
+      monsters: 256
+      misc: 256
+      other: 256
     seed-village: 10387312
     seed-desert: 14357617
     seed-igloo: 14357618
