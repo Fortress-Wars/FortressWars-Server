@@ -27,7 +27,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  log-villager-deaths: true
+  log-villager-deaths: false
   log-named-deaths: false
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
