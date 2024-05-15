@@ -15,6 +15,6 @@ pages:
     height: 1.25
   actions:
     LEFT:
-    - MESSAGE:&6https://discord.gg/HbH2S5RVnK
+    - MESSAGE:&6https://discord.fortresswars.net
     RIGHT:
-    - MESSAGE:&6https://discord.gg/HbH2S5RVnK
+    - MESSAGE:&6https://discord.fortresswars.net
