@@ -2,7 +2,7 @@ location: lobby:39:71.000:-33
 enabled: true
 display-range: 48
 update-range: 48
-update-interval: 20
+update-interval: 200
 facing: 0.0
 down-origin: true
 pages:
