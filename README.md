@@ -18,9 +18,9 @@ Download the latest versions of the following plugins and place them in the `/pl
 Requried PLugins:
 - [FortressWars](https://github.com/Fortress-Wars/FortressWars-3.0/releases)
 - [PlaceholdersAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
-- [SuperVanish](https://www.spigotmc.org/resources/advancedban.8695/)
+- [SuperVanish](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/updates)
-- [AdvancedBan](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
+- [AdvancedBan](https://www.spigotmc.org/resources/advancedban.8695/)
 - [TAB](https://modrinth.com/plugin/tab-was-taken)
 
 Optional Plugins:
