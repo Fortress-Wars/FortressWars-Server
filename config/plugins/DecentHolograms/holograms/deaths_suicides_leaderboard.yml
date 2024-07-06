@@ -2,7 +2,7 @@ location: lobby:44.5:71.0:-51.5
 enabled: true
 display-range: 48
 update-range: 48
-update-interval: 20
+update-interval: 200
 facing: 0.0
 down-origin: true
 pages:
@@ -39,11 +39,11 @@ pages:
   - content: '&e#10. &a%fortresswars_leaderboards_player-deaths_10_name%
       &7- &a%fortresswars_leaderboards_player-deaths_10_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7===========   &a-> '
+  - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
-    - NEXT_PAGE
+    - PAGE:2
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
     - NEXT_PAGE
@@ -71,12 +71,12 @@ pages:
     height: 0.3
   - content: '&e#10. &a%fortresswars_leaderboards_suicides_10_name% &7- &a%fortresswars_leaderboards_suicides_10_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7===========   &a-> '
+  - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
     - PREV_PAGE
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
-    - PREV_PAGE
+    - PAGE:1
     - SOUND:UI_BUTTON_CLICK

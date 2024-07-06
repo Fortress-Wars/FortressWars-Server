@@ -53,6 +53,8 @@ services:
       FORCE_GAMEMODE: true
       MODE: survival
       LEVEL: lobby
+      VIEW_DISTANCE: 16
+      SIMULATION_DISTANCE: 16
     volumes:
       - ./data:/data
 
