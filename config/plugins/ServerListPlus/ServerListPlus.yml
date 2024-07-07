@@ -30,7 +30,8 @@
 #    - Ban experiation date: %ban_expiration_date%, %ban_expiration_datetime%
 --- !Status
 Default:
-  # Production
+  Description:
+    # Production
     - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m            &r                  &r&7&k|| &r&3Release &81.8.3 &7&k|| &3Version&8: &81.19.4-1.21 &7&k||'
     # Stage
     # - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m            &r                    &r&7&k|| &r&3Beta &81.8.3 &7&k|| &3Version&8: &81.19.4-1.21 &7&k||'
