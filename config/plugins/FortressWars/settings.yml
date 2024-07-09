@@ -1,5 +1,5 @@
 settings:
-  defaultGamerule: default
+  gamerule: default
   achievements:
     enabled: true
   kits:
