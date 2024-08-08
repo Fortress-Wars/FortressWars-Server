@@ -265,7 +265,7 @@ misc:
   light-queue-size: 20
   max-leash-distance: 10.0
   redstone-implementation: VANILLA
-  shield-blocking-delay: 5
+  shield-blocking-delay: 0
   show-sign-click-command-failure-msgs-to-player: false
   update-pathfinding-on-block-update: true
 scoreboards:
