@@ -168,7 +168,7 @@ pages:
   - content: '&bLevel 5 Releases: &a%fortresswars_leaderboards_priest-level-5-releases_1_name%
       &7- &a%fortresswars_leaderboards_priest-level-5-releases_1_value_INT%'
     height: 0.3
-  - content: '&bPlayers Burned: &a%fortresswars_leaderboards_priest-players-burned_1_name%
+  - content: '&bEntities Burned: &a%fortresswars_leaderboards_priest-players-burned_1_name%
       &7- &a%fortresswars_leaderboards_priest-players-burned_1_value_INT%'
     height: 0.3
   - content: '&5Burn Kills: &a%fortresswars_leaderboards_priest-burn-kills_1_name%
