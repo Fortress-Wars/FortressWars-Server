@@ -51,17 +51,17 @@ VanishStateFeatures:
   # Should invisible players reappear automatically when they change their world?
   ReappearOnWorldChange: false
   # Should invisible players reappear automatically when they leave the server?
-  ReappearOnQuit: false
+  ReappearOnQuit: true
   # Should invisible players reappear automatically
   # when they change their world and don't have the permission 'sv.use' anymore?
   CheckPermissionOnWorldChange: false
   # Should invisible players reappear automatically
   # when they leave the server and don't have the permission 'sv.use' anymore?
-  CheckPermissionOnQuit: false
+  CheckPermissionOnQuit: true
   # Should invisible players reappear automatically
   # when they join the server and don't have the permission 'sv.use' anymore?
   # Doesn't work if you use GroupManager for permissions
-  CheckPermissionOnLogin: false
+  CheckPermissionOnLogin: true
 
 ############## Indication Features ###############
 IndicationFeatures:
