@@ -30,7 +30,7 @@ Optional Plugins:
 - [ServerListPlus](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens](https://www.spigotmc.org/resources/citizens.13811/)
 - [DamageIndicators](https://www.spigotmc.org/resources/%E2%98%A0%EF%B8%8Fdamageindicator%E2%98%A0%EF%B8%8F-customisable-damage-indicator-multicolor-support-100-lagless-%E2%9C%A8.92423/)
-- [DiscordSRV](https://modrinth.com/plugin/discordsrv) *(For the "killfeed", and "game" fortress wars channels)*
+- [DiscordSRV](https://modrinth.com/plugin/discordsrv) *(For the "killfeed", and "game" fortress wars channels; Note you must configure these channels in the config.yml for this plugin)*
 - [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) *(Make sure to configure the port)*
 - [Luck Perms](https://luckperms.net/)
 
