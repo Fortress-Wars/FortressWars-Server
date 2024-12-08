@@ -2,7 +2,7 @@
 .env
 
 # Server Data Dir
-data
+/data
 
 # Plugin Jars
 plugins/*.jar
