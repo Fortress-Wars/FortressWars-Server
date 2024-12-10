@@ -385,7 +385,7 @@ settings:
         - message:
           padding: true
           lines:
-            - content: "      &eNeed Credits? Earn up to &a90 &ecredits a day by voting!"
+            - content: "      &eNeed Credits? Earn up to &a105 &ecredits a day by voting!"
             - content: "               &e&k||&7&o View all voting sites with ''/vote all'' &e&k||"
         - message:
           padding: false
@@ -419,6 +419,14 @@ settings:
           padding: false
           lines:
             - content: "&d[TIP] &7During build phase, you can sneak and place to build blocks in a &a3x3 &7pattern!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Coordinate with your teammates more easily using the &a/teamchat &7command!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Need a quick back to your base? Use the &a/k &7command to send yourself to the respawn box!"                 
     tips:
       enabled: true
       messages:
