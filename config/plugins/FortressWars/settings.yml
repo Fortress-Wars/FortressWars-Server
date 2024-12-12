@@ -422,11 +422,11 @@ settings:
         - message:
           padding: false
           lines:
-            - content: "&d[TIP] &7Coordinate with your teammates more easily using the &a/teamchat &7command!"
+            - content: "&d[TIP] &7Easily coordinate with your teammates using the &a/teamchat &7command!"
         - message:
           padding: false
           lines:
-            - content: "&d[TIP] &7Need a quick back to your base? Use the &a/k &7command to send yourself to the respawn box!"                 
+            - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"                 
     tips:
       enabled: true
       messages:
