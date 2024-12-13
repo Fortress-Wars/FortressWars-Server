@@ -2,10 +2,6 @@ settings:
   gamerule: default
   achievements:
     enabled: true
-  kits:
-    allowAllKits: false
-    enableKitLimit: false
-    kitLimit: 1
   cosmetics:
     particleEffects:
       enabled: true
