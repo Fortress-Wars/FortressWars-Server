@@ -1,4 +1,5 @@
 id: default
+enabled: true
 name: Default
 description: The default gamerule of fortress wars.
 defaultKit: default

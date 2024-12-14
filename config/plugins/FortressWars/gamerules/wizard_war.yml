@@ -1,6 +1,9 @@
 # (Required) The id of the gamerule
 id: wizard_war
 
+# (Required) If the gamerule is enabled or not
+enabled: true
+
 # (Required) The name of the gamerule
 name: "Wizard War"
 

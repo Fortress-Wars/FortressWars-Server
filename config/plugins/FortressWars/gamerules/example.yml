@@ -1,6 +1,9 @@
 # (Required) The id of the gamerule
 id: example
 
+# (Required) If the gamerule is enabled or not
+enabled: false
+
 # (Required) The name of the gamerule
 name: Example
 

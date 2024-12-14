@@ -1,4 +1,5 @@
 id: tournament
+enabled: true
 name: Tournament
 description: This is the gamerule settings for tournaments.
 defaultKit: default
