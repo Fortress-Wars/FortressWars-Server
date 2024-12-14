@@ -1,0 +1,16 @@
+id: tournament
+name: Tournament
+description: This is the gamerule settings for tournaments.
+defaultKit: default
+kitLimit: 1
+playerLimit: 4
+roleLimit:
+  damage: 3
+  tank: 1
+  support: 1
+  utility: 1
+allowPremiumKits: true
+disabledKits:
+  - fish
+  - mathematician
+  - none

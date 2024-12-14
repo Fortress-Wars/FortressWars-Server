@@ -1,0 +1,4 @@
+id: default
+name: Default
+description: The default gamerule of fortress wars.
+defaultKit: default
