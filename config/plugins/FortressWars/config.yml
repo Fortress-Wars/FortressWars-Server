@@ -2,9 +2,9 @@ version: 2.0.0
 logLevel: warn
 spawn: lobby,0,72,0,-180,0
 database:
-  ip: db
+  host: db
   port: 3306
-  dbName: ${MYSQL_DATABASE}
+  db: ${MYSQL_DATABASE}
   username: ${MYSQL_USER}
   password: ${MYSQL_PASSWORD}
 heartbeat:
