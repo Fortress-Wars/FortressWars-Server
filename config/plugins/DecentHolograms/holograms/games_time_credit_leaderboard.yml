@@ -9,41 +9,41 @@ pages:
 - lines:
   - content: ' &7===== &aTop Time Played &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_time-played_1_name% &7-
-      &a%fortresswars_leaderboards_time-played_1_value_TIME%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistic-time-played_1_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_time-played_2_name% &7-
-      &a%fortresswars_leaderboards_time-played_2_value_TIME%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistic-time-played_2_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_2_value_DURATION%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_time-played_3_name% &7-
-      &a%fortresswars_leaderboards_time-played_3_value_TIME%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistic-time-played_3_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_3_value_DURATION%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_time-played_4_name% &7-
-      &a%fortresswars_leaderboards_time-played_4_value_TIME%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistic-time-played_4_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_4_value_DURATION%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_time-played_5_name% &7-
-      &a%fortresswars_leaderboards_time-played_5_value_TIME%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistic-time-played_5_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_5_value_DURATION%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_time-played_6_name% &7-
-      &a%fortresswars_leaderboards_time-played_6_value_TIME%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistic-time-played_6_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_6_value_DURATION%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_time-played_7_name% &7-
-      &a%fortresswars_leaderboards_time-played_7_value_TIME%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistic-time-played_7_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_7_value_DURATION%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_time-played_8_name% &7-
-      &a%fortresswars_leaderboards_time-played_8_value_TIME%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistic-time-played_8_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_8_value_DURATION%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_time-played_9_name% &7-
-      &a%fortresswars_leaderboards_time-played_9_value_TIME%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistic-time-played_9_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_9_value_DURATION%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_time-played_10_name% &7-
-      &a%fortresswars_leaderboards_time-played_10_value_TIME%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-time-played_10_name% &7-
+      &a%fortresswars_leaderboards_statistic-time-played_10_value_DURATION%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
-    - PAGE:2
+    - PAGE:3
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
     - NEXT_PAGE
@@ -72,6 +72,38 @@ pages:
   - content: '&e#10. &a%fortresswars_leaderboards_credits_10_name% &7- &a%fortresswars_leaderboards_credits_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Achievements Unlocked &7===== '
+    height: 0.3
+  - content: '&e#1. &a%fortresswars_leaderboards_unlocked-achievements_1_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_1_value_INT%'
+    height: 0.3
+  - content: '&e#2. &a%fortresswars_leaderboards_unlocked-achievements_2_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_2_value_INT%'
+    height: 0.3
+  - content: '&e#3. &a%fortresswars_leaderboards_unlocked-achievements_3_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_3_value_INT%'
+    height: 0.3
+  - content: '&e#4. &a%fortresswars_leaderboards_unlocked-achievements_4_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_4_value_INT%'
+    height: 0.3
+  - content: '&e#5. &a%fortresswars_leaderboards_unlocked-achievements_5_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_5_value_INT%'
+    height: 0.3
+  - content: '&e#6. &a%fortresswars_leaderboards_unlocked-achievements_6_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_6_value_INT%'
+    height: 0.3
+  - content: '&e#7. &a%fortresswars_leaderboards_unlocked-achievements_7_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_7_value_INT%'
+    height: 0.3
+  - content: '&e#8. &a%fortresswars_leaderboards_unlocked-achievements_8_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_8_value_INT%'
+    height: 0.3
+  - content: '&e#9. &a%fortresswars_leaderboards_unlocked-achievements_9_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_9_value_INT%'
+    height: 0.3
+  - content: '&e#10. &a%fortresswars_leaderboards_unlocked-achievements_10_name% &7- &a%fortresswars_leaderboards_unlocked-achievements_10_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:

@@ -9,35 +9,35 @@ pages:
 - lines:
   - content: ' &7===== &aTop Deaths &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_player-deaths_1_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistic-player-deaths_1_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_player-deaths_2_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistic-player-deaths_2_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_player-deaths_3_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistic-player-deaths_3_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_player-deaths_4_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistic-player-deaths_4_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_player-deaths_5_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistic-player-deaths_5_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_player-deaths_6_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistic-player-deaths_6_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_player-deaths_7_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistic-player-deaths_7_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_player-deaths_8_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistic-player-deaths_8_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_player-deaths_9_name% &7-
-      &a%fortresswars_leaderboards_player-deaths_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistic-player-deaths_9_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-deaths_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_player-deaths_10_name%
-      &7- &a%fortresswars_leaderboards_player-deaths_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-player-deaths_10_name%
+      &7- &a%fortresswars_leaderboards_statistic-player-deaths_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -51,25 +51,25 @@ pages:
 - lines:
   - content: ' &7===== &aTop Suicides &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_suicides_1_name% &7- &a%fortresswars_leaderboards_suicides_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistic-suicides_1_name% &7- &a%fortresswars_leaderboards_statistic-suicides_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_suicides_2_name% &7- &a%fortresswars_leaderboards_suicides_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistic-suicides_2_name% &7- &a%fortresswars_leaderboards_statistic-suicides_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_suicides_3_name% &7- &a%fortresswars_leaderboards_suicides_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistic-suicides_3_name% &7- &a%fortresswars_leaderboards_statistic-suicides_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_suicides_4_name% &7- &a%fortresswars_leaderboards_suicides_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistic-suicides_4_name% &7- &a%fortresswars_leaderboards_statistic-suicides_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_suicides_5_name% &7- &a%fortresswars_leaderboards_suicides_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistic-suicides_5_name% &7- &a%fortresswars_leaderboards_statistic-suicides_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_suicides_6_name% &7- &a%fortresswars_leaderboards_suicides_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistic-suicides_6_name% &7- &a%fortresswars_leaderboards_statistic-suicides_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_suicides_7_name% &7- &a%fortresswars_leaderboards_suicides_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistic-suicides_7_name% &7- &a%fortresswars_leaderboards_statistic-suicides_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_suicides_8_name% &7- &a%fortresswars_leaderboards_suicides_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistic-suicides_8_name% &7- &a%fortresswars_leaderboards_statistic-suicides_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_suicides_9_name% &7- &a%fortresswars_leaderboards_suicides_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistic-suicides_9_name% &7- &a%fortresswars_leaderboards_statistic-suicides_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_suicides_10_name% &7- &a%fortresswars_leaderboards_suicides_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-suicides_10_name% &7- &a%fortresswars_leaderboards_statistic-suicides_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3

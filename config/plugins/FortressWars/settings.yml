@@ -17,9 +17,6 @@ settings:
     frequencyTicks: 18000
     minTimePlayedSeconds: 3600
     stats:
-    - edr
-    - win_rate
-    - damage_ratio
     - aquaman_damage_dealt
     - aquaman_eliminations
     - aquaman_far_trident_kills

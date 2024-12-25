@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Eliminations &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_player-eliminations_1_name% &7- &a%fortresswars_leaderboards_player-eliminations_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistic-player-eliminations_1_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_player-eliminations_2_name% &7- &a%fortresswars_leaderboards_player-eliminations_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistic-player-eliminations_2_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_player-eliminations_3_name% &7- &a%fortresswars_leaderboards_player-eliminations_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistic-player-eliminations_3_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_player-eliminations_4_name% &7- &a%fortresswars_leaderboards_player-eliminations_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistic-player-eliminations_4_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_player-eliminations_5_name% &7- &a%fortresswars_leaderboards_player-eliminations_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistic-player-eliminations_5_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_player-eliminations_6_name% &7- &a%fortresswars_leaderboards_player-eliminations_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistic-player-eliminations_6_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_player-eliminations_7_name% &7- &a%fortresswars_leaderboards_player-eliminations_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistic-player-eliminations_7_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_player-eliminations_8_name% &7- &a%fortresswars_leaderboards_player-eliminations_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistic-player-eliminations_8_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_player-eliminations_9_name% &7- &a%fortresswars_leaderboards_player-eliminations_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistic-player-eliminations_9_name% &7- &a%fortresswars_leaderboards_statistic-player-eliminations_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_player-eliminations_10_name% &7-
-      &a%fortresswars_leaderboards_player-eliminations_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-player-eliminations_10_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-eliminations_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -42,26 +42,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Finals Blows &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_player-final-blows_1_name% &7- &a%fortresswars_leaderboards_player-final-blows_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistic-player-final-blows_1_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_player-final-blows_2_name% &7- &a%fortresswars_leaderboards_player-final-blows_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistic-player-final-blows_2_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_player-final-blows_3_name% &7- &a%fortresswars_leaderboards_player-final-blows_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistic-player-final-blows_3_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_player-final-blows_4_name% &7- &a%fortresswars_leaderboards_player-final-blows_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistic-player-final-blows_4_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_player-final-blows_5_name% &7- &a%fortresswars_leaderboards_player-final-blows_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistic-player-final-blows_5_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_player-final-blows_6_name% &7- &a%fortresswars_leaderboards_player-final-blows_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistic-player-final-blows_6_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_player-final-blows_7_name% &7- &a%fortresswars_leaderboards_player-final-blows_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistic-player-final-blows_7_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_player-final-blows_8_name% &7- &a%fortresswars_leaderboards_player-final-blows_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistic-player-final-blows_8_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_player-final-blows_9_name% &7- &a%fortresswars_leaderboards_player-final-blows_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistic-player-final-blows_9_name% &7- &a%fortresswars_leaderboards_statistic-player-final-blows_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_player-final-blows_10_name% &7-
-      &a%fortresswars_leaderboards_player-final-blows_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-player-final-blows_10_name% &7-
+      &a%fortresswars_leaderboards_statistic-player-final-blows_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -75,25 +75,25 @@ pages:
 - lines:
   - content: ' &7===== &aTop Assists &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_player-assists_1_name% &7- &a%fortresswars_leaderboards_player-assists_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistic-player-assists_1_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_player-assists_2_name% &7- &a%fortresswars_leaderboards_player-assists_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistic-player-assists_2_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_player-assists_3_name% &7- &a%fortresswars_leaderboards_player-assists_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistic-player-assists_3_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_player-assists_4_name% &7- &a%fortresswars_leaderboards_player-assists_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistic-player-assists_4_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_player-assists_5_name% &7- &a%fortresswars_leaderboards_player-assists_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistic-player-assists_5_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_player-assists_6_name% &7- &a%fortresswars_leaderboards_player-assists_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistic-player-assists_6_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_player-assists_7_name% &7- &a%fortresswars_leaderboards_player-assists_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistic-player-assists_7_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_player-assists_8_name% &7- &a%fortresswars_leaderboards_player-assists_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistic-player-assists_8_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_player-assists_9_name% &7- &a%fortresswars_leaderboards_player-assists_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistic-player-assists_9_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_player-assists_10_name% &7- &a%fortresswars_leaderboards_player-assists_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-player-assists_10_name% &7- &a%fortresswars_leaderboards_statistic-player-assists_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
