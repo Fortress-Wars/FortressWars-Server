@@ -9,9 +9,6 @@ database:
   password: ${MYSQL_PASSWORD}
 heartbeat:
   frequency: 300
-  checkFWPlusUsers:
-    from: "08:30"
-    to: "08:45"
 kingOfTheLadder:
   sign: lobby,40,66,27
   radius: 6
