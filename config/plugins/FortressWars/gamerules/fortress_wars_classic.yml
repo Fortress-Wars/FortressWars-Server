@@ -1,0 +1,44 @@
+# (Required) The id of the gamerule
+id: fortress_wars_classic
+
+# (Required) If the gamerule is enabled or not
+enabled: true
+
+# (Required) The name of the gamerule
+name: "Fortress Wars Classic"
+
+# (Required) The description of the gamerule
+description: "Only the original Fortress Wars kits."
+
+# (Required) The default kit of the gamerule
+defaultKit: default
+
+# (Optional) If players should be able to use premium kits they do not have unlocked.
+allowPremiumKits: true
+
+# (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
+# Note: The default kit is always included in the enabled kits
+enabledKits:
+  - bomber
+  - builder
+  - crusher
+  - default
+  - demolitionist
+  - engineer
+  - fish
+  - gunner
+  - hulk
+  - jumper
+  - kangaroo
+  - master
+  - medic
+  - none
+  - porcupine
+  - potion_master
+  - prometheus
+  - raven
+  - sniper
+  - snowman
+  - soldier
+  - sonic
+  - spy
