@@ -399,7 +399,7 @@ pages:
   - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-musketeer-damage-dealt_1_name%
       &7- &a%fortresswars_leaderboards_statistic-musketeer-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bRifle Kills: &a%fortresswars_leaderboards_statistic-musketeer-rifle-shots-fired_1_name%
+  - content: '&bRifle Shots Fired: &a%fortresswars_leaderboards_statistic-musketeer-rifle-shots-fired_1_name%
       &7- &a%fortresswars_leaderboards_statistic-musketeer-rifle-shots-fired_1_value_INT%'
     height: 0.3
   - content: '&bRifle Kills: &a%fortresswars_leaderboards_statistic-musketeer-rifle-kills_1_name%
