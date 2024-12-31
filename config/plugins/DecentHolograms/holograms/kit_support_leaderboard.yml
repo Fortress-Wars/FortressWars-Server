@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Aquarius &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_aquarius-time-played_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-time-played_1_value_TIME%'
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-aquarius-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_aquarius-total-wins-unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-total-wins-unweighted_1_value_INT%'
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-aquarius-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-total-wins-unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_aquarius-eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-aquarius-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_aquarius-damage-dealt_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-damage-dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-aquarius-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bBeam Healing: &a%fortresswars_leaderboards_aquarius-beam-healing_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-beam-healing_1_value_DOUBLE%'
+  - content: '&bBeam Healing: &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bWater Beam Spells Cast: &a%fortresswars_leaderboards_aquarius-water-beams_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-water-beams_1_value_INT%'
+  - content: '&bWater Beam Spells Cast: &a%fortresswars_leaderboards_statistic-aquarius-water-beams_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-water-beams_1_value_INT%'
     height: 0.3
-  - content: '&bWater Bomb Spells Cast: &a%fortresswars_leaderboards_aquarius-water-bombs_1_name%
-      &7- &a%fortresswars_leaderboards_aquarius-water-bombs_1_value_INT%'
+  - content: '&bWater Bomb Spells Cast: &a%fortresswars_leaderboards_statistic-aquarius-water-bombs_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-water-bombs_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -42,32 +42,32 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Buff Master &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_buff-master-time-played_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-time-played_1_value_TIME%'
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-buff-master-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_buff-master-total-wins-unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-total-wins-unweighted_1_value_INT%'
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-buff-master-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-total-wins-unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_buff-master-eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-buff-master-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_buff-master-damage-dealt_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-damage-dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-buff-master-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bPlayers Buffed: &a%fortresswars_leaderboards_buff-master-players-buffed_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-players-buffed_1_value_INT%'
+  - content: '&bPlayers Buffed: &a%fortresswars_leaderboards_statistic-buff-master-players-buffed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-players-buffed_1_value_INT%'
     height: 0.3
-  - content: '&bRegeneration Buffed: &a%fortresswars_leaderboards_buff-master-regeneration-buffed_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-regeneration-buffed_1_value_INT%'
+  - content: '&bRegeneration Buffed: &a%fortresswars_leaderboards_statistic-buff-master-regeneration-buffed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-regeneration-buffed_1_value_INT%'
     height: 0.3
-  - content: '&bAbsorption Buffed: &a%fortresswars_leaderboards_buff-master-absorption-buffed_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-absorption-buffed_1_value_INT%'
+  - content: '&bAbsorption Buffed: &a%fortresswars_leaderboards_statistic-buff-master-absorption-buffed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-absorption-buffed_1_value_INT%'
     height: 0.3
-  - content: '&bSpeed Buffed: &a%fortresswars_leaderboards_buff-master-speed-buffed_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-speed-buffed_1_value_INT%'
+  - content: '&bSpeed Buffed: &a%fortresswars_leaderboards_statistic-buff-master-speed-buffed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-speed-buffed_1_value_INT%'
     height: 0.3
-  - content: '&bResistance Buffed: &a%fortresswars_leaderboards_buff-master-resistance-buffed_1_name%
-      &7- &a%fortresswars_leaderboards_buff-master-resistance-buffed_1_value_INT%'
+  - content: '&bResistance Buffed: &a%fortresswars_leaderboards_statistic-buff-master-resistance-buffed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-buff-master-resistance-buffed_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -81,23 +81,23 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Medic &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_medic-time-played_1_name%
-      &7- &a%fortresswars_leaderboards_medic-time-played_1_value_TIME%'
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-medic-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-medic-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_medic-total-wins-unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_medic-total-wins-unweighted_1_value_INT%'
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-medic-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-medic-total-wins-unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_medic-eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_medic-eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-medic-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-medic-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_medic-damage-dealt_1_name%
-      &7- &a%fortresswars_leaderboards_medic-damage-dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-medic-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-medic-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bHealing Done: &a%fortresswars_leaderboards_medic-healing-done_1_name%
-      &7- &a%fortresswars_leaderboards_medic-healing-done_1_value_DOUBLE%'
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_statistic-medic-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-medic-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bPlayers Healed: &a%fortresswars_leaderboards_medic-players-healed_1_name%
-      &7- &a%fortresswars_leaderboards_medic-players-healed_1_value_INT%'
+  - content: '&bPlayers Healed: &a%fortresswars_leaderboards_statistic-medic-players-healed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-medic-players-healed_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
@@ -111,26 +111,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Mercy &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_mercy-time-played_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-time-played_1_value_TIME%'
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-mercy-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_mercy-total-wins-unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-total-wins-unweighted_1_value_INT%'
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-mercy-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-total-wins-unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_mercy-eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-mercy-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_mercy-damage-dealt_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-damage-dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-mercy-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bHealing Done: &a%fortresswars_leaderboards_mercy-healing-done_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-healing-done_1_value_DOUBLE%'
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_statistic-mercy-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&5Final Blows: &a%fortresswars_leaderboards_mercy-final-blows_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-final-blows_1_value_INT%'
+  - content: '&5Final Blows: &a%fortresswars_leaderboards_statistic-mercy-final-blows_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-final-blows_1_value_INT%'
     height: 0.3
-  - content: '&5Decay Kills: &a%fortresswars_leaderboards_mercy-decay-kills_1_name%
-      &7- &a%fortresswars_leaderboards_mercy-decay-kills_1_value_INT%'
+  - content: '&5Decay Kills: &a%fortresswars_leaderboards_statistic-mercy-decay-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mercy-decay-kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
@@ -144,35 +144,35 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Priest &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_priest-time-played_1_name%
-      &7- &a%fortresswars_leaderboards_priest-time-played_1_value_TIME%'
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-priest-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_priest-total-wins-unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_priest-total-wins-unweighted_1_value_INT%'
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-priest-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-total-wins-unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_priest-eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_priest-eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-priest-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_priest-damage-dealt_1_name%
-      &7- &a%fortresswars_leaderboards_priest-damage-dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-priest-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bTotal Healing: &a%fortresswars_leaderboards_priest-healing-done_1_name%
-      &7- &a%fortresswars_leaderboards_priest-healing-done_1_value_DOUBLE%'
+  - content: '&bTotal Healing: &a%fortresswars_leaderboards_statistic-priest-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bSunpower Stacks: &a%fortresswars_leaderboards_priest-sunpower-stacks-gained_1_name%
-      &7- &a%fortresswars_leaderboards_priest-sunpower-stacks-gained_1_value_INT%'
+  - content: '&bSunpower Stacks: &a%fortresswars_leaderboards_statistic-priest-sunpower-stacks-gained_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-sunpower-stacks-gained_1_value_INT%'
     height: 0.3
-  - content: '&bRelease Spell Casts: &a%fortresswars_leaderboards_priest-release-casts_1_name%
-      &7- &a%fortresswars_leaderboards_priest-release-casts_1_value_INT%'
+  - content: '&bRelease Spell Casts: &a%fortresswars_leaderboards_statistic-priest-release-casts_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-release-casts_1_value_INT%'
     height: 0.3
-  - content: '&bLevel 5 Releases: &a%fortresswars_leaderboards_priest-level-5-releases_1_name%
-      &7- &a%fortresswars_leaderboards_priest-level-5-releases_1_value_INT%'
+  - content: '&bLevel 5 Releases: &a%fortresswars_leaderboards_statistic-priest-level-5-releases_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-level-5-releases_1_value_INT%'
     height: 0.3
-  - content: '&bEntities Burned: &a%fortresswars_leaderboards_priest-players-burned_1_name%
-      &7- &a%fortresswars_leaderboards_priest-players-burned_1_value_INT%'
+  - content: '&bEntities Burned: &a%fortresswars_leaderboards_statistic-priest-players-burned_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-players-burned_1_value_INT%'
     height: 0.3
-  - content: '&5Burn Kills: &a%fortresswars_leaderboards_priest-burn-kills_1_name%
-      &7- &a%fortresswars_leaderboards_priest-burn-kills_1_value_INT%'
+  - content: '&5Burn Kills: &a%fortresswars_leaderboards_statistic-priest-burn-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-burn-kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a5 &7====   &a-> '
     height: 0.3
@@ -186,26 +186,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Vitalist &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_vitalist-time-played_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-time-played_1_value_TIME%'
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-vitalist-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_vitalist-total-wins-unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-total-wins-unweighted_1_value_INT%'
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-vitalist-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-total-wins-unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_vitalist-eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-vitalist-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_vitalist-damage-dealt_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-damage-dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-vitalist-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bHealing Done: &a%fortresswars_leaderboards_vitalist-healing-done_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-healing-done_1_value_DOUBLE%'
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_statistic-vitalist-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&5Final Blows: &a%fortresswars_leaderboards_vitalist-final-blows_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-final-blows_1_value_INT%'
+  - content: '&5Final Blows: &a%fortresswars_leaderboards_statistic-vitalist-final-blows_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-final-blows_1_value_INT%'
     height: 0.3
-  - content: '&5Crossbow Kills: &a%fortresswars_leaderboards_vitalist-crossbow-kills_1_name%
-      &7- &a%fortresswars_leaderboards_vitalist-crossbow-kills_1_value_INT%'
+  - content: '&5Crossbow Kills: &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a6 &7====   &a-> '
     height: 0.3
