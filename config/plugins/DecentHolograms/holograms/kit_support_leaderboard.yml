@@ -21,7 +21,7 @@ pages:
   - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-aquarius-damage-dealt_1_name%
       &7- &a%fortresswars_leaderboards_statistic-aquarius-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bBeam Healing: &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_name%
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_name%
       &7- &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_value_DOUBLE%'
     height: 0.3
   - content: '&bWater Beam Spells Cast: &a%fortresswars_leaderboards_statistic-aquarius-water-beams_1_name%
@@ -54,7 +54,7 @@ pages:
   - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-buff-master-damage-dealt_1_name%
       &7- &a%fortresswars_leaderboards_statistic-buff-master-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bPlayers Buffed: &a%fortresswars_leaderboards_statistic-buff-master-players-buffed_1_name%
+  - content: '&bAllies Buffed: &a%fortresswars_leaderboards_statistic-buff-master-players-buffed_1_name%
       &7- &a%fortresswars_leaderboards_statistic-buff-master-players-buffed_1_value_INT%'
     height: 0.3
   - content: '&bRegeneration Buffed: &a%fortresswars_leaderboards_statistic-buff-master-regeneration-buffed_1_name%
