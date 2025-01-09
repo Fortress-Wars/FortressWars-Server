@@ -21,8 +21,8 @@ pages:
   - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-aquarius-damage-dealt_1_name%
       &7- &a%fortresswars_leaderboards_statistic-aquarius-damage-dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bHealing Done: &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-aquarius-beam-healing_1_value_DOUBLE%'
+  - content: '&bHealing Done: &a%fortresswars_leaderboards_statistic-aquarius-water-healing_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-aquarius-water-healing_1_value_DOUBLE%'
     height: 0.3
   - content: '&bWater Beam Spells Cast: &a%fortresswars_leaderboards_statistic-aquarius-water-beams_1_name%
       &7- &a%fortresswars_leaderboards_statistic-aquarius-water-beams_1_value_INT%'

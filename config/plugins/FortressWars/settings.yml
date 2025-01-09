@@ -25,7 +25,7 @@ settings:
     - aquaman_trident_kills
     - aquaman_tridents_hit
     - aquaman_water_spheres
-    - aquarius_beam_healing
+    - aquarius_water_healing
     - aquarius_damage_dealt
     - aquarius_eliminations
     - aquarius_time_played
