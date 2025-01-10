@@ -1,8 +1,6 @@
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
   enabled: true
-  disable-in-worlds:
-  - disabledworld
   header:
   - '  &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m          &r  '
   - '&7play.fortresswars.net'
@@ -10,13 +8,11 @@ header-footer:
   footer:
   - ''
   - '§3Credits: §6%fortresswars_credits%'
+  disable-condition: '%world%=disabledworld'
 tablist-name-formatting:
   enabled: true
-  align-tabsuffix-on-the-right: false
-  character-width-overrides: {}
   anti-override: true
-  disable-in-worlds:
-  - disabledworld
+  disable-condition: '%world%=disabledworld'
 scoreboard-teams:
   enabled: false
   enable-collision: false
@@ -30,31 +26,14 @@ scoreboard-teams:
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: true
-  disable-in-worlds:
-  - ignoredworld
-  unlimited-nametag-mode:
-    enabled: false
-    disable-on-boats: true
-    dynamic-lines:
-    - teamKit
-    - healthbar
-    - abovename
-    - nametag
-    - belowname
-    static-lines:
-      myCustomLine: 0.66
-    disable-in-servers: []
-    disable-in-worlds:
-    - lobby
-yellow-number-in-tablist:
-  enabled: true
-  value: '%fortresswars_game_eliminations%'
+  disable-condition: '%world%=ignoredworld'
 belowname-objective:
   enabled: false
-  number: '%fortresswars_health_num%'
-  text: '&4❤'
-  disable-in-worlds:
-  - lobby
+  disable-condition: '%world%=lobby'
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%fortresswars_health_num%'
+  title: '&4❤'
 prevent-spectator-effect:
   enabled: false
 bossbar:
@@ -62,8 +41,6 @@ bossbar:
   toggle-command: /bossbar
   remember-toggle-choice: false
   hidden-by-default: false
-  disable-in-worlds:
-  - disabledworld
   bars:
     ServerInfo:
       style: PROGRESS
@@ -91,9 +68,6 @@ scoreboard:
   use-numbers: false
   static-number: 0
   delay-on-join-milliseconds: 0
-  respect-other-plugins: true
-  disable-in-worlds:
-  - disabledworld
   scoreboards:
     admin:
       display-condition: permission:tab.scoreboard.admin
@@ -127,8 +101,6 @@ scoreboard:
 ping-spoof:
   enabled: false
   value: 0
-fix-pet-names:
-  enabled: false
 placeholders:
   date-format: dd.MM.yyyy
   time-format: '[HH:mm:ss / h:mm a]'
@@ -151,16 +123,9 @@ conditions:
     false: ~%essentials_nickname%
 placeholderapi-refresh-intervals:
   default-refresh-interval: 500
-  server:
-    '%server_uptime%': 1000
-    '%server_tps_1_colored%': 1000
-    '%server_unique_joins%': 5000
-  player:
-    '%fortresswars_health_bar%': 100
-    '%health%': 250
-  relational:
-    '%rel_fortresswars_teammate_health%': 200
-    '%rel_fortresswars_glow_color_while_invis%': 200
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
 assign-groups-by-permissions: false
 primary-group-finding-list:
 - Owner
@@ -178,4 +143,14 @@ mysql:
   password: password
 global-playerlist:
   enabled: false
+  update-latency: false
 use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+enable-redisbungee-support: true
+playerlist-objective:
+  enabled: true
+  disable-condition: '%world%=lobby'
+  value: '%fortresswars_game_eliminations%'
+  fancy-value: '&7Ping: %ping%'
+layout:
+  enabled: false
