@@ -1,0 +1,51 @@
+# (Required) The id of the gamerule
+id: example
+
+# (Required) If the gamerule is enabled or not
+enabled: false
+
+# (Required) The name of the gamerule
+name: Example
+
+# (Required) The description of the gamerule
+description: Navigate to https://wiki.fortresswars.net/#/kits/ to view available kits and kit data.
+
+# (Required) The default kit of the gamerule
+defaultKit: soldier
+
+# (Optional) The maximum number unique kits each team can use
+kitLimit: 1
+
+# (Optional) The maximum number players that can join each team
+playerLimit: 4
+
+# (Optional) The maximum number of specific role each team can use.
+roleLimit:
+  damage: 3
+  tank: 1
+  support: 1
+  utility: 1
+
+# (Optional) If players should be able to use premium kits they do not have unlocked.
+allowPremiumKits: true
+
+# (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
+# Note: The default kit is always included in the enabled kits
+enabledKits:
+  - fish
+
+# (Optional) Kits that are not allowed by this gamerule
+disabledKits:
+  - brute
+
+# (Optional) The kit data values for this gamerule
+kitDataOverrides:
+  shared:
+    - HEALING_POTION_AUTOPOT_HOTBAR_ONLY=false
+  default:
+    - DEFAULT_SWORD_DAMAGE=10
+    - DEFAULT_SWORD_SPEED=1.5
+  soldier:
+    - SOLDIER_GRENADE_DAMAGE=10
+  brute:
+    - BRUTE_AXE_SWIRL_DAMAGE=7.5

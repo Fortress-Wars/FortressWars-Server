@@ -1,0 +1,42 @@
+# (Required) The id of the gamerule
+id: brawl_stars
+
+# (Required) If the gamerule is enabled or not
+enabled: true
+
+# (Required) The name of the gamerule
+name: Brawl Stars
+
+# (Required) The description of the gamerule
+description: "Kits with close-range abilities only."
+
+# (Required) The default kit of the gamerule
+defaultKit: brute
+
+# (Optional) The maximum number unique kits each team can use
+kitLimit: 1
+
+# (Optional) If players should be able to use premium kits they do not have unlocked.
+allowPremiumKits: true
+
+# (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
+# Note: The default kit is always included in the enabled kits
+enabledKits:
+  - bomber
+  - brute
+  - buff_master
+  - builder
+  - crusader
+  - demolitionist
+  - jumper
+  - kangaroo
+  - knight
+  - master
+  - medic
+  - miner
+  - necromancer
+  - porcupine
+  - potion_master
+  - slime
+  - sonic
+  - spy

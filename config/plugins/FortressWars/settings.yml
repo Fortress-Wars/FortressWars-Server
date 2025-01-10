@@ -2,10 +2,6 @@ settings:
   gamerule: default
   achievements:
     enabled: true
-  kits:
-    allowAllKits: false
-    enableKitLimit: false
-    kitLimit: 1
   cosmetics:
     particleEffects:
       enabled: true
@@ -21,9 +17,6 @@ settings:
     frequencyTicks: 18000
     minTimePlayedSeconds: 3600
     stats:
-    - edr
-    - win_rate
-    - damage_ratio
     - aquaman_damage_dealt
     - aquaman_eliminations
     - aquaman_far_trident_kills
@@ -32,7 +25,7 @@ settings:
     - aquaman_trident_kills
     - aquaman_tridents_hit
     - aquaman_water_spheres
-    - aquarius_beam_healing
+    - aquarius_water_healing
     - aquarius_damage_dealt
     - aquarius_eliminations
     - aquarius_time_played
@@ -385,7 +378,7 @@ settings:
         - message:
           padding: true
           lines:
-            - content: "      &eNeed Credits? Earn up to &a90 &ecredits a day by voting!"
+            - content: "      &eNeed Credits? Earn up to &a105 &ecredits a day by voting!"
             - content: "               &e&k||&7&o View all voting sites with ''/vote all'' &e&k||"
         - message:
           padding: false
@@ -419,6 +412,14 @@ settings:
           padding: false
           lines:
             - content: "&d[TIP] &7During build phase, you can sneak and place to build blocks in a &a3x3 &7pattern!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Easily coordinate with your teammates using the &a/teamchat &7command!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"                 
     tips:
       enabled: true
       messages:

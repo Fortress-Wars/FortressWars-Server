@@ -1,0 +1,41 @@
+# (Required) The id of the gamerule
+id: wizard_war
+
+# (Required) If the gamerule is enabled or not
+enabled: true
+
+# (Required) The name of the gamerule
+name: "Wizard War"
+
+# (Required) The description of the gamerule
+description: "Mages only."
+
+# (Required) The default kit of the gamerule
+defaultKit: wizard
+
+# (Optional) If players should be able to use premium kits they do not have unlocked.
+allowPremiumKits: true
+
+# (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
+# Note: The default kit is always included in the enabled kits
+enabledKits:
+  - aquarius
+  - golem
+  - necromancer
+  - priest
+  - prometheus
+  - raven
+  - snowman
+  - wizard
+
+
+# (Optional) The kit data values for this gamerule
+kitDataOverrides:
+  shared:
+    - MANA_MAX=200
+    - MANA_REGENERATION_RATE=7
+    - MANA_FINAL_BLOW_AMOUNT=50
+    - MANA_ASSIST_AMOUNT=20
+    - MANA_DISPENSER_DISPENSE_AMOUNT=10
+  necromancer:
+    - NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS=1
