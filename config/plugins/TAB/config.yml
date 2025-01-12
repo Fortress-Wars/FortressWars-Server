@@ -8,6 +8,15 @@ header-footer:
   footer:
   - ''
   - '§3Credits: §6%fortresswars_credits%'
+  per-world:
+    map_*:
+        footer:
+            - ''
+            - '&3Eliminations: &a%fortresswars_game_eliminations%  &3Deaths: &c%fortresswars_game_deaths%  &3Assists: &d%fortresswars_game_eliminations%'
+            - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%'
+            - ''
+            - '&3Credits: &6%fortresswars_credits%' 
+  
   disable-condition: '%world%=disabledworld'
 tablist-name-formatting:
   enabled: true
@@ -151,6 +160,6 @@ playerlist-objective:
   enabled: true
   disable-condition: '%world%=lobby'
   value: '%fortresswars_game_eliminations%'
-  fancy-value: '&7Ping: %ping%'
+  fancy-value: '&7 | &a%fortresswars_game_eliminations%&7 | &c%fortresswars_game_deaths%&7 | &d%fortresswars_game_assists%&7 | '
 layout:
   enabled: false
