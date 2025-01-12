@@ -26,6 +26,7 @@ Requried PLugins:
 Optional Plugins:
 - [Via Version](https://github.com/ViaVersion/ViaVersion/releases)
 - [Decent Holograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
+  - [1.21.4 Fork](https://github.com/mickas/DecentHolograms/releases)
 - [Plugins Hide](https://www.spigotmc.org/resources/plugin-hide-1-13-1-20-choose-which-commands-players-can-execute-and-see.68767/)
 - [ServerListPlus](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens](https://www.spigotmc.org/resources/citizens.13811/)
