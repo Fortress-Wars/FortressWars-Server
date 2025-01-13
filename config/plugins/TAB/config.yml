@@ -2,7 +2,7 @@
 header-footer:
   enabled: true
   header:
-  - '  &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m          &r  '
+  - '%animation:logo%'
   - '&7play.fortresswars.net'
   - ''
   footer:
