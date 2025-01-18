@@ -34,7 +34,7 @@ pages:
     height: 0.3
   actions:
     LEFT:
-    - PAGE:6
+    - PAGE:7
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
     - NEXT_PAGE
@@ -79,6 +79,42 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
+  - content: ' &7===== &aTop Kit: Mathematician &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-mathematician-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-time-played_1_value_DURATION%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-mathematician-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-mathematician-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-mathematician-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bTotal Healing: &a%fortresswars_leaderboards_statistic-mathematician-practice-problem-total-healing_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-practice-problem-total-healing_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&5Problem Kills: &a%fortresswars_leaderboards_statistic-mathematician-practice-problem-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-practice-problem-kills_1_value_INT%'
+    height: 0.3
+  - content: '&bProblems Solved Correctly: &a%fortresswars_leaderboards_statistic-mathematician-problems-solved-correctly_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-problems-solved-correctly_1_value_INT%'
+    height: 0.3
+  - content: '&bProblems Solved Incorrectly: &a%fortresswars_leaderboards_statistic-mathematician-problems-solved-incorrectly_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-mathematician-problems-solved-incorrectly_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7==== &a3 &7====   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
   - content: ' &7===== &aTop Kit: Medic &7===== '
     height: 0.3
   - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-medic-time-played_1_name%
@@ -99,7 +135,7 @@ pages:
   - content: '&bPlayers Healed: &a%fortresswars_leaderboards_statistic-medic-players-healed_1_name%
       &7- &a%fortresswars_leaderboards_statistic-medic-players-healed_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a3 &7====   &a-> '
+  - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -132,7 +168,7 @@ pages:
   - content: '&5Decay Kills: &a%fortresswars_leaderboards_statistic-mercy-decay-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-mercy-decay-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a4 &7====   &a-> '
+  - content: ' &a<-   &7==== &a5 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -174,7 +210,7 @@ pages:
   - content: '&5Burn Kills: &a%fortresswars_leaderboards_statistic-priest-burn-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-priest-burn-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a5 &7====   &a-> '
+  - content: ' &a<-   &7==== &a6 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -207,7 +243,7 @@ pages:
   - content: '&5Crossbow Kills: &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a6 &7====   &a-> '
+  - content: ' &a<-   &7==== &a7 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
