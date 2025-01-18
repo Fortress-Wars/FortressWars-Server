@@ -57,14 +57,14 @@ pages:
   - content: '&bMetal Used: &a%fortresswars_leaderboards_statistic-engineer-metal-used_1_name%
       &7- &a%fortresswars_leaderboards_statistic-engineer-metal-used_1_value_INT%'
     height: 0.3
-  - content: '&bSentries Erected: &a%fortresswars_leaderboards_statistic-engineer-sentries-erected_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-engineer-sentries-erected_1_value_INT%'
+  - content: '&bSentries Built: &a%fortresswars_leaderboards_statistic-engineer-sentries-built_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-engineer-sentries-built_1_value_INT%'
     height: 0.3
   - content: '&bSentry Kills: &a%fortresswars_leaderboards_statistic-engineer-sentry-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-engineer-sentry-kills_1_value_INT%'
     height: 0.3
-  - content: '&bDispenser Erected: &a%fortresswars_leaderboards_statistic-engineer-dispensers-erected_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-engineer-dispensers-erected_1_value_INT%'
+  - content: '&bDispenser Built: &a%fortresswars_leaderboards_statistic-engineer-dispensers-built_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-engineer-dispensers-built_1_value_INT%'
     height: 0.3
   - content: '&bPotions Dispensed: &a%fortresswars_leaderboards_statistic-engineer-dispenser-potions-given_1_name%
       &7- &a%fortresswars_leaderboards_statistic-engineer-dispenser-potions-given_1_value_INT%'

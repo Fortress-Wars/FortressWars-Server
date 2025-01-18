@@ -37,7 +37,7 @@ pages:
     height: 0.3
   actions:
     LEFT:
-    - PAGE:23
+    - PAGE:25
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
     - NEXT_PAGE
@@ -187,6 +187,42 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
+  - content: ' &7===== &aTop Kit: Fish &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-fish-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-time-played_1_value_DURATION%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-fish-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-fish-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-fish-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bFishplosions: &a%fortresswars_leaderboards_statistic-fish-fishplosions_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-fishplosions_1_value_INT%'
+    height: 0.3
+  - content: '&bFish Thrown: &a%fortresswars_leaderboards_statistic-fish-thrown_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-thrown_1_value_INT%'
+    height: 0.3
+  - content: '&5Fish Kills: &a%fortresswars_leaderboards_statistic-fish-fish-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-fish-kills_1_value_INT%'
+    height: 0.3
+  - content: '&bFish Healing: &a%fortresswars_leaderboards_statistic-fish-fish-healing_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-fish-fish-healing_1_value_DOUBLE%'
+    height: 0.3
+  - content: ' &a<-   &7==== &a6 &7====   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
   - content: ' &7===== &aTop Kit: Gunner &7===== '
     height: 0.3
   - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-gunner-time-played_1_name%
@@ -204,7 +240,7 @@ pages:
   - content: '&bMachine Gun Kills: &a%fortresswars_leaderboards_statistic-gunner-machine-gun-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-gunner-machine-gun-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a6 &7====   &a-> '
+  - content: ' &a<-   &7==== &a7 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -237,7 +273,7 @@ pages:
   - content: '&5Relax Kills: &a%fortresswars_leaderboards_statistic-hulk-relax-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-hulk-relax-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a7 &7====   &a-> '
+  - content: ' &a<-   &7==== &a8 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -270,7 +306,7 @@ pages:
   - content: '&5Future Sight Kills: &a%fortresswars_leaderboards_statistic-illusionist-future-sights-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-illusionist-future-sights-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a8 &7====   &a-> '
+  - content: ' &a<-   &7==== &a9 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -306,7 +342,7 @@ pages:
   - content: '&bTranslocators Broken: &a%fortresswars_leaderboards_statistic-jumper-translocators-broken_1_name%
       &7- &a%fortresswars_leaderboards_statistic-jumper-translocators-broken_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a9 &7====   &a-> '
+  - content: ' &a<-   &7==== &a10 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -333,7 +369,7 @@ pages:
   - content: '&5Stomp Kills: &a%fortresswars_leaderboards_statistic-kangaroo-stomp-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-kangaroo-stomp-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a10 &7====   &a-> '
+  - content: ' &a<-   &7==== &a11 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -375,7 +411,7 @@ pages:
   - content: '&5Super Creeper Triple Kills: &a%fortresswars_leaderboards_statistic-master-super-creeper-triple-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-master-super-creeper-triple-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a11 &7====   &a-> '
+  - content: ' &a<-   &7==== &a12 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -405,7 +441,34 @@ pages:
   - content: '&bRifle Kills: &a%fortresswars_leaderboards_statistic-musketeer-rifle-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-musketeer-rifle-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a12 &7====   &a-> '
+  - content: ' &a<-   &7==== &a13 &7====   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
+  - content: ' &7===== &aTop Kit: None &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-none-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-none-time-played_1_value_DURATION%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-none-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-none-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-none-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-none-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-none-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-none-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bFinal Blows: &a%fortresswars_leaderboards_statistic-none-final-blows_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-none-final-blows_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7==== &a14 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -438,7 +501,7 @@ pages:
   - content: '&bSkeleton Kills: &a%fortresswars_leaderboards_statistic-necromancer-skeleton-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-necromancer-skeleton-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a13 &7====   &a-> '
+  - content: ' &a<-   &7==== &a15 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -471,7 +534,7 @@ pages:
   - content: '&5Triple Quill Kills: &a%fortresswars_leaderboards_statistic-porcupine-triple-quill-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-porcupine-triple-quill-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a14 &7====   &a-> '
+  - content: ' &a<-   &7==== &a16 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -504,7 +567,7 @@ pages:
   - content: '&bPlayer Debuffed: &a%fortresswars_leaderboards_statistic-potion-master-players-debuffed_1_name%
       &7- &a%fortresswars_leaderboards_statistic-potion-master-players-debuffed_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a15 &7====   &a-> '
+  - content: ' &a<-   &7==== &a17 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -549,7 +612,7 @@ pages:
   - content: '&bImbue Spells Cast: &a%fortresswars_leaderboards_statistic-prometheus-imbue-spells-casted_1_name%
       &7- &a%fortresswars_leaderboards_statistic-prometheus-imbue-spells-casted_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a16 &7====   &a-> '
+  - content: ' &a<-   &7==== &a18 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -582,7 +645,7 @@ pages:
   - content: '&5Rocket Triple Kills: &a%fortresswars_leaderboards_statistic-pyrotechnic-plus-3-rocket-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-pyrotechnic-plus-3-rocket-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a17 &7====   &a-> '
+  - content: ' &a<-   &7==== &a19 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -615,7 +678,7 @@ pages:
   - content: '&bTotal Flight Duration: &a%fortresswars_leaderboards_statistic-raven-total-flight-duration_1_name%
       &7- &a%fortresswars_leaderboards_statistic-raven-total-flight-duration_1_value_DURATION%'
     height: 0.3
-  - content: ' &a<-   &7==== &a18 &7====   &a-> '
+  - content: ' &a<-   &7==== &a20 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -651,7 +714,7 @@ pages:
   - content: '&5Kneeshot Kills: &a%fortresswars_leaderboards_statistic-sniper-kneeshot-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-sniper-kneeshot-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a19 &7====   &a-> '
+  - content: ' &a<-   &7==== &a21 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -681,7 +744,7 @@ pages:
   - content: '&5Grenade Double Kills: &a%fortresswars_leaderboards_statistic-soldier-plus-2-grenade-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-soldier-plus-2-grenade-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a20 &7====   &a-> '
+  - content: ' &a<-   &7==== &a22 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -720,7 +783,7 @@ pages:
   - content: '&5Boom Triple Kills: &a%fortresswars_leaderboards_statistic-sonic-boom-plus-3-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-sonic-boom-plus-3-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a21 &7====   &a-> '
+  - content: ' &a<-   &7==== &a23 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -749,7 +812,7 @@ pages:
   - content: '&bCloaks Kills: &a%fortresswars_leaderboards_statistic-spy-cloaked-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-spy-cloaked-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a22 &7====   &a-> '
+  - content: ' &a<-   &7==== &a24 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -791,7 +854,7 @@ pages:
   - content: '&5Lightning Strike Triple Kills: &a%fortresswars_leaderboards_statistic-wizard-lightning-strike-plus-3-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-wizard-lightning-strike-plus-3-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a23 &7====   &a-> '
+  - content: ' &a<-   &7==== &a25 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
