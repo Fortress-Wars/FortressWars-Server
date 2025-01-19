@@ -9,13 +9,13 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
 Create an .env file in the root directory with the the following content and replace `__value__` with the value you want.
 
 ```_
-FW_DATABASE=__value__
-FW_USER=__value__
-FW_PASSWORD=__value__
-FW_DISCORDSRV_BOT_TOKEN=__value__
-FW_DISCORDSRV_CHANNEL_GLOBAL=__value__
-FW_DISCORDSRV_CHANNEL_GAME=__value__
-FW_DISCORDSRV_CHANNEL_KILLFEED=__value__
+MYSQL_DATABASE=__value__
+MYSQL_USER=__value__
+MYSQL_PASSWORD=__value__
+DISCORDSRV_BOT_TOKEN=__value__
+DISCORDSRV_CHANNEL_GLOBAL=__value__
+DISCORDSRV_CHANNEL_GAME=__value__
+DISCORDSRV_CHANNEL_KILLFEED=__value__
 ```
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.
