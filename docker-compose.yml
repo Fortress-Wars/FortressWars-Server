@@ -45,7 +45,7 @@ services:
       EULA: true
       OVERRIDE_ICON : true
       REPLACE_ENV_VARIABLES: true
-      ENV_VARIABLE_PREFIX: MYSQL_
+      ENV_VARIABLE_PREFIX: FW_
       ENABLE_ROLLING_LOGS: true
       ALLOW_NETHER: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: false

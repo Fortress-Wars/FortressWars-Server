@@ -4,9 +4,9 @@ spawn: lobby,0,72,0,-180,0
 database:
   host: db
   port: 3306
-  db: ${MYSQL_DATABASE}
-  username: ${MYSQL_USER}
-  password: ${MYSQL_PASSWORD}
+  db: ${FW_DATABASE}
+  username: ${FW_USER}
+  password: ${FW_PASSWORD}
   maxConnections: 10
 kingOfTheLadder:
   sign: lobby,40,66,27

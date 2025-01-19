@@ -9,9 +9,13 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
 Create an .env file in the root directory with the the following content and replace `__value__` with the value you want.
 
 ```_
-MYSQL_DATABASE=__value__
-MYSQL_USER=__value__
-MYSQL_PASSWORD=__value__
+FW_DATABASE=__value__
+FW_USER=__value__
+FW_PASSWORD=__value__
+FW_DISCORDSRV_BOT_TOKEN=__value__
+FW_DISCORDSRV_CHANNEL_GLOBAL=__value__
+FW_DISCORDSRV_CHANNEL_GAME=__value__
+FW_DISCORDSRV_CHANNEL_KILLFEED=__value__
 ```
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.
@@ -31,7 +35,7 @@ Optional Plugins:
 - [ServerListPlus 3.5.0-Universal](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens 2.0.37](https://www.spigotmc.org/resources/citizens.13811/)
 - [DamageIndicators 1.17.0](https://www.spigotmc.org/resources/%E2%98%A0%EF%B8%8Fdamageindicator%E2%98%A0%EF%B8%8F-customisable-damage-indicator-multicolor-support-100-lagless-%E2%9C%A8.92423/)
-- [DiscordSRV 1.29.0](https://modrinth.com/plugin/discordsrv) *(For the "killfeed", and "game" fortress wars channels; Note you must configure these channels in the config.yml for this plugin)*
+- [DiscordSRV 1.29.0](https://modrinth.com/plugin/discordsrv) *(For the "killfeed", and "game" fortress wars channels; Configure these in the .env file to use them)*
 - [Simple Voice Chat 2.5.26](https://modrinth.com/plugin/simple-voice-chat) *(Make sure to configure the port)*
 - [Luck Perms 5.4.152](https://luckperms.net/)
 
