@@ -32,9 +32,9 @@
 Default:
   Description:
     # Production
-    - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m            &r                 &r&7&k|| &r&3Release &82.0.0 &7&k|| &3Version&8: &81.19.4-1.21.4 &7&k||'
+    - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m            &r                    &r&7&k|| &r&3Release &82.1.0 &7&k|| &3Version&8: &81.21.4+ &7&k||'
     # Stage
-    # - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m            &r                  &r&7&k|| &r&3In Dev &82.0.0 &7&k|| &3Version&8: &81.19.4-1.21.4 &7&k||'
+    # - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m            &r                      &r&7&k|| &r&3In Dev &82.1.0 &7&k|| &3Version&8: &81.21.4+ &7&k||'
     # Maintenance
     # - '         &c&m          &7&l&m[&r&7&m   &r &l&aFortress Wars &7&m   &l&m]&r&1&m          &r                              &r&7&k|| &r&4Under Maintenance &r&k||'
   Players:
