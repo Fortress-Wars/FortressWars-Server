@@ -160,6 +160,6 @@ playerlist-objective:
   enabled: true
   disable-condition: '%world%=lobby'
   value: '%fortresswars_game_eliminations%'
-  fancy-value: '&7 | &a%fortresswars_game_eliminations%&7 | &c%fortresswars_game_deaths%&7 | &d%fortresswars_game_assists%&7 | '
+  fancy-value: '&7 | &a%fortresswars_game_eliminations_player_list%&7 | &c%fortresswars_game_deaths_player_list%&7 | &d%fortresswars_game_assists_player_list%&7 | '
 layout:
   enabled: false
