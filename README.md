@@ -15,7 +15,7 @@ MYSQL_PASSWORD=__value__
 ```
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.
-Requried PLugins:
+Requried Plugins:
 - [FortressWars 2.0.0](https://github.com/Fortress-Wars/FortressWars-3.0/releases)
 - [PlaceholdersAPI 2.11.6](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [SuperVanish 6.2.20](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
