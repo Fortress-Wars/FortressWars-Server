@@ -6,3 +6,8 @@ defaultKit: default
 kitDataOverrides:
   shared:
     - MAX_HEALING_POTIONS=0
+    - MAX_MANA_POTIONS=0
+  aquarius:
+    - MAX_MANA_POTIONS=7
+  priest:
+    - MAX_MANA_POTIONS=7
