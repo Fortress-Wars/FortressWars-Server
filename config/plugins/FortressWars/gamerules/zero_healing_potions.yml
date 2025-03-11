@@ -1,0 +1,8 @@
+id: zero_healing_potions
+enabled: true
+name: Zero Healing Potions
+description: A gamerule with no healing potions.
+defaultKit: default
+kitDataOverrides:
+  shared:
+    - MAX_HEALING_POTIONS=0
