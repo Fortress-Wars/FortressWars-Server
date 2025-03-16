@@ -3,6 +3,8 @@ enabled: true
 name: Tournament
 description: This is the gamerule settings for tournaments.
 defaultKit: default
+canVote: false
+icon: DIAMOND
 kitLimit: 1
 playerLimit: 4
 roleLimit:

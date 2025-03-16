@@ -13,6 +13,12 @@ description: Navigate to https://wiki.fortresswars.net/#/kits/ to view available
 # (Required) The default kit of the gamerule
 defaultKit: soldier
 
+# (Optional) If the gamerule can be voted for during the gamerule voting phase.
+canVote: false
+
+# (Optional) The icon of the gamerule.
+icon: STONE
+
 # (Optional) The maximum number unique kits each team can use
 kitLimit: 1
 

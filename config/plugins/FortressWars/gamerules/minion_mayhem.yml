@@ -3,7 +3,8 @@ enabled: true
 name: Minion Mayhem
 description: A gamerule with minons kits only. Cooldowns are lower and minion count is higher.
 defaultKit: master
-allowPremiumKits: true
+canVote: true
+icon: CREEPER_HEAD
 enabledKits:
   - master
   - necromancer
