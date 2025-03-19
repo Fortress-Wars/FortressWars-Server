@@ -7,7 +7,7 @@ header-footer:
   - ''
   - '&7&lGame'
   - '&3Map: &a%fortresswars_game_map%'
-  - '&3Rule: &a%fortresswars_game_gamerule%'
+  - '&3Gamerule: &a%fortresswars_game_gamerule%'
   - ''
   - '&7&lPlayers'
   footer:
