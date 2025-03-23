@@ -13,14 +13,18 @@ description: "Mages only."
 # (Required) The default kit of the gamerule
 defaultKit: wizard
 
-# (Optional) If players should be able to use premium kits they do not have unlocked.
-allowPremiumKits: true
+# (Optional) If the gamerule can be voted for during the gamerule voting phase.
+canVote: true
+
+# (Optional) The icon of the gamerule.
+icon: BREEZE_ROD
 
 # (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
 # Note: The default kit is always included in the enabled kits
 enabledKits:
   - aquarius
   - golem
+  - demon
   - necromancer
   - priest
   - prometheus
@@ -39,3 +43,9 @@ kitDataOverrides:
     - MANA_DISPENSER_DISPENSE_AMOUNT=10
   necromancer:
     - NECROMANCER_ESSENCE_OF_THE_AFTER_LIFE_FINAL_BLOW_DROP_BONUS=1
+  demon:
+    - DEMON_BLOOD_MAX=100000
+    - DEMON_BLOOD_PER_ESSENCE=20000
+    - BLOOD_POTION_AUTOPOT_THRESHOLD=20000
+    - BLOOD_POTION_CLICK_POTENCY=20000
+    - BLOOD_POTION_AUTOPOT_POTENCY=16000
