@@ -16,6 +16,19 @@ settings:
       enabled: true
     enabled: true
 
+    # Respawn
+  defaultRespawnTimes:
+    low: 5
+    medium: 10
+    high: 15
+    waveWindow: 5
+
+  # The low, medium, and high respawn times can be overridden in each map's config like this:
+  # respawnTimes:
+  #  low: 5
+  #  medium: 10
+  #  high: 15
+
   # Leaderboard settings
   leaderboards:
     frequencyTicks: 18000
