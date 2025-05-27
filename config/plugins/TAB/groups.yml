@@ -1,4 +1,4 @@
  # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
 _DEFAULT_:
   tabprefix: "%rel_fortresswars_team_kit%%fortresswars_custom_title%%fortresswars_fwplus_rank%%fortresswars_rank%%fortresswars_team_color%"
-  tagsuffix: "%rel_fortresswars_teammate_health%"
+  tabsuffix: "%fortresswars_killstreak_indicator%"
