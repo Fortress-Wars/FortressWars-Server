@@ -19,7 +19,7 @@ header-footer:
       - '&7&lStatistics'
       - '&3Eliminations: &a%fortresswars_game_eliminations%  &3Deaths: &c%fortresswars_game_deaths%  &3Assists:
         &d%fortresswars_game_assists%'
-      - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%  &3Killstreak: &e%fortresswars_killstreak_current%'
+      - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%  &3Killstreak: %fortresswars_killstreak_color%%fortresswars_killstreak_current%'
       - ''
       - '&3Credits: &6%fortresswars_credits%'
   disable-condition: '%world%=disabledworld'
