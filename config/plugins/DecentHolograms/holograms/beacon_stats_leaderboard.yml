@@ -78,7 +78,7 @@ pages:
   - content: '&e#9. &a%fortresswars_leaderboards_statistic-beacon-hits_9_name% &7-
       &a%fortresswars_leaderboards_statistic-beacon-hits_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistic-beacon-hits_10_name% &7-&a%fortresswars_leaderboards_statistic-beacon-hits_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistic-beacon-hits_10_name% &7- &a%fortresswars_leaderboards_statistic-beacon-hits_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -120,7 +120,7 @@ pages:
       &a%fortresswars_leaderboards_statistic-beacon-breaks_9_value_INT%'
     height: 0.3
   - content: '&e#10. &a%fortresswars_leaderboards_statistic-beacon-breaks_10_name%
-      &7-&a%fortresswars_leaderboards_statistic-beacon-breaks_10_value_INT%'
+      &7- &a%fortresswars_leaderboards_statistic-beacon-breaks_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3

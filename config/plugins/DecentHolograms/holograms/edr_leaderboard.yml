@@ -82,7 +82,7 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
-  - content: ' &7===== &aTop Killstreaks Started &7===== '
+  - content: ' &7===== &aMost Killstreaks Started &7===== '
     height: 0.3
   - content: '&e#1. &a%fortresswars_leaderboards_statistic-killstreaks-started_1_name% &7-
       &a%fortresswars_leaderboards_statistic-killstreaks-started_1_value_INT%'
@@ -124,7 +124,7 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
-  - content: ' &7===== &aTop Killstreaks Ended &7===== '
+  - content: ' &7===== &aMost Killstreaks Ended &7===== '
     height: 0.3
   - content: '&e#1. &a%fortresswars_leaderboards_statistic-killstreaks-ended_1_name% &7-
       &a%fortresswars_leaderboards_statistic-killstreaks-ended_1_value_INT%'
@@ -156,7 +156,7 @@ pages:
   - content: '&e#10. &a%fortresswars_leaderboards_statistic-killstreaks-ended_10_name% &7-
       &a%fortresswars_leaderboards_statistic-killstreaks-ended_10_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a5 &7====   &a-> '
+  - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -166,7 +166,7 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
-  - content: ' &7===== &aTop Killstreaks &7===== '
+  - content: ' &7===== &aLongest Killstreaks &7===== '
     height: 0.3
   - content: '&e#1. &a%fortresswars_leaderboards_statistic-killstreaks-longest_1_name% &7-
       &a%fortresswars_leaderboards_statistic-killstreaks-longest_1_value_INT%'
