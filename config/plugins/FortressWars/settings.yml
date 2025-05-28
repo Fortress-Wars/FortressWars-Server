@@ -374,6 +374,9 @@ settings:
     - wizard_lightning_strikes_casted
     - wizard_time_played
     - wizard_total_wins_unweighted
+    - killstreaks_longest
+    - killstreaks_ended
+    - killstreaks_started
 
   # Server automatic messaging settings
   messages:
