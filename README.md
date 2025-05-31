@@ -8,7 +8,8 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
 
 Create an .env file in the root directory with the the following content and replace `__value__` with the value you want.
 
-```_
+```
+FW_LOG_LEVEL=__value__
 MYSQL_DATABASE=__value__
 MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__
@@ -17,6 +18,9 @@ DISCORDSRV_CHANNEL_GLOBAL=__value__
 DISCORDSRV_CHANNEL_GAME=__value__
 DISCORDSRV_CHANNEL_KILLFEED=__value__
 ```
+
+Notes:
+- FW_LOG_LEVEL should be one of the following values: warn, info, debug, or silly
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.
 Requried Plugins:

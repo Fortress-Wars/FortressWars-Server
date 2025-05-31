@@ -26,37 +26,50 @@ services:
     ports:
       - 8080:80
 
-  # paper
-  paper:
-    container_name: paper
-    build: .
+  # gate
+  gate:
+    container_name: gate
+    restart: unless-stopped
+    build:
+      context: ./proxy
+      args:
+        VELOCITY_SECRET: ${VELOCITY_SECRET}
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+
+  # server-1
+  server-1:
+    container_name: server-1
+    restart: unless-stopped
+    build: ./paper
     depends_on:
       - db
     ports:
-      - "25565:25565"      
+      - "25566:25565"      
     tty: true
     stdin_open: true
     env_file:
       - .env
-    environment:
-      TYPE: PAPER
-      VERSION: 1.21.4
-      MEMORY: 8G
-      EULA: true
-      OVERRIDE_ICON : true
-      REPLACE_ENV_VARIABLES: true
-      REPLACE_ENV_VARIABLE_PREFIX: ""
-      ENABLE_ROLLING_LOGS: true
-      ALLOW_NETHER: false
-      ANNOUNCE_PLAYER_ACHIEVEMENTS: false
-      ENABLE_COMMAND_BLOCK: true
-      FORCE_GAMEMODE: true
-      MODE: survival
-      LEVEL: lobby
-      VIEW_DISTANCE: 16
-      SIMULATION_DISTANCE: 16
     volumes:
-      - ./data:/data
+      - ./server-1:/data
+
+  # server-2
+  server-2:
+    container_name: server-2
+    restart: unless-stopped
+    build: ./paper
+    depends_on:
+      - db
+    ports:
+      - "25567:25565"      
+    tty: true
+    stdin_open: true
+    env_file:
+      - .env
+    volumes:
+      - ./server-2:/data
 
 volumes:
   db: {}

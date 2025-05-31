@@ -1,0 +1,18 @@
+# This is a simplified config where the rest of the
+# settings are omitted and will be set by default.
+# See config.yml for the full configuration options.
+config:
+  bind: 0.0.0.0:25565
+  servers:
+    server-1: server-1:25566
+    server-2: server-2:25567
+  try:
+    - server-1
+    - server-2
+  forwarding:
+    # Options: legacy, none, bungeeguard, velocity
+    mode: velocity
+    # The secret used if the mode is velocity.
+    # This is a placeholder and is filled in automatically by docker when building the image
+    velocitySecret: VELOCITY_SECRET
+    
