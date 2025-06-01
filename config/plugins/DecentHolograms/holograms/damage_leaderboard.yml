@@ -40,7 +40,7 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
-  - content: ' &7===== &aTop Damge Taken &7===== '
+  - content: ' &7===== &aTop Damage Taken &7===== '
     height: 0.3
   - content: '&e#1. &a%fortresswars_leaderboards_statistic-player-damage-taken_1_name% &7- &a%fortresswars_leaderboards_statistic-player-damage-taken_1_value_DOUBLE%'
     height: 0.3
