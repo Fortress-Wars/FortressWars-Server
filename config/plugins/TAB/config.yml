@@ -1,4 +1,3 @@
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
   enabled: true
   header:
@@ -16,13 +15,13 @@ header-footer:
   per-world:
     map_*:
       footer:
-          - ''
-          - '&7&lStatistics'
-          - '&3Eliminations: &a%fortresswars_game_eliminations%  &3Deaths: &c%fortresswars_game_deaths%  &3Assists: &d%fortresswars_game_assists%'
-          - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%'
-          - ''
-          - '&3Credits: &6%fortresswars_credits%' 
-  
+      - ''
+      - '&7&lStatistics'
+      - '&3Eliminations: &a%fortresswars_game_eliminations%  &3Deaths: &c%fortresswars_game_deaths%  &3Assists:
+        &d%fortresswars_game_assists%'
+      - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%  &3Killstreak: %fortresswars_killstreak_color%%fortresswars_killstreak_current%'
+      - ''
+      - '&3Credits: &6%fortresswars_credits%'
   disable-condition: '%world%=disabledworld'
 tablist-name-formatting:
   enabled: true
@@ -136,11 +135,6 @@ conditions:
     - '%player%=%essentials_nickname%'
     true: '%player%'
     false: ~%essentials_nickname%
-placeholderapi-refresh-intervals:
-  default-refresh-interval: 500
-  '%server_uptime%': 1000
-  '%server_tps_1_colored%': 1000
-  '%server_unique_joins%': 5000
 assign-groups-by-permissions: false
 primary-group-finding-list:
 - Owner
@@ -161,11 +155,29 @@ global-playerlist:
   update-latency: false
 use-online-uuid-in-tablist: true
 permission-refresh-interval: 1000
-enable-redisbungee-support: true
 playerlist-objective:
   enabled: true
   disable-condition: '%world%=lobby'
   value: '%fortresswars_game_eliminations%'
-  fancy-value: '&7 | &a%fortresswars_game_eliminations_player_list%&7 | &c%fortresswars_game_deaths_player_list%&7 | &d%fortresswars_game_assists_player_list%&7 | '
+  fancy-value: '&7 | &a%fortresswars_game_eliminations_player_list%&7 | &c%fortresswars_game_deaths_player_list%&7
+    | &d%fortresswars_game_assists_player_list%&7 | '
+  title: Java Edition is better
+  render-type: INTEGER
 layout:
   enabled: false
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+  redis:
+    url: redis://:password@localhost:6379/0
+  rabbitmq:
+    exchange: plugin
+    url: amqp://guest:guest@localhost:5672/%2F
+compensate-for-packetevents-bug: false
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
