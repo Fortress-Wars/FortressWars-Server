@@ -1,7 +1,7 @@
 id: minion_mayhem
 enabled: true
 name: Minion Mayhem
-description: A gamerule with minons kits only. Cooldowns are lower and minion count is higher.
+description: A gamerule with minions kits only. Cooldowns are lower and minion count is higher.
 defaultKit: master
 canVote: true
 icon: CREEPER_HEAD

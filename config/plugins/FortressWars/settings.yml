@@ -119,6 +119,15 @@ settings:
     - demolitionist_time_played
     - demolitionist_total_wins_unweighted
     - demolitionist_triple_bomb_kills
+    - demon_time_played
+    - demon_total_wins_unweighted
+    - demon_eliminations
+    - demon_damage_dealt
+    - demon_blood_obtained
+    - demon_blood_consumed
+    - demon_blood_bonds_formed
+    - demon_blood_healing
+    - demon_homing_hemoglobin_kills
     - engineer_damage_dealt
     - engineer_dispenser_potions_given
     - engineer_dispensers_built
@@ -146,6 +155,15 @@ settings:
     - golem_eliminations
     - golem_time_played
     - golem_total_wins_unweighted
+    - grappler_time_played
+    - grappler_total_wins_unweighted
+    - grappler_eliminations
+    - grappler_damage_dealt
+    - grappler_hooks_casted
+    - grappler_entities_grappled
+    - grappler_hook_kills
+    - grappler_fall_damage_taken
+    - grappler_fall_deaths
     - gunner_damage_dealt
     - gunner_eliminations
     - gunner_machine_gun_kills
@@ -241,6 +259,14 @@ settings:
     - necromancer_skeletons_spawned
     - necromancer_time_played
     - necromancer_total_wins_unweighted
+    - ninja_time_played
+    - ninja_total_wins_unweighted
+    - ninja_eliminations
+    - ninja_damage_dealt
+    - ninja_ki_accumulated
+    - ninja_dodges_performed
+    - ninja_katana_parries_performed
+    - ninja_katana_parry_kills
     - none_damage_dealt
     - none_eliminations
     - none_final_blows

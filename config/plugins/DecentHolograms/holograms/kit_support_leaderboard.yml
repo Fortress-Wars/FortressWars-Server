@@ -34,7 +34,7 @@ pages:
     height: 0.3
   actions:
     LEFT:
-    - PAGE:7
+    - PAGE:8
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
     - NEXT_PAGE
@@ -79,6 +79,45 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
+  - content: ' &7===== &aTop Kit: Demon &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-demon-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-time-played_1_value_DURATION%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-demon-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-demon-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-demon-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bBlood Obtained: &a%fortresswars_leaderboards_statistic-demon-blood-obtained_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-blood-obtained_1_value_INT%'
+    height: 0.3
+  - content: '&bBlood Consumed: &a%fortresswars_leaderboards_statistic-demon-blood-consumed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-blood-consumed_1_value_INT%'
+    height: 0.3
+  - content: '&bBlood Bonds Formed: &a%fortresswars_leaderboards_statistic-demon-blood-bonds-formed_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-blood-bonds-formed_1_value_INT%'
+    height: 0.3
+  - content: '&bBlood Healing: &a%fortresswars_leaderboards_statistic-demon-blood-healing_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-blood-healing_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&5Homing Hemoglobin Kills: &a%fortresswars_leaderboards_statistic-demon-homing-hemoglobin-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-demon-homing-hemoglobin-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7==== &a3 &7====   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
   - content: ' &7===== &aTop Kit: Mathematician &7===== '
     height: 0.3
   - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-mathematician-time-played_1_name%
@@ -105,7 +144,7 @@ pages:
   - content: '&bProblems Solved Incorrectly: &a%fortresswars_leaderboards_statistic-mathematician-problems-solved-incorrectly_1_name%
       &7- &a%fortresswars_leaderboards_statistic-mathematician-problems-solved-incorrectly_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a3 &7====   &a-> '
+  - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -135,7 +174,7 @@ pages:
   - content: '&bPlayers Healed: &a%fortresswars_leaderboards_statistic-medic-players-healed_1_name%
       &7- &a%fortresswars_leaderboards_statistic-medic-players-healed_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a4 &7====   &a-> '
+  - content: ' &a<-   &7==== &a5 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -168,7 +207,7 @@ pages:
   - content: '&5Decay Kills: &a%fortresswars_leaderboards_statistic-mercy-decay-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-mercy-decay-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a5 &7====   &a-> '
+  - content: ' &a<-   &7==== &a6 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -210,7 +249,7 @@ pages:
   - content: '&5Burn Kills: &a%fortresswars_leaderboards_statistic-priest-burn-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-priest-burn-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a6 &7====   &a-> '
+  - content: ' &a<-   &7==== &a7 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
@@ -243,7 +282,7 @@ pages:
   - content: '&5Crossbow Kills: &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a7 &7====   &a-> '
+  - content: ' &a<-   &7==== &a8 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
