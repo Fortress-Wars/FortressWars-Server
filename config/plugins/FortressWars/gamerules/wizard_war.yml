@@ -32,7 +32,6 @@ enabledKits:
   - snowman
   - wizard
 
-
 # (Optional) The kit data values for this gamerule
 kitDataOverrides:
   shared:

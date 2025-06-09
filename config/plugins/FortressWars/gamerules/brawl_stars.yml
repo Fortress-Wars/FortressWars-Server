@@ -19,9 +19,6 @@ canVote: true
 # (Optional) The icon of the gamerule.
 icon: GOLDEN_SWORD
 
-# (Optional) The maximum number unique kits each team can use
-kitLimit: 1
-
 # (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
 # Note: The default kit is always included in the enabled kits
 enabledKits:
@@ -38,6 +35,7 @@ enabledKits:
   - medic
   - miner
   - necromancer
+  - ninja
   - porcupine
   - potion_master
   - slime

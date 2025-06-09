@@ -3,7 +3,7 @@ enabled: true
 name: Tournament
 description: This is the gamerule settings for tournaments.
 defaultKit: default
-canVote: false
+canVote: true
 icon: DIAMOND
 kitLimit: 1
 playerLimit: 4
@@ -17,3 +17,4 @@ disabledKits:
   - fish
   - mathematician
   - none
+  - archmage
