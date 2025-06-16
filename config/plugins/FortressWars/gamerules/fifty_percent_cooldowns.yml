@@ -80,7 +80,7 @@ kitDataOverrides:
     - GUNNER_FIRE_RATE=2.5
     - GUNNER_REV_UP_ICD=8
   hitman:
-    - HITMAN_ACTIVATE_EFFECT_COOLDOOWN=7.5
+    - HITMAN_ACTIVATE_EFFECT_COOLDOWN=7.5
   hulk:
     - HULK_RAGE_FORM_COOLDOWN=100
   illusionist:
