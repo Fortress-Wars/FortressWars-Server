@@ -147,6 +147,13 @@ settings:
     - fish_time_played
     - fish_total_wins_unweighted
     - games_played
+    - glacier_time_played
+    - glacier_total_wins_unweighted
+    - glacier_eliminations
+    - glacier_damage_dealt
+    - glacier_ice_balls_thrown
+    - glacier_enemies_frozen
+    - glacier_snowdrift_glides
     - golem_damage_dealt
     - golem_earth_shatter_kills
     - golem_earth_shatter_plus_2_kills
