@@ -40,12 +40,12 @@ services:
       - .env
     environment:
       TYPE: PAPER
-      VERSION: 1.19.4
+      VERSION: 1.21.4
       MEMORY: 8G
       EULA: true
       OVERRIDE_ICON : true
       REPLACE_ENV_VARIABLES: true
-      ENV_VARIABLE_PREFIX: MYSQL_
+      REPLACE_ENV_VARIABLE_PREFIX: ""
       ENABLE_ROLLING_LOGS: true
       ALLOW_NETHER: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: false

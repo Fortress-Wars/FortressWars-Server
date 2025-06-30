@@ -1,4 +1,4 @@
-version: 2.0.2
+version: 2.1.0
 logLevel: warn
 spawn: lobby,0,72,0,-180,0
 database:

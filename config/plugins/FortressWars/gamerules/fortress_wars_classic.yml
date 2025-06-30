@@ -13,8 +13,11 @@ description: "Only the original Fortress Wars kits."
 # (Required) The default kit of the gamerule
 defaultKit: default
 
-# (Optional) If players should be able to use premium kits they do not have unlocked.
-allowPremiumKits: true
+# (Optional) If the gamerule can be voted for during the gamerule voting phase.
+canVote: true
+
+# (Optional) The icon of the gamerule.
+icon: BEACON
 
 # (Optional) Kits that are allowed by this gamerule. Note, if this property is preset, disabledKits will not have any effect
 # Note: The default kit is always included in the enabled kits
@@ -26,7 +29,9 @@ enabledKits:
   - demolitionist
   - engineer
   - fish
+  - glacier
   - gunner
+  - grappler
   - hulk
   - jumper
   - kangaroo
@@ -38,7 +43,6 @@ enabledKits:
   - prometheus
   - raven
   - sniper
-  - snowman
   - soldier
   - sonic
   - spy

@@ -12,11 +12,15 @@ Create an .env file in the root directory with the the following content and rep
 MYSQL_DATABASE=__value__
 MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__
+DISCORDSRV_BOT_TOKEN=__value__
+DISCORDSRV_CHANNEL_GLOBAL=__value__
+DISCORDSRV_CHANNEL_GAME=__value__
+DISCORDSRV_CHANNEL_KILLFEED=__value__
 ```
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.
 Requried Plugins:
-- [FortressWars 2.0.0](https://github.com/Fortress-Wars/FortressWars-3.0/releases)
+- [FortressWars 2.1.0](https://github.com/Fortress-Wars/FortressWars-Plugin/releases)
 - [PlaceholdersAPI 2.11.6](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [SuperVanish 6.2.20](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
 - [ProtocolLib 5.3.0](https://www.spigotmc.org/resources/protocollib.1997/updates)
@@ -30,7 +34,7 @@ Optional Plugins:
 - [ServerListPlus 3.5.0-Universal](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens 2.0.37](https://www.spigotmc.org/resources/citizens.13811/)
 - [DamageIndicators 1.17.0](https://www.spigotmc.org/resources/%E2%98%A0%EF%B8%8Fdamageindicator%E2%98%A0%EF%B8%8F-customisable-damage-indicator-multicolor-support-100-lagless-%E2%9C%A8.92423/)
-- [DiscordSRV 1.29.0](https://modrinth.com/plugin/discordsrv) *(For the "killfeed", and "game" fortress wars channels; Note you must configure these channels in the config.yml for this plugin)*
+- [DiscordSRV 1.29.0](https://modrinth.com/plugin/discordsrv) *(For the "killfeed", and "game" fortress wars channels; Configure these in the .env file to use them)*
 - [Simple Voice Chat 2.5.26](https://modrinth.com/plugin/simple-voice-chat) *(Make sure to configure the port)*
 - [Luck Perms 5.4.152](https://luckperms.net/)
 
