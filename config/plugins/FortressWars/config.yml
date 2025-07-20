@@ -1,4 +1,4 @@
-version: 2.1.0
+version: 2.2.0
 logLevel: ${FW_LOG_LEVEL}
 spawn: lobby,0,72,0,-180,0
 database:
