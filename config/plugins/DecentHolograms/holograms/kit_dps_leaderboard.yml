@@ -528,7 +528,7 @@ pages:
   - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-ninja-time-played_1_name%
       &7- &a%fortresswars_leaderboards_statistic-ninja-time-played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_statistic-none-total-wins-unweighted_1_name%
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-ninja-total-wins-unweighted_1_name%
       &7- &a%fortresswars_leaderboards_statistic-ninja-total-wins-unweighted_1_value_INT%'
     height: 0.3
   - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-ninja-eliminations_1_name%

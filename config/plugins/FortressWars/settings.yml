@@ -29,6 +29,16 @@ settings:
   #  medium: 10
   #  high: 15
 
+  # Killstreaks
+  killstreaks:
+    enabled: true
+    killsPerLevel: 5
+    glowingDurationFromLevelIncrease: 60
+
+  # Combat
+  combat:
+    enforceOutOfCombatKitSwitching: true
+
   # Leaderboard settings
   leaderboards:
     frequencyTicks: 18000
