@@ -9,6 +9,7 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
 Create an .env file in the root directory with the the following content and replace `__value__` with the value you want.
 
 ```_
+FW_LOG_LEVEL=warn
 MYSQL_DATABASE=__value__
 MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__

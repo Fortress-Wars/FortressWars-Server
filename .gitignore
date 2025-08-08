@@ -6,3 +6,5 @@
 
 # Plugin Jars
 plugins/*.jar
+
+.idea

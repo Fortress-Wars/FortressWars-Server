@@ -29,6 +29,7 @@ enabledKits:
   - demolitionist
   - engineer
   - fish
+  - glacier
   - gunner
   - grappler
   - hulk
@@ -42,7 +43,6 @@ enabledKits:
   - prometheus
   - raven
   - sniper
-  - snowman
   - soldier
   - sonic
   - spy
