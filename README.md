@@ -6,10 +6,13 @@
 
 Install [Docker](https://www.docker.com/products/docker-desktop/)
 
-Create an .env file in the root directory with the the following content and replace `__value__` with the value you want.
+Create an .env file in the root directory with the the following content and replace `__value__` with the value you want. 
+
+**Important**: Set the value of `MYSQL_HOST` to `localhost` if in a development enviornment or `db` in every other environment.
 
 ```_
 FW_LOG_LEVEL=warn
+MYSQL_HOST=__value__
 MYSQL_DATABASE=__value__
 MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__
