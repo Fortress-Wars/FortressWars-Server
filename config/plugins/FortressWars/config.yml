@@ -11,3 +11,4 @@ database:
 kingOfTheLadder:
   sign: lobby,40,66,27
   radius: 6
+addCustomTextures: true
