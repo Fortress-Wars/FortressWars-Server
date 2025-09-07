@@ -279,13 +279,13 @@ pages:
   - content: '&bTotal Healing: &a%fortresswars_leaderboards_statistic-snow-golem-healing-done_1_name%
       &7- &a%fortresswars_leaderboards_statistic-snow-golem-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bSnow Layer Healing Done: &a%fortresswars_leaderboards_statistic-snow-golem-snow-layer-healing-done_1_name%
+  - content: '&bSnow Layer Healing: &a%fortresswars_leaderboards_statistic-snow-golem-snow-layer-healing-done_1_name%
       &7- &a%fortresswars_leaderboards_statistic-snow-golem-snow-layer-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bPlayer Icicle Healing Done: &a%fortresswars_leaderboards_statistic-snow-golem-player-icicle-healing-done_1_name%
+  - content: '&bPlayer Icicle Healing: &a%fortresswars_leaderboards_statistic-snow-golem-player-icicle-healing-done_1_name%
       &7- &a%fortresswars_leaderboards_statistic-snow-golem-player-icicle-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bSnow Golem Icicle Healing Done: &a%fortresswars_leaderboards_statistic-snow-golem-minion-icicle-healing-done_1_name%
+  - content: '&bSnow Golem Icicle Healing: &a%fortresswars_leaderboards_statistic-snow-golem-minion-icicle-healing-done_1_name%
       &7- &a%fortresswars_leaderboards_statistic-snow-golem-minion-icicle-healing-done_1_value_DOUBLE%'
     height: 0.3
   - content: '&5Icicle Kills: &a%fortresswars_leaderboards_statistic-snow-golem-icicle-kills_1_name%
