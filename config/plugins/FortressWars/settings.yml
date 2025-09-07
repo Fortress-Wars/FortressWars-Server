@@ -369,6 +369,19 @@ settings:
     - snowman_snowstorms_casted
     - snowman_time_played
     - snowman_total_wins_unweighted
+    - snow_golem_damage_dealt
+    - snow_golem_eliminations
+    - snow_golem_enemies_frozen
+    - snow_golem_snowballs_casted
+    - snow_golem_snowstorms_casted
+    - snow_golem_time_played
+    - snow_golem_total_wins_unweighted
+    - snow_golem_minions_spawned
+    - snow_golem_icicle_kills
+    - snow_golem_healing_done
+    - snow_golem_snow_layer_healing_done
+    - snow_golem_player_icicle_healing_done
+    - snow_golem_minion_icicle_healing_done
     - soldier_damage_dealt
     - soldier_eliminations
     - soldier_grenade_kills
