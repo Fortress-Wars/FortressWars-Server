@@ -1,0 +1,11 @@
+id: support_only
+enabled: true
+name: Support Kits Only
+description: Only support kits are enabled.
+defaultKit: medic
+canVote: true
+icon: EMERALD
+roleLimit:
+  tank: 0
+  damage: 0
+  utility: 0

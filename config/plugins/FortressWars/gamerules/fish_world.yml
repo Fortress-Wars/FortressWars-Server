@@ -1,0 +1,10 @@
+id: fish_world
+enabled: true
+name: Fish World
+description: Kit Fish!!!
+defaultKit: fish
+canVote: true
+icon: COD
+enabledKits:
+  - fish
+

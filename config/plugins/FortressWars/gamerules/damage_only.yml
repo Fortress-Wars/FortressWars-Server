@@ -1,0 +1,11 @@
+id: damage_only
+enabled: true
+name: Damage Kits Only
+description: Only damage kits are enabled.
+defaultKit: default
+canVote: true
+icon: IRON_SWORD
+roleLimit:
+  tank: 0
+  support: 0
+  utility: 0
