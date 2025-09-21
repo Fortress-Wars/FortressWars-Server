@@ -3,11 +3,6 @@ name: Deploy
 on:
   workflow_dispatch:
     inputs:
-      deploy_to_stage:
-        description: 'Option to deploy to stage'
-        required: true
-        type: boolean
-        default: false
       deploy_to_production:
         description: "Option to deploy to production (Only for main branch)"
         required: true
@@ -15,7 +10,7 @@ on:
         default: false
 
 jobs:
-  build:
+  deploy:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
@@ -24,72 +19,96 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-      - name: Set up JDK 21
-        uses: actions/setup-java@v4
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-          cache: maven
-      - name: Get Info From Command Line
+
+      - name: Make build_files directory
         run: |
-          echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
-          echo "COMMITS=$(git rev-list --count HEAD)" >> $GITHUB_ENV
-          echo "SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
-          echo "REF=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
-      - name: create about.json
-        uses: devops-actions/json-to-file@v1.0.4
-        with:
-          json: '{ "BRANCH": "${{ env.REF }}", "SHA": "${{ github.sha }}", "VERSION": "${{ env.VERSION }}.${{ env.COMMITS }}"}'
-          filename: 'about.json'
-      - name: Build with Maven
-        run: mvn -B package -P prod --file pom.xml
-      - name: Make Directories
-        run:
           mkdir build_files
-      - name: Copy Files
+          mkdir build_files/maps
+          mkdir build_files/configs
+          mkdir build_files/configs/config
+          mkdir build_files/configs/plugins
+          mkdir build_files/configs/plugins/DiscordSRV
+          mkdir build_files/configs/plugins/FortressWars
+
+      # Paper
+      - name: Copy Files (Paper)
         run: |
-          cp target/FortressWars-${{ env.VERSION }}.jar build_files/FortressWars-${{ env.VERSION }}.${{ env.COMMITS }}.jar
-          cp about.json build_files/about.json
-      - name: Upload Deployment File
-        uses: actions/upload-artifact@v4.0.0
-        with:
-          name: fortresswars
-          path: build_files
-  deploy_stage:
-    if: github.event_name == 'workflow_dispatch' && inputs.deploy_to_stage == true
-    needs: [ build ]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Make Directory
-        run:
-          mkdir deployment_files
-      - name: Download Build Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: fortresswars
-          path: deployment_files
-      - name: Read about.json
-        uses: antifree/json-to-variables@v1.2.0
-        with:
-          filename: 'deployment_files/about.json'
-          prefix: 'FW'
-      - name: SFTP Deploy JAR File
+          cp config/spigot.yml build_files/configs/spigot.yml
+          cp config/paper-world-defaults.yml build_files/configs/config/paper-world-defaults.yml
+          cp config/paper-global.yml build_files/configs/config/paper-global.yml
+
+      # Advanced Ban
+      - name: Copy Files (Advanced Ban)
+        run: |
+          cp -r config/plugins/AdvancedBan build_files/configs/plugins/AdvancedBan
+      
+      # Citizens
+      - name: Copy Files (Citizens)
+        run: |
+          cp -r config/plugins/Citizens build_files/configs/plugins/Citizens
+        
+      # DamageIndicator
+      - name: Copy Files (DamageIndicator)
+        run: |
+          cp -r config/plugins/DamageIndicator build_files/configs/plugins/DamageIndicator
+
+      # DecentHolograms
+      - name: Copy Files (DecentHolograms)
+        run: |
+          cp -r config/plugins/DecentHolograms build_files/configs/plugins/DecentHolograms
+
+      # DiscordSRV - skip copying files that use environment variables
+      - name: Copy Files (DiscordSRV)
+        run: |
+          cp -r config/plugins/DiscordSRV/messages.yml build_files/configs/plugins/DiscordSRV/messages.yml
+
+      # FortressWars - skip copying files that use environment variables
+      - name: Copy Files (FortressWars)
+        run: |
+          cp -r config/plugins/FortressWars/gamerules build_files/configs/plugins/FortressWars/gamerules
+          cp -r config/plugins/FortressWars/settings.yml build_files/configs/plugins/FortressWars/settings.yml
+
+      # PL-Hide-Free
+      - name: Copy Files (PL-Hide-Free)
+        run: |
+          cp -r config/plugins/PL-Hide-Free build_files/configs/plugins/PL-Hide-Free
+
+      # ServerListPlus
+      - name: Copy Files (ServerListPlus)
+        run: |
+          cp -r config/plugins/ServerListPlus build_files/configs/plugins/ServerListPlus
+
+      # SuperVanish
+      - name: Copy Files (SuperVanish)
+        run: |
+          cp -r config/plugins/SuperVanish build_files/configs/plugins/SuperVanish
+        
+      # TAB
+      - name: Copy Files (TAB)
+        run: |
+          cp -r config/plugins/TAB build_files/configs/plugins/TAB
+
+      # Upload (Stage)
+      - name: Upload (Stage)
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           username: ${{ secrets.SFTP_STAGE_USERNAME }}
           password: ${{ secrets.SFTP_STAGE_PASSWORD }}
           server: ${{ secrets.SFTP_STAGE_SERVER }}
           port: ${{ secrets.SFTP_STAGE_PORT }}
-          local_path: deployment_files/FortressWars-${{ env.FW_VERSION }}.jar
-          remote_path: /plugins/FortressWars.jar
+          local_path: build_files/configs/*
+          remote_path: /.
           sftp_only: true
-      - name: SFTP Deploy About File
+      
+      # Upload (Production)
+      - name: Upload (Production)
+        if: github.ref_name == 'main' && inputs.deploy_to_production == true
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          username: ${{ secrets.SFTP_STAGE_USERNAME }}
-          password: ${{ secrets.SFTP_STAGE_PASSWORD }}
-          server: ${{ secrets.SFTP_STAGE_SERVER }}
-          port: ${{ secrets.SFTP_STAGE_PORT }}
-          local_path: deployment_files/about.json
-          remote_path: /plugins/fortresswars-about.json
+          username: ${{ secrets.SFTP_PRODUCTION_USERNAME }}
+          password: ${{ secrets.SFTP_PRODUCTION_PASSWORD }}
+          server: ${{ secrets.SFTP_PRODUCTION_SERVER }}
+          port: ${{ secrets.SFTP_PRODUCTION_PORT }}
+          local_path: build_files/configs/*
+          remote_path: /.
           sftp_only: true
