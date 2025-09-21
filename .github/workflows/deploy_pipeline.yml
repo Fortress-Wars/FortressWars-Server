@@ -91,7 +91,7 @@ jobs:
       # Maps
       - name: Copy Files (Maps)
         run: |
-          cp -r worlds/map_* build_files/configs/maps
+          cp -r worlds/map_* build_files/maps
 
       # Upload Configs
       - name: Upload (Config)
