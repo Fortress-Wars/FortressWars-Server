@@ -113,7 +113,7 @@ jobs:
           password: ${{ secrets.SFTP_STAGE_PASSWORD }}
           server: ${{ secrets.SFTP_STAGE_SERVER }}
           port: ${{ secrets.SFTP_STAGE_PORT }}
-          local_path: build_files/maps/*
-          remote_path: /maps
+          local_path: build_files/maps
+          remote_path: /.
           sftp_only: true
           delete_remote_files: true
