@@ -23,83 +23,97 @@ jobs:
       - name: Make build_files directory
         run: |
           mkdir build_files
-          mkdir build_files/config
-          mkdir build_files/plugins
-          mkdir build_files/plugins/DiscordSRV
-          mkdir build_files/plugins/FortressWars
           mkdir build_files/maps
+          mkdir build_files/configs
+          mkdir build_files/configs/config
+          mkdir build_files/configs/plugins
+          mkdir build_files/configs/plugins/DiscordSRV
+          mkdir build_files/configs/plugins/FortressWars
 
       # Paper
       - name: Copy Files (Paper)
         run: |
-          cp config/spigot.yml build_files/spigot.yml
-          cp config/paper-world-defaults.yml build_files/config/paper-world-defaults.yml
-          cp config/paper-global.yml build_files/config/paper-global.yml
+          cp config/spigot.yml build_files/configs/spigot.yml
+          cp config/paper-world-defaults.yml build_files/configs/config/paper-world-defaults.yml
+          cp config/paper-global.yml build_files/configs/config/paper-global.yml
 
       # Advanced Ban
       - name: Copy Files (Advanced Ban)
         run: |
-          cp -r config/plugins/AdvancedBan build_files/plugins/AdvancedBan
+          cp -r config/plugins/AdvancedBan build_files/configs/plugins/AdvancedBan
       
       # Citizens
       - name: Copy Files (Citizens)
         run: |
-          cp -r config/plugins/Citizens build_files/plugins/Citizens
+          cp -r config/plugins/Citizens build_files/configs/plugins/Citizens
         
       # DamageIndicator
       - name: Copy Files (DamageIndicator)
         run: |
-          cp -r config/plugins/DamageIndicator build_files/plugins/DamageIndicator
+          cp -r config/plugins/DamageIndicator build_files/configs/plugins/DamageIndicator
 
       # DecentHolograms
       - name: Copy Files (DecentHolograms)
         run: |
-          cp -r config/plugins/DecentHolograms build_files/plugins/DecentHolograms
+          cp -r config/plugins/DecentHolograms build_files/configs/plugins/DecentHolograms
 
       # DiscordSRV - skip copying files that use environment variables
       - name: Copy Files (DiscordSRV)
         run: |
-          cp -r config/plugins/DiscordSRV/messages.yml build_files/plugins/DiscordSRV/messages.yml
+          cp -r config/plugins/DiscordSRV/messages.yml build_files/configs/plugins/DiscordSRV/messages.yml
 
       # FortressWars - skip copying files that use environment variables
       - name: Copy Files (FortressWars)
         run: |
-          cp -r config/plugins/FortressWars/gamerules build_files/plugins/FortressWars/gamerules
-          cp -r config/plugins/FortressWars/settings.yml build_files/plugins/FortressWars/settings.yml
+          cp -r config/plugins/FortressWars/gamerules build_files/configs/plugins/FortressWars/gamerules
+          cp -r config/plugins/FortressWars/settings.yml build_files/configs/plugins/FortressWars/settings.yml
 
       # PL-Hide
       - name: Copy Files (PL-Hide)
         run: |
-          cp -r config/plugins/PL-Hide build_files/plugins/PL-Hide
+          cp -r config/plugins/PL-Hide build_files/configs/plugins/PL-Hide
 
       # ServerListPlus
       - name: Copy Files (ServerListPlus)
         run: |
-          cp -r config/plugins/ServerListPlus build_files/plugins/ServerListPlus
+          cp -r config/plugins/ServerListPlus build_files/configs/plugins/ServerListPlus
 
       # SuperVanish
       - name: Copy Files (SuperVanish)
         run: |
-          cp -r config/plugins/SuperVanish build_files/plugins/SuperVanish
+          cp -r config/plugins/SuperVanish build_files/configs/plugins/SuperVanish
         
       # TAB
       - name: Copy Files (TAB)
         run: |
-          cp -r config/plugins/TAB build_files/plugins/TAB
+          cp -r config/plugins/TAB build_files/configs/plugins/TAB
 
       # Maps
       - name: Copy Files (Maps)
         run: |
-          cp -r config/plugins/worlds/map_* build_files/maps
+          cp -r worlds/map_* build_files/configs/maps
 
-      # Upload
-      - name: Deploy Decent Holograms Config
+      # Upload Configs
+      - name: Upload (Config)
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           username: ${{ secrets.SFTP_STAGE_USERNAME }}
           password: ${{ secrets.SFTP_STAGE_PASSWORD }}
           server: ${{ secrets.SFTP_STAGE_SERVER }}
           port: ${{ secrets.SFTP_STAGE_PORT }}
-          local_path: config/plugins/DecentHolograms
-          remote_path: /plugins
+          local_path: build_files/configs
+          remote_path: /.
           sftp_only: true
+
+      # Upload Maps
+      - name: Upload (Maps)
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SFTP_STAGE_USERNAME }}
+          password: ${{ secrets.SFTP_STAGE_PASSWORD }}
+          server: ${{ secrets.SFTP_STAGE_SERVER }}
+          port: ${{ secrets.SFTP_STAGE_PORT }}
+          local_path: build_files/maps
+          remote_path: /maps
+          sftp_only: true
+          delete_remote_files: true
