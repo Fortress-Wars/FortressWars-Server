@@ -88,14 +88,27 @@ jobs:
         run: |
           cp -r config/plugins/TAB build_files/configs/plugins/TAB
 
-      # Upload Configs
-      - name: Upload (Config)
+      # Upload (Stage)
+      - name: Upload (Stage)
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           username: ${{ secrets.SFTP_STAGE_USERNAME }}
           password: ${{ secrets.SFTP_STAGE_PASSWORD }}
           server: ${{ secrets.SFTP_STAGE_SERVER }}
           port: ${{ secrets.SFTP_STAGE_PORT }}
+          local_path: build_files/configs/*
+          remote_path: /.
+          sftp_only: true
+      
+      # Upload (Production)
+      - name: Upload (Production)
+        if: github.ref_name == 'main' && inputs.deploy_to_production == true
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SFTP_PRODUCTION_USERNAME }}
+          password: ${{ secrets.SFTP_PRODUCTION_PASSWORD }}
+          server: ${{ secrets.SFTP_PRODUCTION_SERVER }}
+          port: ${{ secrets.SFTP_PRODUCTION_PORT }}
           local_path: build_files/configs/*
           remote_path: /.
           sftp_only: true
