@@ -1,0 +1,95 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy_to_stage:
+        description: 'Option to deploy to stage'
+        required: true
+        type: boolean
+        default: false
+      deploy_to_production:
+        description: "Option to deploy to production (Only for main branch)"
+        required: true
+        type: boolean
+        default: false
+
+jobs:
+  build:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+      - name: Get Info From Command Line
+        run: |
+          echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
+          echo "COMMITS=$(git rev-list --count HEAD)" >> $GITHUB_ENV
+          echo "SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+          echo "REF=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+      - name: create about.json
+        uses: devops-actions/json-to-file@v1.0.4
+        with:
+          json: '{ "BRANCH": "${{ env.REF }}", "SHA": "${{ github.sha }}", "VERSION": "${{ env.VERSION }}.${{ env.COMMITS }}"}'
+          filename: 'about.json'
+      - name: Build with Maven
+        run: mvn -B package -P prod --file pom.xml
+      - name: Make Directories
+        run:
+          mkdir build_files
+      - name: Copy Files
+        run: |
+          cp target/FortressWars-${{ env.VERSION }}.jar build_files/FortressWars-${{ env.VERSION }}.${{ env.COMMITS }}.jar
+          cp about.json build_files/about.json
+      - name: Upload Deployment File
+        uses: actions/upload-artifact@v4.0.0
+        with:
+          name: fortresswars
+          path: build_files
+  deploy_stage:
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy_to_stage == true
+    needs: [ build ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make Directory
+        run:
+          mkdir deployment_files
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: fortresswars
+          path: deployment_files
+      - name: Read about.json
+        uses: antifree/json-to-variables@v1.2.0
+        with:
+          filename: 'deployment_files/about.json'
+          prefix: 'FW'
+      - name: SFTP Deploy JAR File
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SFTP_STAGE_USERNAME }}
+          password: ${{ secrets.SFTP_STAGE_PASSWORD }}
+          server: ${{ secrets.SFTP_STAGE_SERVER }}
+          port: ${{ secrets.SFTP_STAGE_PORT }}
+          local_path: deployment_files/FortressWars-${{ env.FW_VERSION }}.jar
+          remote_path: /plugins/FortressWars.jar
+          sftp_only: true
+      - name: SFTP Deploy About File
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SFTP_STAGE_USERNAME }}
+          password: ${{ secrets.SFTP_STAGE_PASSWORD }}
+          server: ${{ secrets.SFTP_STAGE_SERVER }}
+          port: ${{ secrets.SFTP_STAGE_PORT }}
+          local_path: deployment_files/about.json
+          remote_path: /plugins/fortresswars-about.json
+          sftp_only: true
