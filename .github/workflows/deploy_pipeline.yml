@@ -65,7 +65,7 @@ jobs:
       - name: Copy Files (FortressWars)
         run: |
           cp -r config/plugins/FortressWars/gamerules build_files/plugins/FortressWars/gamerules
-          cp -r config/plugins/FortressWars/messages.yml build_files/plugins/FortressWars/messages.yml
+          cp -r config/plugins/FortressWars/settings.yml build_files/plugins/FortressWars/settings.yml
 
       # PL-Hide
       - name: Copy Files (PL-Hide)
