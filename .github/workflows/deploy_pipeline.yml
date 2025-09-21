@@ -116,5 +116,4 @@ jobs:
           ssh_private_key: ${{ secrets.SFTP_STAGE_SSH_KEY }}
           local_path: build_files/maps/*
           remote_path: /maps
-          sftp_only: true
           delete_remote_files: true
