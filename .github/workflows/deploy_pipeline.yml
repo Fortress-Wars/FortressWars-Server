@@ -19,27 +19,15 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-
-      # Decent Holograms (1/2)
-      - name: Deploy Decent Holograms Config (1/2)
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          username: ${{ secrets.SFTP_STAGE_USERNAME }}
-          password: ${{ secrets.SFTP_STAGE_PASSWORD }}
-          server: ${{ secrets.SFTP_STAGE_SERVER }}
-          port: ${{ secrets.SFTP_STAGE_PORT }}
-          local_path: config/plugins/DecentHolograms/holograms
-          remote_path: /plugins/DecentHolograms/holograms
-          sftp_only: true
       
       # Decent Holograms
-      - name: Deploy Decent Holograms Config (2/2)
+      - name: Deploy Decent Holograms Config
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           username: ${{ secrets.SFTP_STAGE_USERNAME }}
           password: ${{ secrets.SFTP_STAGE_PASSWORD }}
           server: ${{ secrets.SFTP_STAGE_SERVER }}
           port: ${{ secrets.SFTP_STAGE_PORT }}
-          local_path: config/plugins/DecentHolograms/config.yml
-          remote_path: /plugins/DecentHolograms/config.yml
+          local_path: config/plugins/DecentHolograms
+          remote_path: /plugins
           sftp_only: true
