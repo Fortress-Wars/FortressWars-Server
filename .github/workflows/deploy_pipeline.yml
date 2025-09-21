@@ -19,8 +19,80 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
+
+      - name: Make build_files directory
+        run: |
+          mkdir build_files
+          mkdir build_files/config
+          mkdir build_files/plugins
+          mkdir build_files/plugins/DiscordSRV
+          mkdir build_files/plugins/FortressWars
+          mkdir build_files/maps
+
+      # Paper
+      - name: Copy Files (Paper)
+        run: |
+          cp config/spigot.yml build_files/spigot.yml
+          cp config/paper-world-defaults.yml build_files/config/paper-world-defaults.yml
+          cp config/paper-global.yml build_files/config/paper-global.yml
+
+      # Advanced Ban
+      - name: Copy Files (Advanced Ban)
+        run: |
+          cp -r config/plugins/AdvancedBan build_files/plugins/AdvancedBan
       
-      # Decent Holograms
+      # Citizens
+      - name: Copy Files (Citizens)
+        run: |
+          cp -r config/plugins/Citizens build_files/plugins/Citizens
+        
+      # DamageIndicator
+      - name: Copy Files (DamageIndicator)
+        run: |
+          cp -r config/plugins/DamageIndicator build_files/plugins/DamageIndicator
+
+      # DecentHolograms
+      - name: Copy Files (DecentHolograms)
+        run: |
+          cp -r config/plugins/DecentHolograms build_files/plugins/DecentHolograms
+
+      # DiscordSRV - skip copying files that use environment variables
+      - name: Copy Files (DiscordSRV)
+        run: |
+          cp -r config/plugins/DiscordSRV/messages.yml build_files/plugins/DiscordSRV/messages.yml
+
+      # FortressWars - skip copying files that use environment variables
+      - name: Copy Files (FortressWars)
+        run: |
+          cp -r config/plugins/FortressWars/gamerules build_files/plugins/FortressWars/gamerules
+          cp -r config/plugins/FortressWars/messages.yml build_files/plugins/FortressWars/messages.yml
+
+      # PL-Hide
+      - name: Copy Files (PL-Hide)
+        run: |
+          cp -r config/plugins/PL-Hide build_files/plugins/PL-Hide
+
+      # ServerListPlus
+      - name: Copy Files (ServerListPlus)
+        run: |
+          cp -r config/plugins/ServerListPlus build_files/plugins/ServerListPlus
+
+      # SuperVanish
+      - name: Copy Files (SuperVanish)
+        run: |
+          cp -r config/plugins/SuperVanish build_files/plugins/SuperVanish
+        
+      # TAB
+      - name: Copy Files (TAB)
+        run: |
+          cp -r config/plugins/TAB build_files/plugins/TAB
+
+      # Maps
+      - name: Copy Files (Maps)
+        run: |
+          cp -r config/plugins/worlds/map_* build_files/maps
+
+      # Upload
       - name: Deploy Decent Holograms Config
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
