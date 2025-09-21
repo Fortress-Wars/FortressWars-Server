@@ -88,11 +88,6 @@ jobs:
         run: |
           cp -r config/plugins/TAB build_files/configs/plugins/TAB
 
-      # Maps
-      - name: Copy Files (Maps)
-        run: |
-          cp -r worlds/map_* build_files/maps
-
       # Upload Configs
       - name: Upload (Config)
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
@@ -104,16 +99,3 @@ jobs:
           local_path: build_files/configs/*
           remote_path: /.
           sftp_only: true
-
-      # Upload Maps
-      - name: Upload (Maps)
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          username: ${{ secrets.SFTP_STAGE_USERNAME }}
-          password: ${{ secrets.SFTP_STAGE_PASSWORD }}
-          server: ${{ secrets.SFTP_STAGE_SERVER }}
-          port: ${{ secrets.SFTP_STAGE_PORT }}
-          ssh_private_key: ${{ secrets.SFTP_STAGE_SSH_KEY }}
-          local_path: build_files/maps/*
-          remote_path: /maps
-          delete_remote_files: true
