@@ -34,7 +34,7 @@ Requried Plugins:
 Optional Plugins:
 - [Via Version 5.2.1](https://github.com/ViaVersion/ViaVersion/releases)
 - [Decent Holograms 2.9.6](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
-- [Plugins Hide 2.0.3](https://www.spigotmc.org/resources/plugin-hide-1-13-1-20-choose-which-commands-players-can-execute-and-see.68767/)
+- [Plugins Hide 1.5.22](https://www.spigotmc.org/resources/plugin-hide-1-13-choose-which-commands-players-can-execute-and-see.68767/history)
 - [ServerListPlus 3.5.0-Universal](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens 2.0.37](https://www.spigotmc.org/resources/citizens.13811/)
 - [DamageIndicators 1.20.0](https://www.spigotmc.org/resources/%E2%98%A0%EF%B8%8Fdamageindicator%E2%98%A0%EF%B8%8F-customisable-damage-indicator-multicolor-support-100-lagless-%E2%9C%A8.92423/)
