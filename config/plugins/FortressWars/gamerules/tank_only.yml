@@ -1,0 +1,11 @@
+id: tank_only
+enabled: true
+name: Tank Kits Only
+description: Only tank kits are enabled.
+defaultKit: CRUSADER
+canVote: true
+icon: SHIELD
+roleLimit:
+  damage: 0
+  support: 0
+  utility: 0
