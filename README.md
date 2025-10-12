@@ -10,6 +10,8 @@ Create an .env file in the root directory with the the following content and rep
 
 **Important**: Set the value of `MYSQL_HOST` to `localhost` if in a development enviornment or `db` in every other environment.
 
+**Important**: See [Fortress-Wars/FortressWars-Proxy](https://github.com/Fortress-Wars/FortressWars-Proxy) for details on the `__value__` for `FORWARDING_SECRET`
+
 ```_
 FW_LOG_LEVEL=warn
 MYSQL_HOST=__value__
@@ -20,6 +22,7 @@ DISCORDSRV_BOT_TOKEN=__value__
 DISCORDSRV_CHANNEL_GLOBAL=__value__
 DISCORDSRV_CHANNEL_GAME=__value__
 DISCORDSRV_CHANNEL_KILLFEED=__value__
+FORWARDING_SECRET=__value__
 ```
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.

@@ -125,9 +125,9 @@ proxies:
     online-mode: true
   proxy-protocol: false
   velocity:
-    enabled: false
+    enabled: true
     online-mode: false
-    secret: ''
+    secret: '${FORWARDING_SECRET}'
 scoreboards:
   save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false

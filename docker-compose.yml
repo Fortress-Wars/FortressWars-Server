@@ -33,13 +33,14 @@ services:
     depends_on:
       - db
     ports:
-      - "25565:25565"      
+      - "25600:25600"      
     tty: true
     stdin_open: true
     env_file:
       - .env
     environment:
       TYPE: PAPER
+      SERVER_PORT: 25600
       VERSION: 1.21.8
       MEMORY: 8G
       EULA: true
@@ -55,6 +56,7 @@ services:
       LEVEL: lobby
       VIEW_DISTANCE: 16
       SIMULATION_DISTANCE: 16
+      ONLINE_MODE: false
     volumes:
       - ./data:/data
 
