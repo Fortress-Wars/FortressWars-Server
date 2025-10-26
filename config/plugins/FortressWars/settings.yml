@@ -263,6 +263,10 @@ settings:
     - miner_beacon_damage
     - miner_beacon_hits
     - miner_total_wins_unweighted
+    - miner_gobblestone_collected
+    - miner_gobblestone_kills
+    - miner_gobblestone_double_kills
+    - miner_gobblestone_triple_kills
     - musketeer_damage_dealt
     - musketeer_eliminations
     - musketeer_rifle_kills
