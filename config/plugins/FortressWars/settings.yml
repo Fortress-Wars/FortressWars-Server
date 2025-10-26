@@ -39,6 +39,17 @@ settings:
   combat:
     enforceOutOfCombatKitSwitching: true
 
+  # Team Griefing
+  teamGriefing:
+    enabled: true
+    maxBlocks: 200
+    decayDelaySeconds: 10
+    warningMessageThresholds:
+      - 175
+      - 100
+    blocksToIgnore:
+      - COBWEB # Example
+
   # Leaderboard settings
   leaderboards:
     frequencyTicks: 18000
