@@ -460,6 +460,11 @@ settings:
         - message:
           padding: true
           lines:
+            - content: "   &a&oChat with friends in-game — try Simple Voice Chat!"
+            - content: "   &e&k|| &7&ohttps://modrinth.com/plugin/simple-voice-chat &e&k||"
+        - message:
+          padding: true
+          lines:
             - content: "   &a&oJoin our Discord and keep up with the latest server news!"
             - content: "                 &e&k|| &7&ohttps://discord.fortresswars.net &e&k||"
         - message:
@@ -507,11 +512,15 @@ settings:
         - message:
           padding: false
           lines:
-            - content: "&d[TIP] &7Easily coordinate with your teammates using the &a/teamchat &7command!"
+            - content: "&d[TIP] &7Easily message with your teammates using the &a/tc &7command!"
         - message:
           padding: false
           lines:
-            - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"                 
+            - content: "&d[TIP] &7Type &a/vc &7to turn team voice chat on or off!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"
     tips:
       enabled: true
       messages:
