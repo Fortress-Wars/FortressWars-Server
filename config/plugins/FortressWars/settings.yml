@@ -460,8 +460,8 @@ settings:
         - message:
           padding: true
           lines:
-            - content: "   &a&oChat with friends in-game — try Simple Voice Chat!"
-            - content: "   &e&k|| &7&ohttps://modrinth.com/plugin/simple-voice-chat &e&k||"
+            - content: "   &a&oChat with friends in-game — try the Simple Voice Chat mod!"
+            - content: "        &e&k|| &7&ohttps://modrinth.com/plugin/simple-voice-chat &e&k||"
         - message:
           padding: true
           lines:
