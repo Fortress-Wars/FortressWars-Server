@@ -138,6 +138,18 @@ pages:
   - content: '&bBeacon Hits: &a%fortresswars_leaderboards_statistic-miner-beacon-hits_1_name%
       &7- &a%fortresswars_leaderboards_statistic-miner-beacon-hits_1_value_INT%'
     height: 0.3
+  - content: '&bGobblestone Collected: &a%fortresswars_leaderboards_statistic-miner-gobblestone-collected_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-miner-gobblestone-collected_1_value_INT%'
+    height: 0.3
+  - content: '&bGobblestone Kills: &a%fortresswars_leaderboards_statistic-miner-gobblestone-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-miner-gobblestone-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Gobblestone Double Kills: &a%fortresswars_leaderboards_statistic-miner-gobblestone-double-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-miner-gobblestone-double-kills_1_value_INT%'
+    height: 0.3
+  - content: '&5Gobblestone Triple Kills: &a%fortresswars_leaderboards_statistic-miner-gobblestone-triple-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-miner-gobblestone-triple-kills_1_value_INT%'
+    height: 0.3
   - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
   actions:

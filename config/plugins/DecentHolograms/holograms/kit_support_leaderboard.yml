@@ -34,7 +34,7 @@ pages:
     height: 0.3
   actions:
     LEFT:
-    - PAGE:8
+    - PAGE:9
     - SOUND:UI_BUTTON_CLICK
     RIGHT:
     - NEXT_PAGE
@@ -259,6 +259,48 @@ pages:
     - NEXT_PAGE
     - SOUND:UI_BUTTON_CLICK
 - lines:
+  - content: ' &7===== &aTop Kit: Snow Golem &7===== '
+    height: 0.3
+  - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-snow-golem-time-played_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-time-played_1_value_DURATION%'
+    height: 0.3
+  - content: '&bWins: &a%fortresswars_leaderboards_statistic-snow-golem-total-wins-unweighted_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-total-wins-unweighted_1_value_INT%'
+    height: 0.3
+  - content: '&bEliminations: &a%fortresswars_leaderboards_statistic-snow-golem-eliminations_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-eliminations_1_value_INT%'
+    height: 0.3
+  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistic-snow-golem-damage-dealt_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-damage-dealt_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bSnow Golems Spawned: &a%fortresswars_leaderboards_statistic-snow-golem-minions-spawned_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-minions-spawned_1_value_INT%'
+    height: 0.3
+  - content: '&bTotal Healing: &a%fortresswars_leaderboards_statistic-snow-golem-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-healing-done_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bSnow Layer Healing: &a%fortresswars_leaderboards_statistic-snow-golem-snow-layer-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-snow-layer-healing-done_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bPlayer Icicle Healing: &a%fortresswars_leaderboards_statistic-snow-golem-player-icicle-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-player-icicle-healing-done_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&bSnow Golem Icicle Healing: &a%fortresswars_leaderboards_statistic-snow-golem-minion-icicle-healing-done_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-minion-icicle-healing-done_1_value_DOUBLE%'
+    height: 0.3
+  - content: '&5Icicle Kills: &a%fortresswars_leaderboards_statistic-snow-golem-icicle-kills_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-snow-golem-icicle-kills_1_value_INT%'
+    height: 0.3
+  - content: ' &a<-   &7==== &a8 &7====   &a-> '
+    height: 0.3
+  actions:
+    LEFT:
+    - PREV_PAGE
+    - SOUND:UI_BUTTON_CLICK
+    RIGHT:
+    - NEXT_PAGE
+    - SOUND:UI_BUTTON_CLICK
+- lines:
   - content: ' &7===== &aTop Kit: Vitalist &7===== '
     height: 0.3
   - content: '&bTime Played: &a%fortresswars_leaderboards_statistic-vitalist-time-played_1_name%
@@ -282,7 +324,7 @@ pages:
   - content: '&5Crossbow Kills: &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-vitalist-crossbow-kills_1_value_INT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a8 &7====   &a-> '
+  - content: ' &a<-   &7==== &a9 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:

@@ -1,14 +1,14 @@
-# This is the main configuration file for Spigot.
+# This is the Spigot configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# For a reference for any variable inside this file, check out the Spigot wiki at
-# http://www.spigotmc.org/wiki/spigot-configuration/
 #
-# If you need help with the configuration or have any questions related to Spigot,
-# join us at the Discord or drop by our forums and leave a post.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
 #
-# Discord: https://www.spigotmc.org/go/discord
-# Forums: http://www.spigotmc.org/
+# File Reference: https://docs.papermc.io/paper/reference/spigot-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
 settings:
   debug: false
@@ -21,6 +21,8 @@ settings:
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -41,6 +43,9 @@ messages:
   restart: Server is restarting
 world-settings:
   default:
+    unload-frozen-chunks: false
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
     seed-ancientcity: 20083232
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
@@ -67,6 +72,7 @@ world-settings:
     dragon-death-sound-radius: 0
     mob-spawn-range: 6
     growth:
+      pitcherplant-modifier: 100
       torchflower-modifier: 100
       twistingvines-modifier: 100
       weepingvines-modifier: 100
@@ -167,6 +173,7 @@ commands:
   tab-complete: 0
   send-namespaced: true
   silent-commandblock-console: false
+  enable-spam-exclusions: false
 players:
   disable-saving: false
 advancements:

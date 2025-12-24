@@ -39,6 +39,17 @@ settings:
   combat:
     enforceOutOfCombatKitSwitching: true
 
+  # Team Griefing
+  teamGriefing:
+    enabled: true
+    maxBlocks: 200
+    decayDelaySeconds: 10
+    warningMessageThresholds:
+      - 175
+      - 100
+    blocksToIgnore:
+      - COBWEB # Example
+
   # Leaderboard settings
   leaderboards:
     frequencyTicks: 18000
@@ -263,6 +274,10 @@ settings:
     - miner_beacon_damage
     - miner_beacon_hits
     - miner_total_wins_unweighted
+    - miner_gobblestone_collected
+    - miner_gobblestone_kills
+    - miner_gobblestone_double_kills
+    - miner_gobblestone_triple_kills
     - musketeer_damage_dealt
     - musketeer_eliminations
     - musketeer_rifle_kills
@@ -369,6 +384,19 @@ settings:
     - snowman_snowstorms_casted
     - snowman_time_played
     - snowman_total_wins_unweighted
+    - snow_golem_damage_dealt
+    - snow_golem_eliminations
+    - snow_golem_enemies_frozen
+    - snow_golem_snowballs_casted
+    - snow_golem_snowstorms_casted
+    - snow_golem_time_played
+    - snow_golem_total_wins_unweighted
+    - snow_golem_minions_spawned
+    - snow_golem_icicle_kills
+    - snow_golem_healing_done
+    - snow_golem_snow_layer_healing_done
+    - snow_golem_player_icicle_healing_done
+    - snow_golem_minion_icicle_healing_done
     - soldier_damage_dealt
     - soldier_eliminations
     - soldier_grenade_kills
@@ -432,6 +460,11 @@ settings:
         - message:
           padding: true
           lines:
+            - content: "   &a&oChat with friends in-game — try the Simple Voice Chat mod!"
+            - content: "        &e&k|| &7&ohttps://modrinth.com/plugin/simple-voice-chat &e&k||"
+        - message:
+          padding: true
+          lines:
             - content: "   &a&oJoin our Discord and keep up with the latest server news!"
             - content: "                 &e&k|| &7&ohttps://discord.fortresswars.net &e&k||"
         - message:
@@ -479,11 +512,15 @@ settings:
         - message:
           padding: false
           lines:
-            - content: "&d[TIP] &7Easily coordinate with your teammates using the &a/teamchat &7command!"
+            - content: "&d[TIP] &7Easily message with your teammates using the &a/tc &7command!"
         - message:
           padding: false
           lines:
-            - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"                 
+            - content: "&d[TIP] &7Type &a/vc &7to turn team voice chat on or off!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"
     tips:
       enabled: true
       messages:

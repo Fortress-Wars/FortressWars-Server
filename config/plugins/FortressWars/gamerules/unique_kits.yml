@@ -1,0 +1,8 @@
+id: kit_limit_1
+enabled: true
+name: Unique Kits
+description: Each player must play a unique kit. Kits cannot be played by multiple players on the same team.
+defaultKit: default
+canVote: true
+icon: NAME_TAG
+kitLimit: 1
