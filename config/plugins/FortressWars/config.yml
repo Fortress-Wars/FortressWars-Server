@@ -1,6 +1,7 @@
 version: 2.2.0
 logLevel: ${FW_LOG_LEVEL}
 spawn: lobby,0,72,0,-180,0
+wiki: "https://wiki.fortresswars.net"
 database:
   host: ${MYSQL_HOST}
   port: 3306
