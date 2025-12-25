@@ -71,7 +71,7 @@ pages:
   - content: '&e#10. &a%fortresswars_leaderboards_statistic-win-rate_10_name%
       &7- &a%fortresswars_leaderboards_statistic-win-rate_10_value_RATIOPERCENT%'
     height: 0.3
-  - content: ' &a<-   &7==== &a1 &7====   &a-> '
+  - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
   actions:
     LEFT:
