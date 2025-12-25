@@ -1,7 +1,7 @@
 id: explosive_anarchy
 enabled: true
 name: Explosive Anarchy
-description: Mostly Explosive kits with reduced cooldowns.
+description: Explosive-focused kits with reduced cooldowns for pure anarchy.
 defaultKit: soldier
 canVote: true
 icon: TNT

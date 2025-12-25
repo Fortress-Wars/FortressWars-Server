@@ -1,7 +1,7 @@
 id: witchcraft
 enabled: true
 name: Witchcraft
-description: Show off your witchcrafting skills with reduced cooldowns
+description: Master the art of witchcraft with reduced cooldowns.
 defaultKit: potion_master
 canVote: true
 icon: CAULDRON
