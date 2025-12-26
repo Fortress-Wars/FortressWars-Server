@@ -386,9 +386,6 @@ settings:
     - snowman_total_wins_unweighted
     - snow_golem_damage_dealt
     - snow_golem_eliminations
-    - snow_golem_enemies_frozen
-    - snow_golem_snowballs_casted
-    - snow_golem_snowstorms_casted
     - snow_golem_time_played
     - snow_golem_total_wins_unweighted
     - snow_golem_minions_spawned
@@ -522,7 +519,7 @@ settings:
           lines:
             - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"
     tips:
-      enabled: true
+      enabled: false
       messages:
         enoughCreditsForKit:
           padding: true
