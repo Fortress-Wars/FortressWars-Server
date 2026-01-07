@@ -20,7 +20,7 @@ npc:
         z: 20.5
         yaw: 48.878
         pitch: 2.6289
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       type: PLAYER
       skintrait:
         signature: VloDqVDVQGulZyahlbN2bc2Zn5lKytrOJfzhKTUnNNqP7Yc0M0InhDuS6InJu8QTYhBgBfspl5EhC3GvKGiLU6L2nLGmTAXDI4YWcb5OXUx3IX71Syb5fm/hV7tsCF5Y1763bBMyLx5CBpQF+5MLtPmphbMGSKpRcyDlsGto7WbhBhzBQ/bP577VTtE06tB59RLPAjp2ozzjJoaXIIMadn8bSBB/is0lijy1ef5mtDV4kwa4AF0nqlv1YCxlSyYdBm3Xq0QdLg1PifDdOX+imgyBALl0X7DSxJROmLQ7iIerCqlhfLEJPLOAyJxroJz0IDHHY+6C7ENu/VLBz06fsXDAamJ6eevYoJ9Gu99rfs6msxkHbxvgnTLoY5NOtsH186kUxM2Inz+FUGTLHtpovrM3jrDKN28W6NSVKocgpRvRugq26bmMWob0rvx/A025QKnpRH57xAE1134QrnA/fAolpfqKPE1U32F9jKpPFJJaSXFgDoN6ovKpgEBOWFISVlRlavSqo9acIj3Ded1YoeBABgV82Y15n27cYgFkmK+PtPzx0aFH7y4BTCZhzZoHlekuauKtLU0dseHH/3utpKi4kRU61LXSoOY+2jA2sl5HawIr9ajTnDfokhQ6MGmiQB6Fgero5MiHCH/kdrzHpECmjAP2YEWZD9HrLNDmYg8=
@@ -47,7 +47,7 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '6':
+  '2':
     metadata:
       cached-skin-uuid: 1e0a3adc-cdc0-4f27-8163-3113fb609cc4
       cached-skin-uuid-name: thepotatojesus
@@ -70,7 +70,7 @@ npc:
         z: -13.5
         yaw: -59.0969
         pitch: -10.9174
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
       hologramtrait:
@@ -92,7 +92,7 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '4':
+  '3':
     metadata:
       cached-skin-uuid: 9783078c-e04e-4dde-ac8a-908d14400ad4
       cached-skin-uuid-name: alfredodan
@@ -115,7 +115,7 @@ npc:
         z: -17.5
         yaw: -43.8461
         pitch: -0.4565
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
       hologramtrait:
@@ -137,7 +137,7 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '3':
+  '4':
     metadata:
       cached-skin-uuid: 64cd7d5b-947c-4061-89b3-0f28e0d840ca
       cached-skin-uuid-name: electricsparx
@@ -160,7 +160,7 @@ npc:
         z: -13.5
         yaw: -7.5534
         pitch: -24.8798
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
       hologramtrait:
@@ -182,7 +182,7 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '2':
+  '5':
     metadata:
       cached-skin-uuid: 9899afa2-b169-4389-839d-93c5748b0c70
       cached-skin-uuid-name: linkfd
@@ -206,7 +206,7 @@ npc:
         z: -21.5
         yaw: -5.5352
         pitch: 0.4521
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
       hologramtrait:
@@ -228,7 +228,7 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '10':
+  '6':
     name: '&2&lKit Menu'
     uuid: 05a1d7c0-c970-480a-b827-43e9608ec71a
     traits:
@@ -239,11 +239,9 @@ npc:
         z: -6.5
         yaw: -79.9153
         pitch: 2.9715
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       skintrait:
-        signature: erv6NA0gL+kvivgLzZaQJHDqiQqkeiR7nbP/DO+Fp9qupQaZJrG3ybmq0hUGsjnspv/Sg1PKE3W4xYqgnsndYAdxswN3EPjRR+0/R/Dc0l74mwB2IQ6jwB3AYSdgMZh27jI7JRaEAHr4Q4D+MrYJTzYDdCdLD0MUM01Y7ZJz2oIHrkwuoebmeeZwEb7b7ACW1YdPElssyAt9v3NgC9KGKRFe5wIcwrlugjh4H5O3p79zslyOVWw97kDT/a759RF0SkeN/EetPFBINGmAvrbJbMAuJlR+N3+syZA/FETXR14zIFkQaAwnfYFDBEHzQEpG86MX/fb/t2/RxPAzVPrL+dug+lUTPTZF+ZdSQatpmjo09uLQ/5I5Vm/bvrG1+LHlgSpvZQYXlWT6Hf91UW2yJ8eHYKQiK/y5qEox6Ha76IpOa23w+7z/jULuWjTVtPB1u3ce4ForHqqFg/jwmKiat8N1HaQw42DpvSf0lFaNJCtV/MZVPJ4ieB9d3CzYuiVwYU3MdMyV2b/GonkWjyBUpsaip5VbVc4DcvCe438NZ9axbrl4GOjaEsKakC/IzWo5uWLpgf91gqSbtrlOtKBRMDA10AXx4o86FnZr1usKtvuFh/jcQIJLA4CJ8w5y9Qme+AtD3jSiqxIQJ2wUIhORL62bQyY7ydD0lryhxGUgqR8=
-        skinName: FW3_DEV
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMjM0MzQ3Njg0MCwKICAicHJvZmlsZUlkIiA6ICJjYzBlNjU1NTQxMmE0MmE3YmMyNzZjOTlkZGQwMDQ4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGVzNfREVWIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1MjFhYjI4N2ZlYmQzNDdhNmFjZTM2NWYwYmIyMzc1NjNmYmJhZmI0MjJmMTQzY2Y1YjQ0YTY3OGMxNGI3ZjUiCiAgICB9CiAgfQp9
+        skinName: mirror
       type: PLAYER
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -331,7 +329,7 @@ npc:
     metadata:
       cached-skin-uuid: cc0e6555-412a-42a7-bc27-6c99ddd00487
       cached-skin-uuid-name: fw3_dev
-  '9':
+  '7':
     metadata:
       cached-skin-uuid: 9b2b559c-747f-4395-a4be-71a0acaf99a5
       cached-skin-uuid-name: 7accdc13-3b31-4444-abec-4e12375268f1
@@ -345,7 +343,7 @@ npc:
         z: -6.5
         yaw: 84.4041
         pitch: -2.3274
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       skintrait:
         signature: SqUJeKhBWTmVgS528GkcCo4LHvARR3eXzoWDRj90zEeVrFbMyWtaUKbqI9Ke+fN/D6neBRVT13HcZWLRO2HY54GGvBSjpFdA7W6phGvrFFYwtTC4WNa4PiwH0cOlImA0S8aqa4B5Zxo6FCczJ2T3jxU7EIusSUVEdhzHPWOPZH0auXaGrL2pcj5XwjNhPXCC4cng2ZM1BC7gMS0v6A2OMQzhw8YZr87mpl6LwHhcRV1AvdScsS15E+96rIGy5vCvJ1i2P6u7gyQZBZFBMsDTNK5g/Ad/YoMNaPndbc34Bxelitii1XtKHX8cg0Vm+dMHxX5VLvxQ0lmJ7WyQyb+wLfp5Fivk50hwGWqNxUE31cCWfH4nLYEPHNt7bfqHMhC/0FWyXNJrkJlMcejY8pJVEbjdIGEoHVlKx/akeQML6cLTRkby6edy80gkEFUU7Zo/ktl28KCPMXgcZ6/V8FtoaDN5YmAT/rsTN9y0jBHYVluaEsBcpJv2Iz7ZSZ4erNB5wjUyojhGNw7kKG75YFZM8LgFw7resxCxcG31lozR11iqrbZzVNBvVTrJsqrZUpjZaESYb8otMcqjA3Zqirr7kqFiF4/v2IzQkTULi3vQJXbMziMXNskXQgedxGgjB4xQC0jXtYxC/Xy0KmFxfxG1xrzgJloztRQxgBK19phIz9A=
         skinName: 7accdc13-3b31-4444-abec-4e12375268f1
@@ -399,7 +397,7 @@ npc:
         z: 7.5
         yaw: 138.9754
         pitch: 12.7617
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       villagertrait:
         level: 5
         type: minecraft:plains
@@ -446,11 +444,10 @@ npc:
       hurt-sound: ''
       silent-sounds: true
       minecraft-ai: false
-  '7':
+  '9':
     metadata:
       cached-skin-uuid: b4186318-f8dc-4e04-886c-58144b7dbd19
       cached-skin-uuid-name: 8816d858-baae-4388-b2eb-5418d2015497
-      nameplate-visible: hover
     name: '&7&lParkour Menu'
     uuid: 97afb678-f5e8-4cda-8020-0dbaccdf881c
     traits:
@@ -461,7 +458,7 @@ npc:
         z: 7.5
         yaw: -145.7589
         pitch: -2.0464
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       skintrait:
         signature: sUHh6q0h4rbEm/BZGdNkF7TmNSJwz0BKLq1AGDSsNZKu05QjxHJOK9vw1ATtYbbWFZ5J+ARVeVtgxJlp1opcpLRMHQeFy7/0HWJxls7hZnStWXsuw6dpBkH8kKh6tWGFVpKftwzj53UC4DaYOeNKGrs2QkWVvzOlik+4/efg3t5fi3tYLJBEjaxu41iryjiJZc9Xi3joEtMTAH+THquTT607EEeEIFw1oJP913VRseYgDJ10g08RruTzkoMiDVO8nQzVAwxz7cy94OIrt6Zz2NA2RVTacGe+a/QecFRNeIBml5wXbjRAr7Is3XCWGMEYf3pQTZr5GQUyBoU1Kvo9CpawjyHZVCkDufbJ66R86nvQcZicSHvze1smZaIhWti8QuGuCflNR3nJItbo4aYMIUbVXGIx35+Hok3HdMxivvNuQ3eVYOWna4/9orXJ45WoKXsVhCW27UIrLUbVzKdJY+HY/xS6woDaSE9BNUXLN1LWMmtrdN8O7Dz2VQrnj8yf90MHCtQIQ+LaN1I2W43yrFF4fi+z6ptq6SaKopLV3g0CJempx0NbBjUU/QX2t3pCFOjXuQm+yaqu6S8cgSx1ownOyZjHyo+JYSar2gkLPp0M50o/JuHR1pH1i9rdVs075+TXyOrCOOGbeijJWXABpptXiYpmk34LbvG60bjnB4A=
         skinName: 8816d858-baae-4388-b2eb-5418d2015497
@@ -504,7 +501,7 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
-  '11':
+  '10':
     metadata:
       cached-skin-uuid: af19c5c8-c60d-4398-a935-4245d7636bdf
       cached-skin-uuid-name: _legendaryotter
@@ -535,7 +532,7 @@ npc:
         z: -17.5
         yaw: 19.049
         pitch: -0.5983
-        worldid: e82dd2d6-c9d0-4ca9-8536-7d4a1f97c6e1
+        world: lobby
       attributetrait:
         attributes:
           WAYPOINT_TRANSMIT_RANGE: 0.0

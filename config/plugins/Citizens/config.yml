@@ -44,6 +44,32 @@ npc:
     # Whether to use the Citizens pathfinder instead of the Minecraft pathfinder
     # Much more flexible, but may have different performance characteristics
     use-new-finder: false
+    citizens:
+      # Number of blocks to pathfind per tick
+      blocks-per-tick: 250
+      # Duration of time to keep chunks used in async pathfinding in memory for.
+      # Decrease this value if you expect chunks to be changed rapidly during pathfinding, or increase it if chunks rarely change during pathfinding at the expense of memory.
+      async-chunk-cache-expiry: 5s
+      # Whether to check bounding boxes when pathfinding such as between fences, inside doors, or other half-blocks
+      check-bounding-boxes: false
+      # The maximum number of blocks to check when pathfinding
+      maximum-search-blocks: 1024
+      # Whether to open doors while pathfinding (should close them as well)
+      open-doors: false
+    # Debug pathfinding by showing fake target blocks
+    debug-paths: false
+    # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
+    default-stationary-duration: -1
+    minecraft:
+      # Minecraft will pick a 'close-enough' location when pathfinding to a block if it can't find a direct path
+      # Disabled by default
+      disable-fallback-navigation: true
+      # The maximum number of blocks to check when pathfinding
+      maximum-search-blocks: 1024
+    # The pathfinder type.
+    # Valid options are: CITIZENS, CITIZENS_ASYNC or MINECRAFT.
+    # CITIZENS_ASYNC is a new option that is faster but requires more than one processor core and more memory.
+    pathfinder-type: MINECRAFT
   default:
     # The default bossbar range, in blocks
     bossbar-view-range: 64
@@ -80,6 +106,11 @@ npc:
     # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
     stationary-duration: -1
     reset-yaw-on-spawn: true
+    # Default duration of invincibility on entity spawn, Minecraft default is 20 ticks
+    spawn-invincibility-duration: 1s
+    # The default cost to create an NPC
+    npc-cost: 100.0
+    enable-scoreboard-teams: true
   chat:
     options:
       # Whether nearby players also hear text, even if targeted at a specific player
@@ -118,6 +149,19 @@ npc:
     update-rate: 1s
     use-display-entities: false
     always-update-position: false
+    # The default renderer for holograms, must be one of the following:
+    # interaction - requires 1.19+, matches nametags more closely than display
+    # display - allows for different colored backgrounds
+    # display_vehicle - mounts the display on the NPC
+    # areaeffectcloud - the safest option
+    # armorstand - the second safest option, has a hitbox clientside
+    # armorstand_vehicle - mounts the armorstand on the NPC, only useful for nameplates
+    default-renderer: areaeffectcloud
+    default-renderer-settings:
+      seeThrough: true
+      shadowed: true
+      billboard: CENTER
+      interpolationDelay: 0
   limits:
     # Default maximum number of NPCs owned by a single player (give the citizens ignore-limits permission to skip this check)
     default-limit: 10
@@ -169,6 +213,7 @@ npc:
       not-enough-money: You need at least ${0}.
       on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
       on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      global-maximum-times-used: You have reached the maximum number of uses ({0}).
   movement:
     # Movement speed percentage increase while in water
     water-speed-modifier: 1.15
@@ -188,6 +233,17 @@ npc:
   server-ownership: false
   shops:
     global-view-permission: ''
+    default-item:
+      max-repeats-on-shift-click: ''
+      result-message: ''
+      already-purchased-message: ''
+      lore: ''
+      name: ''
+      times-purchasable: ''
+      cost-message: ''
+      click-to-confirm-message: ''
+    # Whether to add default item description placeholders for all shop items by default.
+    add-default-item-description: false
   scoreboard-teams:
     enable: true
 general:
@@ -218,6 +274,9 @@ general:
   interop:
     # Whether to hook into ProtocolLib
     protocollib: true
+  # Whether to reset formatting on color change.
+  # Emulates old color code behavior.
+  reset-formatting-on-color-change: false
 advanced:
   # Whether to check the minecraft version for compatibility (do not change)
   check-minecraft-version: true
@@ -232,3 +291,5 @@ storage:
   file: saves.yml
   # Although technically Citizens can use NBT storage, it is not well tested and YAML is recommended
   type: yaml
+  # How often to save NPCs to disk
+  save-task-frequency: 1hr

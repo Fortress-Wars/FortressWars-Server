@@ -28,6 +28,7 @@ Requried Plugins:
 - [PlaceholdersAPI 2.11.7](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [SuperVanish 6.2.20](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
 - [ProtocolLib 5.4.0](https://www.spigotmc.org/resources/protocollib.1997/updates)
+- [PacketEvents 2.11](https://github.com/retrooper/packetevents/releases)
 - [AdvancedBan 2.3.0](https://www.spigotmc.org/resources/advancedban.8695/)
 - [TAB 5.4.0](https://modrinth.com/plugin/tab-was-taken)
 - [Simple Voice Chat 2.5.26](https://modrinth.com/plugin/simple-voice-chat/versions) *(Make sure to configure the port)*
