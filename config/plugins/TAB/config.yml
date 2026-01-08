@@ -3,7 +3,15 @@ header-footer:
   designs:
     world-map_*:
       display-condition: '%world%|-map_'
-      header: []
+      header:
+      - '%animation:logo%'
+      - '&7play.fortresswars.net'
+      - ''
+      - '&7&lGame'
+      - '&3Map: &a%fortresswars_game_map%'
+      - '&3Gamerule: &a%fortresswars_game_gamerule%'
+      - ''
+      - '&7&lPlayers'
       footer:
       - ''
       - '&7&lStatistics'
