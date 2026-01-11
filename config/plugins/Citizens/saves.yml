@@ -241,7 +241,9 @@ npc:
         pitch: 2.9715
         world: lobby
       skintrait:
-        skinName: mirror
+        skinName: FW3_DEV
+        signature: BbkhJu7sUncKN1+IQNvM9wuU5V9TSJ3dlCgKkfHM9VYsx5afWGu0lo4rteShCaDFWvhl0cK+aY8aOHhahPqhtmuKrDhcr1lRO9WibIjPlcxBrEg1/CR8FtPreBzcdqM5McPIuV6L9N2TsztFSsKGjIPgWCrdn5psgmCSwvqChBXMMz2/6KytHFXC0yQXD4qNdPv98lJtOLXLzVmT3ng7lCbJ5R7WxrhLH8TQFQx2fOuV2y0GVmqJ+yiDTRf6Wjr6sWyfZShKAYxc6jwqK4CHoI2oqLSQeuBqmDwK7YOp1ccUV2nHRa3yNcarWHb+cpbr+ywUGbD5WkKQu4gFLPQD2zsZwj2g57RnZC7zd0pHoNXfUTISVBMLgeccVFTQT9+4Ig9UaZXamYbQE3BIqWKnsaUOm7u2KXxm0aYq54EIhlQzYuqHQJHXjCejI4puftR2IXIynTxr3SpHgHswwIece7qxKhjUHDGX7jJOp6E6m4XbsOHK/4DS8dYk99R2aH9oysAdd56ZqkBQsappwT98AMDnfoNniiOWn/gnRDPXIJ3U6YGKJRQkJofYughGNxO8lY/2NZBR8/5zWL0zUsUvDqlAKrdHSZ9dhi5qsuY2F+1pAPJr16HWCCFoHeWer74+V9BxGwk2aj/M5BEHRsnf8tXI4q9f6ZFZomGqA0iMtD8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2ODA5NjgwMjEwNiwKICAicHJvZmlsZUlkIiA6ICJjYzBlNjU1NTQxMmE0MmE3YmMyNzZjOTlkZGQwMDQ4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGVzNfREVWIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1MjFhYjI4N2ZlYmQzNDdhNmFjZTM2NWYwYmIyMzc1NjNmYmJhZmI0MjJmMTQzY2Y1YjQ0YTY3OGMxNGI3ZjUiCiAgICB9CiAgfQp9
       type: PLAYER
       owner:
         uuid: 9899afa2-b169-4389-839d-93c5748b0c70
@@ -318,10 +320,14 @@ npc:
       attributetrait:
         attributes:
           WAYPOINT_TRANSMIT_RANGE: 0.0
+      mirrortrait:
+        mirrorName: false
+        enabled: true
+        mirrorEquipment: false
       scoreboardtrait:
         tags:
           '0': CITIZENS_NPC
-    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,inventory,type,attributetrait,location
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,skintrait,mounttrait,lookclose,equipment,inventory,type,attributetrait,mirrortrait,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
