@@ -69,9 +69,9 @@ jobs:
           cp -r config/plugins/FortressWars/settings.yml build_files/configs/plugins/FortressWars/settings.yml
 
       # PL-Hide-Free
-      - name: Copy Files (PL-Hide-Free)
+      - name: Copy Files (Pl-Hide-Free)
         run: |
-          cp -r config/plugins/PL-Hide-Free build_files/configs/plugins/PL-Hide-Free
+          cp -r config/plugins/Pl-Hide-Free build_files/configs/plugins/Pl-Hide-Free
 
       # ServerListPlus
       - name: Copy Files (ServerListPlus)
