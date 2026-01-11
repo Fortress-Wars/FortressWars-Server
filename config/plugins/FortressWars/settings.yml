@@ -16,6 +16,14 @@ settings:
       enabled: true
     enabled: true
 
+  # Game
+  game:
+    voting:
+      maps:
+        enabled: true
+      gamerules:
+        enabled: true
+
     # Respawn
   defaultRespawnTimes:
     low: 5
