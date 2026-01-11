@@ -1,8 +1,3 @@
-#Don't change | This is NOT the plugin version!
-config_version: 1
-
-debug: false
-
 #OP-protection: Player can only be op'ed if they are in the "allowed-operators" list
 op-protection: false
 allowed-operators:
@@ -14,63 +9,61 @@ op-message: "&cThe Player isn't a listed operator!"
 unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
 
 #Message if you type a blocked command | Enter none to disable
-#Possible placeholders: {player}, {cmd}
 blocked-command-message: "Unknown command. Type \"/help\" for help."
 #Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
-/pl-message: 'Plugins (0):'
+/pl-message: 'Plugins (no plugins?):'
 
 #Stay on the newest version to get better features!
 #Enable or disable automatic ingame update notification on join
 update-notify: true
 
-#How many commands a player can send every 2 seconds
-command_spam:
-  amount: 40
-
 groups:
-  #if no group is set via plhide.group.<group> this will be applied to the player
+  #if no group is set via plhide.group.<group> this will be applied
   #do not rename the default group!
   #blocked commands will be automatically removed from the tabcompletion
   default:
     commands:
-      - "!ver"
-      - "!version"
-      - "!about"
-      - "!bukkit"
-      - "!icanhasbukkit"
-      - "!help"
-      - "!?"
-      - "!me"
-      - "!minecraft:me"
-      - "!minecraft:help"
-      - "!bukkit:?"
-      - "!bukkit:help"
-      - "!plugins"
-      - "!pl"
-      - "!bukkit:pl"
-      - "!bukkit:plugins"
-      - "!bukkit:ver"
-      - "!bukkit:version"
-      - "!bukkit:about"
-      - "*"
+      - ver
+      - version
+      - about
+      - bukkit
+      - icanhasbukkit
+      - help
+      - '?'
+      - me
+      - minecraft:me
+      - minecraft:help
+      - bukkit:?
+      - bukkit:help
+      - plugins
+      - pl
+      - bukkit:pl
+      - bukkit:plugins
+      - bukkit:ver
+      - bukkit:version
+      - bukkit:about
+      #The plugin commands
+      - pl-hide:plhide
+      - plhide
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: blacklist
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
     #here you can add other groups
     #The group mode is taken from the main group, in this case the main group is "default"
-    inherited-groups:
+    included-groups:
       - Test
 
   #This group for example will remove and block all commands
   #add permission plhide.group.test to apply this group
   Test:
     commands: []
+    group-mode: whitelist
     priority: 1
-    inherited-groups: []
-  #This group will allow all commands
-  #add permission plhide.group.bypass to apply this group
-  bypass:
-    commands: 
-      - "*"
-    priority: 10
-    inherited-groups: []
+    included-groups: []
+
+
+#Don't change
+version: "1.3"
