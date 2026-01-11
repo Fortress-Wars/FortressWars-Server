@@ -20,7 +20,7 @@ fi
 # Log FW Start Message
 log "[FW] Script Start"
 
-# Copy Worlds
+# Copy Maps
 : "${COPY_WORLDS_SRC:="/worlds"}"
 log "[FW] Copying world files from ${COPY_WORLDS_SRC} to ${COPY_DEST}"
 mc-image-helper \
@@ -29,7 +29,7 @@ mc-image-helper \
   --replace-env-excludes="${REPLACE_ENV_VARIABLES_EXCLUDES}" \
   --replace-env-exclude-paths="${REPLACE_ENV_VARIABLES_EXCLUDE_PATHS}" \
   --replace-env-prefix="${REPLACE_ENV_VARIABLE_PREFIX}" \
-  "${COPY_WORLDS_SRC}" "${COPY_WORLDS_DEST}"
+  "${COPY_WORLDS_SRC}" "${COPY_DEST}"
 
 # Copy Extras
 : "${COPY_EXTRAS_SRC:="/extras"}"
