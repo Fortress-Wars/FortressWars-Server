@@ -12,7 +12,6 @@ roleLimit:
   tank: 1
   support: 1
   utility: 1
-allowPremiumKits: true
 disabledKits:
   - fish
   - mathematician

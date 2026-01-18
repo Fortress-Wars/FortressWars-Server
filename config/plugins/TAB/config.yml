@@ -1,37 +1,47 @@
 header-footer:
   enabled: true
-  header:
-  - '%animation:logo%'
-  - '&7play.fortresswars.net'
-  - ''
-  - '&7&lGame'
-  - '&3Map: &a%fortresswars_game_map%'
-  - '&3Gamerule: &a%fortresswars_game_gamerule%'
-  - ''
-  - '&7&lPlayers'
-  footer:
-  - ''
-  - '&3Credits: &6%fortresswars_credits%'
-  per-world:
-    map_*:
+  designs:
+    world-map_*:
+      display-condition: '%world%|-map_'
+      header:
+      - '%animation:logo%'
+      - '&7play.fortresswars.net'
+      - ''
+      - '&7&lGame'
+      - '&3Map: &a%fortresswars_game_map%'
+      - '&3Gamerule: &a%fortresswars_game_gamerule%'
+      - ''
+      - '&7&lPlayers'
       footer:
       - ''
       - '&7&lStatistics'
       - '&3Eliminations: &a%fortresswars_game_eliminations%  &3Deaths: &c%fortresswars_game_deaths%  &3Assists:
         &d%fortresswars_game_assists%'
-      - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%  &3Killstreak: %fortresswars_killstreak_color%%fortresswars_killstreak_current%'
+      - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%  &3Killstreak:
+        %fortresswars_killstreak_color%%fortresswars_killstreak_current%'
       - ''
       - '&3Credits: &6%fortresswars_credits%'
-  disable-condition: '%world%=disabledworld'
+    default:
+      display-condition: '%world%!=disabledworld'
+      header:
+      - '%animation:logo%'
+      - '&7play.fortresswars.net'
+      - ''
+      - '&7&lGame'
+      - '&3Map: &a%fortresswars_game_map%'
+      - '&3Gamerule: &a%fortresswars_game_gamerule%'
+      - ''
+      - '&7&lPlayers'
+      footer:
+      - ''
+      - '&3Credits: &6%fortresswars_credits%'
 tablist-name-formatting:
   enabled: true
-  anti-override: true
   disable-condition: '%world%=disabledworld'
 scoreboard-teams:
   enabled: false
   enable-collision: false
   invisible-nametags: false
-  anti-override: true
   sorting-types:
   - PLACEHOLDER:%fortresswars_team_name%:none,random,red,blue
   - PLACEHOLDER:%fortresswars_rank_name%:PM,DEV,Sr.A,A,OP,M,V
@@ -181,3 +191,7 @@ placeholder-refresh-intervals:
   '%server_uptime%': 1000
   '%server_tps_1_colored%': 1000
   '%server_unique_joins%': 5000
+config-version: 2
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true

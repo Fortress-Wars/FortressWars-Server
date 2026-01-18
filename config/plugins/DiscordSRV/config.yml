@@ -2,7 +2,7 @@
 # Need help? Join our Discord, https://discordsrv.com/discord
 
 # Don't touch pls
-ConfigVersion: 1.29.0
+ConfigVersion: 1.30.3
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
@@ -34,6 +34,7 @@ DiscordConsoleChannelId: "000000000000000000"
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
 DiscordInviteLink: "https://discord.fortresswars.net"
+
 
 # Experiments
 # These features are not fully optimized; use at your own risk
@@ -258,7 +259,7 @@ ChannelTopicUpdaterRateInMinutes: 10
 #     %totalplayers%:   total number of players to ever join the main world
 #     %timestamp%:      current unix timestamp
 #   UpdateInterval: Time in minutes to wait between updating the channel's name (minimum is 10 due to rate limits)
-ChannelUpdater:
+ChannelUpdater: 
   - ChannelId: "0000000000000000"
     Format: "%playercount% players online"
     ShutdownFormat: "Server is offline"
@@ -267,6 +268,7 @@ ChannelUpdater:
     Format: "Current TPS: %tps%"
     ShutdownFormat: "Server is offline"
     UpdateInterval: 10
+
 
 # Discord canned responses
 # These are triggers (commands in a way) that will trigger a "canned response" to be sent as a reply to them
