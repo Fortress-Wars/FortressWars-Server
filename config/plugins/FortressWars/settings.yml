@@ -526,6 +526,10 @@ settings:
           padding: false
           lines:
             - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"
+        - message:
+          padding: false
+          lines:
+            - content: "&d[TIP] &7Enter spectator mode using the &a/spectate &7command!"
     tips:
       enabled: false
       messages:
