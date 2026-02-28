@@ -337,7 +337,7 @@ pages:
       &7- &a%fortresswars_leaderboards_statistic-hulk-damage-dealt_1_value_DOUBLE%'
     height: 0.3
   - content: '&bRage Mode Duration: &a%fortresswars_leaderboards_statistic-hulk-rage-mode-duration_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-hulk-rage-mode-duration_1_value_INT%'
+      &7- &a%fortresswars_leaderboards_statistic-hulk-rage-mode-duration_1_value_TICK'
     height: 0.3
   - content: '&bRage Kills : &a%fortresswars_leaderboards_statistic-hulk-rage-kills_1_name%
       &7- &a%fortresswars_leaderboards_statistic-hulk-rage-kills_1_value_INT%'
