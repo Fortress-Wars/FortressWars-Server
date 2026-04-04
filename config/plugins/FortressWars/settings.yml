@@ -338,10 +338,10 @@ settings:
     - priest_damage_dealt
     - priest_eliminations
     - priest_healing_done
-    - priest_level_5_releases
+    - priest_level_5_absolution
     - priest_players_burned
-    - priest_release_casts
-    - priest_sunpower_stacks_gained
+    - priest_absolutions
+    - priest_grace_received
     - priest_time_played
     - priest_total_wins_unweighted
     - prometheus_total_wins_unweighted
