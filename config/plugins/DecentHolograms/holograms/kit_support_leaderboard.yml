@@ -1,7 +1,7 @@
 location: lobby:31.5:71.000:-45.5
 enabled: true
-display-range: 48
-update-range: 48
+display-range: 24
+update-range: 24
 update-interval: 200
 facing: 0.0
 down-origin: true
@@ -234,14 +234,14 @@ pages:
   - content: '&bTotal Healing: &a%fortresswars_leaderboards_statistic-priest-healing-done_1_name%
       &7- &a%fortresswars_leaderboards_statistic-priest-healing-done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bSunpower Stacks: &a%fortresswars_leaderboards_statistic-priest-sunpower-stacks-gained_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-priest-sunpower-stacks-gained_1_value_INT%'
+  - content: '&bGrace Received: &a%fortresswars_leaderboards_statistic-priest-grace-received_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-grace-received_1_value_INT%'
     height: 0.3
-  - content: '&bRelease Spell Casts: &a%fortresswars_leaderboards_statistic-priest-release-casts_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-priest-release-casts_1_value_INT%'
+  - content: '&bAbsolutions: &a%fortresswars_leaderboards_statistic-priest-absolutions_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-absolutions_1_value_INT%'
     height: 0.3
-  - content: '&bLevel 5 Releases: &a%fortresswars_leaderboards_statistic-priest-level-5-releases_1_name%
-      &7- &a%fortresswars_leaderboards_statistic-priest-level-5-releases_1_value_INT%'
+  - content: '&bLevel 5 Absolutions: &a%fortresswars_leaderboards_statistic-priest-level-5-absolution_1_name%
+      &7- &a%fortresswars_leaderboards_statistic-priest-level-5-absolution_1_value_INT%'
     height: 0.3
   - content: '&bEntities Burned: &a%fortresswars_leaderboards_statistic-priest-players-burned_1_name%
       &7- &a%fortresswars_leaderboards_statistic-priest-players-burned_1_value_INT%'

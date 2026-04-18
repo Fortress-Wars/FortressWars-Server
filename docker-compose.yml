@@ -41,7 +41,7 @@ services:
     environment:
       TYPE: PAPER
       SERVER_PORT: 25600
-      VERSION: 1.21.8
+      VERSION: 1.21.11
       MEMORY: 8G
       EULA: true
       OVERRIDE_ICON : true
