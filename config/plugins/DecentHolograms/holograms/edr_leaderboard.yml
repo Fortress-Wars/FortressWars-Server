@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop EDR &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistic-edr_1_name% &7- &a%fortresswars_leaderboards_statistic-edr_1_value_DOUBLE%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistics_edr_1_name% &7- &a%fortresswars_leaderboards_statistics_edr_1_value_DOUBLE%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistic-edr_2_name% &7- &a%fortresswars_leaderboards_statistic-edr_2_value_DOUBLE%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistics_edr_2_name% &7- &a%fortresswars_leaderboards_statistics_edr_2_value_DOUBLE%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistic-edr_3_name% &7- &a%fortresswars_leaderboards_statistic-edr_3_value_DOUBLE%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistics_edr_3_name% &7- &a%fortresswars_leaderboards_statistics_edr_3_value_DOUBLE%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistic-edr_4_name% &7- &a%fortresswars_leaderboards_statistic-edr_4_value_DOUBLE%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistics_edr_4_name% &7- &a%fortresswars_leaderboards_statistics_edr_4_value_DOUBLE%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistic-edr_5_name% &7- &a%fortresswars_leaderboards_statistic-edr_5_value_DOUBLE%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistics_edr_5_name% &7- &a%fortresswars_leaderboards_statistics_edr_5_value_DOUBLE%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistic-edr_6_name% &7- &a%fortresswars_leaderboards_statistic-edr_6_value_DOUBLE%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistics_edr_6_name% &7- &a%fortresswars_leaderboards_statistics_edr_6_value_DOUBLE%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistic-edr_7_name% &7- &a%fortresswars_leaderboards_statistic-edr_7_value_DOUBLE%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistics_edr_7_name% &7- &a%fortresswars_leaderboards_statistics_edr_7_value_DOUBLE%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistic-edr_8_name% &7- &a%fortresswars_leaderboards_statistic-edr_8_value_DOUBLE%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistics_edr_8_name% &7- &a%fortresswars_leaderboards_statistics_edr_8_value_DOUBLE%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistic-edr_9_name% &7- &a%fortresswars_leaderboards_statistic-edr_9_value_DOUBLE%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistics_edr_9_name% &7- &a%fortresswars_leaderboards_statistics_edr_9_value_DOUBLE%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistic-edr_10_name% &7-
-      &a%fortresswars_leaderboards_statistic-edr_10_value_DOUBLE%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistics_edr_10_name% &7-
+      &a%fortresswars_leaderboards_statistics_edr_10_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -42,35 +42,35 @@ pages:
 - lines:
   - content: ' &7===== &aTop Damage Ratio &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistic-damage-ratio_1_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_1_value_DOUBLE%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistics_damage_ratio_1_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_1_value_DOUBLE%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistic-damage-ratio_2_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_2_value_DOUBLE%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistics_damage_ratio_2_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_2_value_DOUBLE%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistic-damage-ratio_3_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_3_value_DOUBLE%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistics_damage_ratio_3_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_3_value_DOUBLE%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistic-damage-ratio_4_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_4_value_DOUBLE%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistics_damage_ratio_4_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_4_value_DOUBLE%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistic-damage-ratio_5_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_5_value_DOUBLE%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistics_damage_ratio_5_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_5_value_DOUBLE%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistic-damage-ratio_6_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_6_value_DOUBLE%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistics_damage_ratio_6_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_6_value_DOUBLE%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistic-damage-ratio_7_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_7_value_DOUBLE%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistics_damage_ratio_7_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_7_value_DOUBLE%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistic-damage-ratio_8_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_8_value_DOUBLE%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistics_damage_ratio_8_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_8_value_DOUBLE%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistic-damage-ratio_9_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_9_value_DOUBLE%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistics_damage_ratio_9_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_9_value_DOUBLE%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistic-damage-ratio_10_name% &7-
-      &a%fortresswars_leaderboards_statistic-damage-ratio_10_value_DOUBLE%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistics_damage_ratio_10_name% &7-
+      &a%fortresswars_leaderboards_statistics_damage_ratio_10_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -84,35 +84,35 @@ pages:
 - lines:
   - content: ' &7===== &aMost Killstreaks Started &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistic-killstreaks-started_1_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistics_killstreaks_started_1_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistic-killstreaks-started_2_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistics_killstreaks_started_2_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistic-killstreaks-started_3_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistics_killstreaks_started_3_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistic-killstreaks-started_4_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistics_killstreaks_started_4_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistic-killstreaks-started_5_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistics_killstreaks_started_5_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistic-killstreaks-started_6_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistics_killstreaks_started_6_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistic-killstreaks-started_7_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistics_killstreaks_started_7_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistic-killstreaks-started_8_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistics_killstreaks_started_8_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistic-killstreaks-started_9_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistics_killstreaks_started_9_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistic-killstreaks-started_10_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-started_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistics_killstreaks_started_10_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_started_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
@@ -126,35 +126,35 @@ pages:
 - lines:
   - content: ' &7===== &aMost Killstreaks Ended &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistic-killstreaks-ended_1_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistics_killstreaks_ended_1_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistic-killstreaks-ended_2_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistics_killstreaks_ended_2_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistic-killstreaks-ended_3_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistics_killstreaks_ended_3_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistic-killstreaks-ended_4_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistics_killstreaks_ended_4_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistic-killstreaks-ended_5_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistics_killstreaks_ended_5_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistic-killstreaks-ended_6_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistics_killstreaks_ended_6_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistic-killstreaks-ended_7_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistics_killstreaks_ended_7_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistic-killstreaks-ended_8_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistics_killstreaks_ended_8_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistic-killstreaks-ended_9_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistics_killstreaks_ended_9_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistic-killstreaks-ended_10_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-ended_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistics_killstreaks_ended_10_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_ended_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
@@ -168,35 +168,35 @@ pages:
 - lines:
   - content: ' &7===== &aLongest Killstreaks &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistic-killstreaks-longest_1_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_1_value_INT%'
+  - content: '&e#1. &a%fortresswars_leaderboards_statistics_killstreaks_longest_1_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_1_value_INT%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistic-killstreaks-longest_2_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_2_value_INT%'
+  - content: '&e#2. &a%fortresswars_leaderboards_statistics_killstreaks_longest_2_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_2_value_INT%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistic-killstreaks-longest_3_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_3_value_INT%'
+  - content: '&e#3. &a%fortresswars_leaderboards_statistics_killstreaks_longest_3_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_3_value_INT%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistic-killstreaks-longest_4_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_4_value_INT%'
+  - content: '&e#4. &a%fortresswars_leaderboards_statistics_killstreaks_longest_4_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_4_value_INT%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistic-killstreaks-longest_5_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_5_value_INT%'
+  - content: '&e#5. &a%fortresswars_leaderboards_statistics_killstreaks_longest_5_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_5_value_INT%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistic-killstreaks-longest_6_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_6_value_INT%'
+  - content: '&e#6. &a%fortresswars_leaderboards_statistics_killstreaks_longest_6_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_6_value_INT%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistic-killstreaks-longest_7_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_7_value_INT%'
+  - content: '&e#7. &a%fortresswars_leaderboards_statistics_killstreaks_longest_7_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_7_value_INT%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistic-killstreaks-longest_8_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_8_value_INT%'
+  - content: '&e#8. &a%fortresswars_leaderboards_statistics_killstreaks_longest_8_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_8_value_INT%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistic-killstreaks-longest_9_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_9_value_INT%'
+  - content: '&e#9. &a%fortresswars_leaderboards_statistics_killstreaks_longest_9_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_9_value_INT%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistic-killstreaks-longest_10_name% &7-
-      &a%fortresswars_leaderboards_statistic-killstreaks-longest_10_value_INT%'
+  - content: '&e#10. &a%fortresswars_leaderboards_statistics_killstreaks_longest_10_name% &7-
+      &a%fortresswars_leaderboards_statistics_killstreaks_longest_10_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a5 &7====   &a-> '
     height: 0.3

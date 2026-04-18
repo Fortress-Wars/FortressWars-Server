@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &4 Red Parkour &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_parkour-course-red_1_name% &7- &a%fortresswars_leaderboards_parkour-course-red_1_value_FULLTIME%'
+  - content: '&e#1. &a%fortresswars_leaderboards_parkour_course_red_1_name% &7- &a%fortresswars_leaderboards_parkour_course_red_1_value_FULLTIME%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_parkour-course-red_2_name% &7- &a%fortresswars_leaderboards_parkour-course-red_2_value_FULLTIME%'
+  - content: '&e#2. &a%fortresswars_leaderboards_parkour_course_red_2_name% &7- &a%fortresswars_leaderboards_parkour_course_red_2_value_FULLTIME%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_parkour-course-red_3_name% &7- &a%fortresswars_leaderboards_parkour-course-red_3_value_FULLTIME%'
+  - content: '&e#3. &a%fortresswars_leaderboards_parkour_course_red_3_name% &7- &a%fortresswars_leaderboards_parkour_course_red_3_value_FULLTIME%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_parkour-course-red_4_name% &7- &a%fortresswars_leaderboards_parkour-course-red_4_value_FULLTIME%'
+  - content: '&e#4. &a%fortresswars_leaderboards_parkour_course_red_4_name% &7- &a%fortresswars_leaderboards_parkour_course_red_4_value_FULLTIME%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_parkour-course-red_5_name% &7- &a%fortresswars_leaderboards_parkour-course-red_5_value_FULLTIME%'
+  - content: '&e#5. &a%fortresswars_leaderboards_parkour_course_red_5_name% &7- &a%fortresswars_leaderboards_parkour_course_red_5_value_FULLTIME%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_parkour-course-red_6_name% &7- &a%fortresswars_leaderboards_parkour-course-red_6_value_FULLTIME%'
+  - content: '&e#6. &a%fortresswars_leaderboards_parkour_course_red_6_name% &7- &a%fortresswars_leaderboards_parkour_course_red_6_value_FULLTIME%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_parkour-course-red_7_name% &7- &a%fortresswars_leaderboards_parkour-course-red_7_value_FULLTIME%'
+  - content: '&e#7. &a%fortresswars_leaderboards_parkour_course_red_7_name% &7- &a%fortresswars_leaderboards_parkour_course_red_7_value_FULLTIME%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_parkour-course-red_8_name% &7- &a%fortresswars_leaderboards_parkour-course-red_8_value_FULLTIME%'
+  - content: '&e#8. &a%fortresswars_leaderboards_parkour_course_red_8_name% &7- &a%fortresswars_leaderboards_parkour_course_red_8_value_FULLTIME%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_parkour-course-red_9_name% &7- &a%fortresswars_leaderboards_parkour-course-red_9_value_FULLTIME%'
+  - content: '&e#9. &a%fortresswars_leaderboards_parkour_course_red_9_name% &7- &a%fortresswars_leaderboards_parkour_course_red_9_value_FULLTIME%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_parkour-course-red_10_name% &7-
-      &a%fortresswars_leaderboards_parkour-course-red_10_value_FULLTIME%'
+  - content: '&e#10. &a%fortresswars_leaderboards_parkour_course_red_10_name% &7-
+      &a%fortresswars_leaderboards_parkour_course_red_10_value_FULLTIME%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -42,26 +42,26 @@ pages:
 - lines:
   - content: ' &7===== &1 Blue Parkour &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_parkour-course-blue_1_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_1_value_FULLTIME%'
+  - content: '&e#1. &a%fortresswars_leaderboards_parkour_course_blue_1_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_1_value_FULLTIME%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_parkour-course-blue_2_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_2_value_FULLTIME%'
+  - content: '&e#2. &a%fortresswars_leaderboards_parkour_course_blue_2_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_2_value_FULLTIME%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_parkour-course-blue_3_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_3_value_FULLTIME%'
+  - content: '&e#3. &a%fortresswars_leaderboards_parkour_course_blue_3_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_3_value_FULLTIME%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_parkour-course-blue_4_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_4_value_FULLTIME%'
+  - content: '&e#4. &a%fortresswars_leaderboards_parkour_course_blue_4_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_4_value_FULLTIME%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_parkour-course-blue_5_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_5_value_FULLTIME%'
+  - content: '&e#5. &a%fortresswars_leaderboards_parkour_course_blue_5_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_5_value_FULLTIME%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_parkour-course-blue_6_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_6_value_FULLTIME%'
+  - content: '&e#6. &a%fortresswars_leaderboards_parkour_course_blue_6_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_6_value_FULLTIME%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_parkour-course-blue_7_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_7_value_FULLTIME%'
+  - content: '&e#7. &a%fortresswars_leaderboards_parkour_course_blue_7_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_7_value_FULLTIME%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_parkour-course-blue_8_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_8_value_FULLTIME%'
+  - content: '&e#8. &a%fortresswars_leaderboards_parkour_course_blue_8_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_8_value_FULLTIME%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_parkour-course-blue_9_name% &7- &a%fortresswars_leaderboards_parkour-course-blue_9_value_FULLTIME%'
+  - content: '&e#9. &a%fortresswars_leaderboards_parkour_course_blue_9_name% &7- &a%fortresswars_leaderboards_parkour_course_blue_9_value_FULLTIME%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_parkour-course-blue_10_name% &7-
-      &a%fortresswars_leaderboards_parkour-course-blue_10_value_FULLTIME%'
+  - content: '&e#10. &a%fortresswars_leaderboards_parkour_course_blue_10_name% &7-
+      &a%fortresswars_leaderboards_parkour_course_blue_10_value_FULLTIME%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -75,26 +75,26 @@ pages:
 - lines:
   - content: ' &7===== &5 Purple Parkour &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_parkour-course-purple_1_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_1_value_FULLTIME%'
+  - content: '&e#1. &a%fortresswars_leaderboards_parkour_course_purple_1_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_1_value_FULLTIME%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_parkour-course-purple_2_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_2_value_FULLTIME%'
+  - content: '&e#2. &a%fortresswars_leaderboards_parkour_course_purple_2_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_2_value_FULLTIME%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_parkour-course-purple_3_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_3_value_FULLTIME%'
+  - content: '&e#3. &a%fortresswars_leaderboards_parkour_course_purple_3_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_3_value_FULLTIME%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_parkour-course-purple_4_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_4_value_FULLTIME%'
+  - content: '&e#4. &a%fortresswars_leaderboards_parkour_course_purple_4_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_4_value_FULLTIME%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_parkour-course-purple_5_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_5_value_FULLTIME%'
+  - content: '&e#5. &a%fortresswars_leaderboards_parkour_course_purple_5_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_5_value_FULLTIME%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_parkour-course-purple_6_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_6_value_FULLTIME%'
+  - content: '&e#6. &a%fortresswars_leaderboards_parkour_course_purple_6_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_6_value_FULLTIME%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_parkour-course-purple_7_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_7_value_FULLTIME%'
+  - content: '&e#7. &a%fortresswars_leaderboards_parkour_course_purple_7_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_7_value_FULLTIME%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_parkour-course-purple_8_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_8_value_FULLTIME%'
+  - content: '&e#8. &a%fortresswars_leaderboards_parkour_course_purple_8_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_8_value_FULLTIME%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_parkour-course-purple_9_name% &7- &a%fortresswars_leaderboards_parkour-course-purple_9_value_FULLTIME%'
+  - content: '&e#9. &a%fortresswars_leaderboards_parkour_course_purple_9_name% &7- &a%fortresswars_leaderboards_parkour_course_purple_9_value_FULLTIME%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_parkour-course-purple_10_name% &7-
-      &a%fortresswars_leaderboards_parkour-course-purple_10_value_FULLTIME%'
+  - content: '&e#10. &a%fortresswars_leaderboards_parkour_course_purple_10_name% &7-
+      &a%fortresswars_leaderboards_parkour_course_purple_10_value_FULLTIME%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
