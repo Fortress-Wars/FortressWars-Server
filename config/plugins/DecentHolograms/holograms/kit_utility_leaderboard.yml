@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Builder &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_statistics_builder_time_played_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_time_played_1_value_DURATION%'
+  - content: '&bTime Played: &a%leaderboards_statistics_builder_time_played_1_name%
+      &7- &a%leaderboards_statistics_builder_time_played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_statistics_builder_total_wins_unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_total_wins_unweighted_1_value_INT%'
+  - content: '&bWins: &a%leaderboards_statistics_builder_total_wins_unweighted_1_name%
+      &7- &a%leaderboards_statistics_builder_total_wins_unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_statistics_builder_eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%leaderboards_statistics_builder_eliminations_1_name%
+      &7- &a%leaderboards_statistics_builder_eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistics_builder_damage_dealt_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_damage_dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%leaderboards_statistics_builder_damage_dealt_1_name%
+      &7- &a%leaderboards_statistics_builder_damage_dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bBricks Placed: &a%fortresswars_leaderboards_statistics_builder_bricks_placed_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_bricks_placed_1_value_INT%'
+  - content: '&bBricks Placed: &a%leaderboards_statistics_builder_bricks_placed_1_name%
+      &7- &a%leaderboards_statistics_builder_bricks_placed_1_value_INT%'
     height: 0.3
-  - content: '&bLadders Placed: &a%fortresswars_leaderboards_statistics_builder_ladders_placed_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_ladders_placed_1_value_INT%'
+  - content: '&bLadders Placed: &a%leaderboards_statistics_builder_ladders_placed_1_name%
+      &7- &a%leaderboards_statistics_builder_ladders_placed_1_value_INT%'
     height: 0.3
-  - content: '&5Brick Kills: &a%fortresswars_leaderboards_statistics_builder_brick_kills_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_builder_brick_kills_1_value_INT%'
+  - content: '&5Brick Kills: &a%leaderboards_statistics_builder_brick_kills_1_name%
+      &7- &a%leaderboards_statistics_builder_brick_kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -42,35 +42,35 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Engineer &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_statistics_engineer_time_played_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_time_played_1_value_DURATION%'
+  - content: '&bTime Played: &a%leaderboards_statistics_engineer_time_played_1_name%
+      &7- &a%leaderboards_statistics_engineer_time_played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_statistics_engineer_total_wins_unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_total_wins_unweighted_1_value_INT%'
+  - content: '&bWins: &a%leaderboards_statistics_engineer_total_wins_unweighted_1_name%
+      &7- &a%leaderboards_statistics_engineer_total_wins_unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_statistics_engineer_eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%leaderboards_statistics_engineer_eliminations_1_name%
+      &7- &a%leaderboards_statistics_engineer_eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistics_engineer_damage_dealt_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_damage_dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%leaderboards_statistics_engineer_damage_dealt_1_name%
+      &7- &a%leaderboards_statistics_engineer_damage_dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bMetal Used: &a%fortresswars_leaderboards_statistics_engineer_metal_used_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_metal_used_1_value_INT%'
+  - content: '&bMetal Used: &a%leaderboards_statistics_engineer_metal_used_1_name%
+      &7- &a%leaderboards_statistics_engineer_metal_used_1_value_INT%'
     height: 0.3
-  - content: '&bSentries Built: &a%fortresswars_leaderboards_statistics_engineer_sentries_built_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_sentries_built_1_value_INT%'
+  - content: '&bSentries Built: &a%leaderboards_statistics_engineer_sentries_built_1_name%
+      &7- &a%leaderboards_statistics_engineer_sentries_built_1_value_INT%'
     height: 0.3
-  - content: '&bSentry Kills: &a%fortresswars_leaderboards_statistics_engineer_sentry_kills_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_sentry_kills_1_value_INT%'
+  - content: '&bSentry Kills: &a%leaderboards_statistics_engineer_sentry_kills_1_name%
+      &7- &a%leaderboards_statistics_engineer_sentry_kills_1_value_INT%'
     height: 0.3
-  - content: '&bDispenser Built: &a%fortresswars_leaderboards_statistics_engineer_dispensers_built_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_dispensers_built_1_value_INT%'
+  - content: '&bDispenser Built: &a%leaderboards_statistics_engineer_dispensers_built_1_name%
+      &7- &a%leaderboards_statistics_engineer_dispensers_built_1_value_INT%'
     height: 0.3
-  - content: '&bPotions Dispensed: &a%fortresswars_leaderboards_statistics_engineer_dispenser_potions_given_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_dispenser_potions_given_1_value_INT%'
+  - content: '&bPotions Dispensed: &a%leaderboards_statistics_engineer_dispenser_potions_given_1_name%
+      &7- &a%leaderboards_statistics_engineer_dispenser_potions_given_1_value_INT%'
     height: 0.3
-  - content: '&bPlayers Teleported: &a%fortresswars_leaderboards_statistics_engineer_players_teleported_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_engineer_players_teleported_1_value_INT%'
+  - content: '&bPlayers Teleported: &a%leaderboards_statistics_engineer_players_teleported_1_name%
+      &7- &a%leaderboards_statistics_engineer_players_teleported_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -84,26 +84,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Hitman &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_statistics_hitman_time_played_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_time_played_1_value_DURATION%'
+  - content: '&bTime Played: &a%leaderboards_statistics_hitman_time_played_1_name%
+      &7- &a%leaderboards_statistics_hitman_time_played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_statistics_hitman_total_wins_unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_total_wins_unweighted_1_value_INT%'
+  - content: '&bWins: &a%leaderboards_statistics_hitman_total_wins_unweighted_1_name%
+      &7- &a%leaderboards_statistics_hitman_total_wins_unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_statistics_hitman_eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%leaderboards_statistics_hitman_eliminations_1_name%
+      &7- &a%leaderboards_statistics_hitman_eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistics_hitman_damage_dealt_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_damage_dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%leaderboards_statistics_hitman_damage_dealt_1_name%
+      &7- &a%leaderboards_statistics_hitman_damage_dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bEnemies Tagged: &a%fortresswars_leaderboards_statistics_hitman_enemies_tagged_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_enemies_tagged_1_value_INT%'
+  - content: '&bEnemies Tagged: &a%leaderboards_statistics_hitman_enemies_tagged_1_name%
+      &7- &a%leaderboards_statistics_hitman_enemies_tagged_1_value_INT%'
     height: 0.3
-  - content: '&bDebuffs Applied: &a%fortresswars_leaderboards_statistics_hitman_debuffs_applied_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_debuffs_applied_1_value_INT%'
+  - content: '&bDebuffs Applied: &a%leaderboards_statistics_hitman_debuffs_applied_1_name%
+      &7- &a%leaderboards_statistics_hitman_debuffs_applied_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Potions: &a%fortresswars_leaderboards_statistics_hitman_damage_potion_kills_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_hitman_damage_potion_kills_1_value_INT%'
+  - content: '&bDamage Potions: &a%leaderboards_statistics_hitman_damage_potion_kills_1_name%
+      &7- &a%leaderboards_statistics_hitman_damage_potion_kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
@@ -117,38 +117,38 @@ pages:
 - lines:
   - content: ' &7===== &aTop Kit: Miner &7===== '
     height: 0.3
-  - content: '&bTime Played: &a%fortresswars_leaderboards_statistics_miner_time_played_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_time_played_1_value_DURATION%'
+  - content: '&bTime Played: &a%leaderboards_statistics_miner_time_played_1_name%
+      &7- &a%leaderboards_statistics_miner_time_played_1_value_DURATION%'
     height: 0.3
-  - content: '&bWins: &a%fortresswars_leaderboards_statistics_miner_total_wins_unweighted_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_total_wins_unweighted_1_value_INT%'
+  - content: '&bWins: &a%leaderboards_statistics_miner_total_wins_unweighted_1_name%
+      &7- &a%leaderboards_statistics_miner_total_wins_unweighted_1_value_INT%'
     height: 0.3
-  - content: '&bEliminations: &a%fortresswars_leaderboards_statistics_miner_eliminations_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_eliminations_1_value_INT%'
+  - content: '&bEliminations: &a%leaderboards_statistics_miner_eliminations_1_name%
+      &7- &a%leaderboards_statistics_miner_eliminations_1_value_INT%'
     height: 0.3
-  - content: '&bDamage Dealt: &a%fortresswars_leaderboards_statistics_miner_damage_dealt_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_damage_dealt_1_value_DOUBLE%'
+  - content: '&bDamage Dealt: &a%leaderboards_statistics_miner_damage_dealt_1_name%
+      &7- &a%leaderboards_statistics_miner_damage_dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&bBlocks Broken: &a%fortresswars_leaderboards_statistics_miner_blocks_broken_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_blocks_broken_1_value_INT%'
+  - content: '&bBlocks Broken: &a%leaderboards_statistics_miner_blocks_broken_1_name%
+      &7- &a%leaderboards_statistics_miner_blocks_broken_1_value_INT%'
     height: 0.3
-  - content: '&bBeacon Damage: &a%fortresswars_leaderboards_statistics_miner_beacon_damage_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_beacon_damage_1_value_INT%'
+  - content: '&bBeacon Damage: &a%leaderboards_statistics_miner_beacon_damage_1_name%
+      &7- &a%leaderboards_statistics_miner_beacon_damage_1_value_INT%'
     height: 0.3
-  - content: '&bBeacon Hits: &a%fortresswars_leaderboards_statistics_miner_beacon_hits_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_beacon_hits_1_value_INT%'
+  - content: '&bBeacon Hits: &a%leaderboards_statistics_miner_beacon_hits_1_name%
+      &7- &a%leaderboards_statistics_miner_beacon_hits_1_value_INT%'
     height: 0.3
-  - content: '&bGobblestone Collected: &a%fortresswars_leaderboards_statistics_miner_gobblestone_collected_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_gobblestone_collected_1_value_INT%'
+  - content: '&bGobblestone Collected: &a%leaderboards_statistics_miner_gobblestone_collected_1_name%
+      &7- &a%leaderboards_statistics_miner_gobblestone_collected_1_value_INT%'
     height: 0.3
-  - content: '&bGobblestone Kills: &a%fortresswars_leaderboards_statistics_miner_gobblestone_kills_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_gobblestone_kills_1_value_INT%'
+  - content: '&bGobblestone Kills: &a%leaderboards_statistics_miner_gobblestone_kills_1_name%
+      &7- &a%leaderboards_statistics_miner_gobblestone_kills_1_value_INT%'
     height: 0.3
-  - content: '&5Gobblestone Double Kills: &a%fortresswars_leaderboards_statistics_miner_gobblestone_double_kills_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_gobblestone_double_kills_1_value_INT%'
+  - content: '&5Gobblestone Double Kills: &a%leaderboards_statistics_miner_gobblestone_double_kills_1_name%
+      &7- &a%leaderboards_statistics_miner_gobblestone_double_kills_1_value_INT%'
     height: 0.3
-  - content: '&5Gobblestone Triple Kills: &a%fortresswars_leaderboards_statistics_miner_gobblestone_triple_kills_1_name%
-      &7- &a%fortresswars_leaderboards_statistics_miner_gobblestone_triple_kills_1_value_INT%'
+  - content: '&5Gobblestone Triple Kills: &a%leaderboards_statistics_miner_gobblestone_triple_kills_1_name%
+      &7- &a%leaderboards_statistics_miner_gobblestone_triple_kills_1_value_INT%'
     height: 0.3
   - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3

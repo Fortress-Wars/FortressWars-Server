@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Damage Dealt &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistics_player_damage_dealt_1_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_1_value_DOUBLE%'
+  - content: '&e#1. &a%leaderboards_statistics_player_damage_dealt_1_name% &7- &a%leaderboards_statistics_player_damage_dealt_1_value_DOUBLE%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistics_player_damage_dealt_2_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_2_value_DOUBLE%'
+  - content: '&e#2. &a%leaderboards_statistics_player_damage_dealt_2_name% &7- &a%leaderboards_statistics_player_damage_dealt_2_value_DOUBLE%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistics_player_damage_dealt_3_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_3_value_DOUBLE%'
+  - content: '&e#3. &a%leaderboards_statistics_player_damage_dealt_3_name% &7- &a%leaderboards_statistics_player_damage_dealt_3_value_DOUBLE%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistics_player_damage_dealt_4_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_4_value_DOUBLE%'
+  - content: '&e#4. &a%leaderboards_statistics_player_damage_dealt_4_name% &7- &a%leaderboards_statistics_player_damage_dealt_4_value_DOUBLE%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistics_player_damage_dealt_5_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_5_value_DOUBLE%'
+  - content: '&e#5. &a%leaderboards_statistics_player_damage_dealt_5_name% &7- &a%leaderboards_statistics_player_damage_dealt_5_value_DOUBLE%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistics_player_damage_dealt_6_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_6_value_DOUBLE%'
+  - content: '&e#6. &a%leaderboards_statistics_player_damage_dealt_6_name% &7- &a%leaderboards_statistics_player_damage_dealt_6_value_DOUBLE%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistics_player_damage_dealt_7_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_7_value_DOUBLE%'
+  - content: '&e#7. &a%leaderboards_statistics_player_damage_dealt_7_name% &7- &a%leaderboards_statistics_player_damage_dealt_7_value_DOUBLE%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistics_player_damage_dealt_8_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_8_value_DOUBLE%'
+  - content: '&e#8. &a%leaderboards_statistics_player_damage_dealt_8_name% &7- &a%leaderboards_statistics_player_damage_dealt_8_value_DOUBLE%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistics_player_damage_dealt_9_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_dealt_9_value_DOUBLE%'
+  - content: '&e#9. &a%leaderboards_statistics_player_damage_dealt_9_name% &7- &a%leaderboards_statistics_player_damage_dealt_9_value_DOUBLE%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistics_player_damage_dealt_10_name% &7-
-      &a%fortresswars_leaderboards_statistics_player_damage_dealt_10_value_DOUBLE%'
+  - content: '&e#10. &a%leaderboards_statistics_player_damage_dealt_10_name% &7-
+      &a%leaderboards_statistics_player_damage_dealt_10_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7==== &a1 &7====   &a-> '
     height: 0.3
@@ -42,26 +42,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Damage Taken &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistics_player_damage_taken_1_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_1_value_DOUBLE%'
+  - content: '&e#1. &a%leaderboards_statistics_player_damage_taken_1_name% &7- &a%leaderboards_statistics_player_damage_taken_1_value_DOUBLE%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistics_player_damage_taken_2_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_2_value_DOUBLE%'
+  - content: '&e#2. &a%leaderboards_statistics_player_damage_taken_2_name% &7- &a%leaderboards_statistics_player_damage_taken_2_value_DOUBLE%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistics_player_damage_taken_3_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_3_value_DOUBLE%'
+  - content: '&e#3. &a%leaderboards_statistics_player_damage_taken_3_name% &7- &a%leaderboards_statistics_player_damage_taken_3_value_DOUBLE%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistics_player_damage_taken_4_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_4_value_DOUBLE%'
+  - content: '&e#4. &a%leaderboards_statistics_player_damage_taken_4_name% &7- &a%leaderboards_statistics_player_damage_taken_4_value_DOUBLE%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistics_player_damage_taken_5_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_5_value_DOUBLE%'
+  - content: '&e#5. &a%leaderboards_statistics_player_damage_taken_5_name% &7- &a%leaderboards_statistics_player_damage_taken_5_value_DOUBLE%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistics_player_damage_taken_6_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_6_value_DOUBLE%'
+  - content: '&e#6. &a%leaderboards_statistics_player_damage_taken_6_name% &7- &a%leaderboards_statistics_player_damage_taken_6_value_DOUBLE%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistics_player_damage_taken_7_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_7_value_DOUBLE%'
+  - content: '&e#7. &a%leaderboards_statistics_player_damage_taken_7_name% &7- &a%leaderboards_statistics_player_damage_taken_7_value_DOUBLE%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistics_player_damage_taken_8_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_8_value_DOUBLE%'
+  - content: '&e#8. &a%leaderboards_statistics_player_damage_taken_8_name% &7- &a%leaderboards_statistics_player_damage_taken_8_value_DOUBLE%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistics_player_damage_taken_9_name% &7- &a%fortresswars_leaderboards_statistics_player_damage_taken_9_value_DOUBLE%'
+  - content: '&e#9. &a%leaderboards_statistics_player_damage_taken_9_name% &7- &a%leaderboards_statistics_player_damage_taken_9_value_DOUBLE%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistics_player_damage_taken_10_name% &7-
-      &a%fortresswars_leaderboards_statistics_player_damage_taken_10_value_DOUBLE%'
+  - content: '&e#10. &a%leaderboards_statistics_player_damage_taken_10_name% &7-
+      &a%leaderboards_statistics_player_damage_taken_10_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
@@ -75,26 +75,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Healing Done &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistics_player_healing_done_1_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_1_value_DOUBLE%'
+  - content: '&e#1. &a%leaderboards_statistics_player_healing_done_1_name% &7- &a%leaderboards_statistics_player_healing_done_1_value_DOUBLE%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistics_player_healing_done_2_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_2_value_DOUBLE%'
+  - content: '&e#2. &a%leaderboards_statistics_player_healing_done_2_name% &7- &a%leaderboards_statistics_player_healing_done_2_value_DOUBLE%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistics_player_healing_done_3_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_3_value_DOUBLE%'
+  - content: '&e#3. &a%leaderboards_statistics_player_healing_done_3_name% &7- &a%leaderboards_statistics_player_healing_done_3_value_DOUBLE%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistics_player_healing_done_4_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_4_value_DOUBLE%'
+  - content: '&e#4. &a%leaderboards_statistics_player_healing_done_4_name% &7- &a%leaderboards_statistics_player_healing_done_4_value_DOUBLE%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistics_player_healing_done_5_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_5_value_DOUBLE%'
+  - content: '&e#5. &a%leaderboards_statistics_player_healing_done_5_name% &7- &a%leaderboards_statistics_player_healing_done_5_value_DOUBLE%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistics_player_healing_done_6_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_6_value_DOUBLE%'
+  - content: '&e#6. &a%leaderboards_statistics_player_healing_done_6_name% &7- &a%leaderboards_statistics_player_healing_done_6_value_DOUBLE%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistics_player_healing_done_7_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_7_value_DOUBLE%'
+  - content: '&e#7. &a%leaderboards_statistics_player_healing_done_7_name% &7- &a%leaderboards_statistics_player_healing_done_7_value_DOUBLE%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistics_player_healing_done_8_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_8_value_DOUBLE%'
+  - content: '&e#8. &a%leaderboards_statistics_player_healing_done_8_name% &7- &a%leaderboards_statistics_player_healing_done_8_value_DOUBLE%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistics_player_healing_done_9_name% &7- &a%fortresswars_leaderboards_statistics_player_healing_done_9_value_DOUBLE%'
+  - content: '&e#9. &a%leaderboards_statistics_player_healing_done_9_name% &7- &a%leaderboards_statistics_player_healing_done_9_value_DOUBLE%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistics_player_healing_done_10_name% &7-
-      &a%fortresswars_leaderboards_statistics_player_healing_done_10_value_DOUBLE%'
+  - content: '&e#10. &a%leaderboards_statistics_player_healing_done_10_name% &7-
+      &a%leaderboards_statistics_player_healing_done_10_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7==== &a3 &7====   &a-> '
     height: 0.3
@@ -108,26 +108,26 @@ pages:
 - lines:
   - content: ' &7===== &aTop Potion Healing &7===== '
     height: 0.3
-  - content: '&e#1. &a%fortresswars_leaderboards_statistics_player_potion_healing_1_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_1_value_DOUBLE%'
+  - content: '&e#1. &a%leaderboards_statistics_player_potion_healing_1_name% &7- &a%leaderboards_statistics_player_potion_healing_1_value_DOUBLE%'
     height: 0.3
-  - content: '&e#2. &a%fortresswars_leaderboards_statistics_player_potion_healing_2_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_2_value_DOUBLE%'
+  - content: '&e#2. &a%leaderboards_statistics_player_potion_healing_2_name% &7- &a%leaderboards_statistics_player_potion_healing_2_value_DOUBLE%'
     height: 0.3
-  - content: '&e#3. &a%fortresswars_leaderboards_statistics_player_potion_healing_3_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_3_value_DOUBLE%'
+  - content: '&e#3. &a%leaderboards_statistics_player_potion_healing_3_name% &7- &a%leaderboards_statistics_player_potion_healing_3_value_DOUBLE%'
     height: 0.3
-  - content: '&e#4. &a%fortresswars_leaderboards_statistics_player_potion_healing_4_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_4_value_DOUBLE%'
+  - content: '&e#4. &a%leaderboards_statistics_player_potion_healing_4_name% &7- &a%leaderboards_statistics_player_potion_healing_4_value_DOUBLE%'
     height: 0.3
-  - content: '&e#5. &a%fortresswars_leaderboards_statistics_player_potion_healing_5_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_5_value_DOUBLE%'
+  - content: '&e#5. &a%leaderboards_statistics_player_potion_healing_5_name% &7- &a%leaderboards_statistics_player_potion_healing_5_value_DOUBLE%'
     height: 0.3
-  - content: '&e#6. &a%fortresswars_leaderboards_statistics_player_potion_healing_6_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_6_value_DOUBLE%'
+  - content: '&e#6. &a%leaderboards_statistics_player_potion_healing_6_name% &7- &a%leaderboards_statistics_player_potion_healing_6_value_DOUBLE%'
     height: 0.3
-  - content: '&e#7. &a%fortresswars_leaderboards_statistics_player_potion_healing_7_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_7_value_DOUBLE%'
+  - content: '&e#7. &a%leaderboards_statistics_player_potion_healing_7_name% &7- &a%leaderboards_statistics_player_potion_healing_7_value_DOUBLE%'
     height: 0.3
-  - content: '&e#8. &a%fortresswars_leaderboards_statistics_player_potion_healing_8_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_8_value_DOUBLE%'
+  - content: '&e#8. &a%leaderboards_statistics_player_potion_healing_8_name% &7- &a%leaderboards_statistics_player_potion_healing_8_value_DOUBLE%'
     height: 0.3
-  - content: '&e#9. &a%fortresswars_leaderboards_statistics_player_potion_healing_9_name% &7- &a%fortresswars_leaderboards_statistics_player_potion_healing_9_value_DOUBLE%'
+  - content: '&e#9. &a%leaderboards_statistics_player_potion_healing_9_name% &7- &a%leaderboards_statistics_player_potion_healing_9_value_DOUBLE%'
     height: 0.3
-  - content: '&e#10. &a%fortresswars_leaderboards_statistics_player_potion_healing_10_name% &7-
-      &a%fortresswars_leaderboards_statistics_player_potion_healing_10_value_DOUBLE%'
+  - content: '&e#10. &a%leaderboards_statistics_player_potion_healing_10_name% &7-
+      &a%leaderboards_statistics_player_potion_healing_10_value_DOUBLE%'
     height: 0.3
   - content: ' &a<-   &7==== &a4 &7====   &a-> '
     height: 0.3
