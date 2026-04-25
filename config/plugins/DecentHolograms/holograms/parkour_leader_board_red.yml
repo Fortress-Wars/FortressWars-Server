@@ -9,26 +9,26 @@ pages:
 - lines:
   - content: ' &7===== &a Leaderboard &7===== '
     height: 0.3
-  - content: '&e#1. &a%leaderboards_parkour_red_1_name% &7- &a%leaderboards_parkour_red_1_value_FULLTIME%'
+  - content: '&e#1. &a%leaderboards_parkour_red_1_name% &7- &a%leaderboards_parkour_red_1_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#2. &a%leaderboards_parkour_red_2_name% &7- &a%leaderboards_parkour_red_2_value_FULLTIME%'
+  - content: '&e#2. &a%leaderboards_parkour_red_2_name% &7- &a%leaderboards_parkour_red_2_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#3. &a%leaderboards_parkour_red_3_name% &7- &a%leaderboards_parkour_red_3_value_FULLTIME%'
+  - content: '&e#3. &a%leaderboards_parkour_red_3_name% &7- &a%leaderboards_parkour_red_3_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#4. &a%leaderboards_parkour_red_4_name% &7- &a%leaderboards_parkour_red_4_value_FULLTIME%'
+  - content: '&e#4. &a%leaderboards_parkour_red_4_name% &7- &a%leaderboards_parkour_red_4_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#5. &a%leaderboards_parkour_red_5_name% &7- &a%leaderboards_parkour_red_5_value_FULLTIME%'
+  - content: '&e#5. &a%leaderboards_parkour_red_5_name% &7- &a%leaderboards_parkour_red_5_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#6. &a%leaderboards_parkour_red_6_name% &7- &a%leaderboards_parkour_red_6_value_FULLTIME%'
+  - content: '&e#6. &a%leaderboards_parkour_red_6_name% &7- &a%leaderboards_parkour_red_6_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#7. &a%leaderboards_parkour_red_7_name% &7- &a%leaderboards_parkour_red_7_value_FULLTIME%'
+  - content: '&e#7. &a%leaderboards_parkour_red_7_name% &7- &a%leaderboards_parkour_red_7_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#8. &a%leaderboards_parkour_red_8_name% &7- &a%leaderboards_parkour_red_8_value_FULLTIME%'
+  - content: '&e#8. &a%leaderboards_parkour_red_8_name% &7- &a%leaderboards_parkour_red_8_value_FULL_TIME%'
     height: 0.3
-  - content: '&e#9. &a%leaderboards_parkour_red_9_name% &7- &a%leaderboards_parkour_red_9_value_FULLTIME%'
+  - content: '&e#9. &a%leaderboards_parkour_red_9_name% &7- &a%leaderboards_parkour_red_9_value_FULL_TIME%'
     height: 0.3
   - content: '&e#10. &a%leaderboards_parkour_red_10_name% &7-
-      &a%leaderboards_parkour_red_10_value_FULLTIME%'
+      &a%leaderboards_parkour_red_10_value_FULL_TIME%'
     height: 0.3
   - content: ' &7=================== '
     height: 0.3

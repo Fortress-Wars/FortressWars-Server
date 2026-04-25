@@ -42,34 +42,34 @@ pages:
   - content: ' &7===== &aTop Win Rate &7===== '
     height: 0.3
   - content: '&e#1. &a%leaderboards_statistics_total_wins_over_games_played_1_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_1_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_1_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#2. &a%leaderboards_statistics_total_wins_over_games_played_2_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_2_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_2_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#3. &a%leaderboards_statistics_total_wins_over_games_played_3_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_3_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_3_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#4. &a%leaderboards_statistics_total_wins_over_games_played_4_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_4_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_4_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#5. &a%leaderboards_statistics_total_wins_over_games_played_5_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_5_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_5_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#6. &a%leaderboards_statistics_total_wins_over_games_played_6_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_6_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_6_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#7. &a%leaderboards_statistics_total_wins_over_games_played_7_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_7_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_7_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#8. &a%leaderboards_statistics_total_wins_over_games_played_8_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_8_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_8_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#9. &a%leaderboards_statistics_total_wins_over_games_played_9_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_9_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_9_value_RATIO_PERCENT%'
     height: 0.3
   - content: '&e#10. &a%leaderboards_statistics_total_wins_over_games_played_10_name%
-      &7- &a%leaderboards_statistics_total_wins_over_games_played_10_value_RATIOPERCENT%'
+      &7- &a%leaderboards_statistics_total_wins_over_games_played_10_value_RATIO_PERCENT%'
     height: 0.3
   - content: ' &a<-   &7==== &a2 &7====   &a-> '
     height: 0.3
