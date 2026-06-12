@@ -1,8 +1,6 @@
 docker compose rm -f -s -f
 
-docker image rm fortresswars-server-paper phpmyadmin mysql
-
-docker volume rm fortresswars-server_db
+docker image rm fortresswars-server-paper
 
 rmdir data /s /q
 

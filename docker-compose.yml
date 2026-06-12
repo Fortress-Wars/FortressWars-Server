@@ -1,37 +1,10 @@
 version: '3.8'
 
 services:
-
-  # mysql
-  db:
-    container_name: db
-    image: mysql
-    restart: always
-    ports:
-      - 3306:3306
-    expose:
-      - 3306
-    env_file:
-      - .env
-    environment:
-      MYSQL_RANDOM_ROOT_PASSWORD: true
-    volumes:
-      - db:/var/lib/mysql
-    
-  # phpmyadmin
-  phpmyadmin:
-    container_name: phpadmin
-    image: phpmyadmin
-    restart: always
-    ports:
-      - 8080:80
-
   # paper
   paper:
     container_name: paper
     build: .
-    depends_on:
-      - db
     ports:
       - "25600:25600"      
     tty: true
@@ -59,6 +32,3 @@ services:
       ONLINE_MODE: false
     volumes:
       - ./data:/data
-
-volumes:
-  db: {}
