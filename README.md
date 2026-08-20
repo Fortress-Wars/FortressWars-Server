@@ -29,20 +29,20 @@ Download the latest versions of the following plugins and place them in the `/pl
 Requried Plugins:
 - [FortressWars 2.3.0](https://github.com/Fortress-Wars/FortressWars-Plugin/releases)
 - [PlaceholdersAPI 2.12.2](https://www.spigotmc.org/resources/placeholderapi.6245/)
-- [SuperVanish 6.2.21](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
+- [SuperVanish 6.3.0](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
 - [ProtocolLib 5.4.0](https://www.spigotmc.org/resources/protocollib.1997/updates)
-- [PacketEvents 2.11.2](https://github.com/retrooper/packetevents/releases)
+- [PacketEvents 2.13.0](https://github.com/retrooper/packetevents/releases)
 - [AdvancedBan 2.3.0](https://www.spigotmc.org/resources/advancedban.8695/)
-- [TAB 5.5.0](https://modrinth.com/plugin/tab-was-taken)
+- [TAB 6.1.2](https://modrinth.com/plugin/tab-was-taken)
 - [Simple Voice Chat 2.5.26](https://modrinth.com/plugin/simple-voice-chat/versions) *(Make sure to configure the port)*
 
 Optional Plugins:
 - [Via Version 5.7.1](https://github.com/ViaVersion/ViaVersion/releases)
 - [Decent Holograms 2.9.9](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-11-papi-support-no-dependencies.96927/)
-- [Plugins Hide  Free 2.0.5](https://www.spigotmc.org/resources/plugin-hide-1-13-choose-which-commands-players-can-execute-and-see.68767/history)
+- [Plugins Hide Free 2.0.8](https://www.spigotmc.org/resources/plugin-hide-1-13-choose-which-commands-players-can-execute-and-see.68767/history)
 - [ServerListPlus 3.5.0-Universal](https://www.spigotmc.org/resources/serverlistplus.241/)
 - [Citizens 2.0.41](https://www.spigotmc.org/resources/citizens.13811/)
-- [DamageIndicators 1.22.0](https://www.spigotmc.org/resources/%E2%98%A0%EF%B8%8Fdamageindicator%E2%98%A0%EF%B8%8F-customisable-damage-indicator-multicolor-support-100-lagless-%E2%9C%A8.92423/)
+- [DamageIndicators 1.24.0](https://www.spigotmc.org/resources/%E2%98%A0%EF%B8%8Fdamageindicator%E2%98%A0%EF%B8%8F-customisable-damage-indicator-multicolor-support-100-lagless-%E2%9C%A8.92423/)
 - [DiscordSRV 1.30.4](https://modrinth.com/plugin/discordsrv/versions) *(For the "killfeed", and "game" fortress wars channels; Configure these in the .env file to use them)*
 - [Luck Perms 5.5.36](https://luckperms.net/download)
 
