@@ -4,4 +4,4 @@ docker image rm fortresswars-server-paper
 
 rmdir data /s /q
 
-docker compose up
+docker compose up -d
