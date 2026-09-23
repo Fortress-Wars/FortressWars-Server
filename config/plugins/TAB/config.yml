@@ -1,8 +1,8 @@
 header-footer:
   enabled: true
   designs:
-    world-map_*:
-      display-condition: '%world%|-map_'
+    maps:
+      display-condition: '%world%|-maps/'
       header:
       - '%animation:logo%'
       - '&7play.fortresswars.net'
