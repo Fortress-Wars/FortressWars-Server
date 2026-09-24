@@ -20,7 +20,7 @@ header-footer:
       - '&3Damage: &e%fortresswars_game_damage_dealt%  &3Healing: &e%fortresswars_game_healing_done%  &3Killstreak:
         %fortresswars_killstreak_color%%fortresswars_killstreak_current%'
       - ''
-      - '&3Credits: &6%fortresswars_credits%'
+      - '&3Credits: &6%profile_credits%'
     default:
       display-condition: '%world%!=disabledworld'
       header:
@@ -34,7 +34,7 @@ header-footer:
       - '&7&lPlayers'
       footer:
       - ''
-      - '&3Credits: &6%fortresswars_credits%'
+      - '&3Credits: &6%profile_credits%'
 tablist-name-formatting:
   enabled: true
   disable-condition: '%world%=disabledworld'
