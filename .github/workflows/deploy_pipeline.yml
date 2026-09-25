@@ -31,10 +31,13 @@ jobs:
 
       # Paper
       - name: Copy Files (Paper)
+        env:
+          FORWARDING_SECRET: ${{ secrets.FORWARDING_SECRET }}
         run: |
           cp config/spigot.yml build_files/configs/spigot.yml
           cp config/paper-world-defaults.yml build_files/configs/config/paper-world-defaults.yml
           cp config/paper-global.yml build_files/configs/config/paper-global.yml
+          envsubst '${FORWARDING_SECRET}' < config/paper-global.yml > build_files/configs/config/paper-global.yml
 
       # Advanced Ban
       - name: Copy Files (Advanced Ban)
@@ -65,6 +68,16 @@ jobs:
       - name: Copy Files (FortressWars-Core)
         run: |
           cp -r config/plugins/FortressWars-Core build_files/configs/plugins/FortressWars-Core
+
+      # FortressWars-Profiles
+      - name: Copy Files (FortressWars-Profiles)
+        env:
+          PPS_URL: ${{ secrets.PPS_URL }}
+          PPS_API_KEY: ${{ secrets.PPS_API_KEY }}
+          REDIS_URL: ${{ secrets.REDIS_URL }}
+        run: |
+          cp -r config/plugins/FortressWars-Profiles build_files/configs/plugins/FortressWars-Profiles
+          envsubst '${PPS_URL} ${PPS_API_KEY} ${REDIS_URL}' < config/plugins/FortressWars-Profiles/config.yml > build_files/configs/plugins/FortressWars-Profiles/config.yml
 
       # PL-Hide-Free
       - name: Copy Files (Pl-Hide-Free)
