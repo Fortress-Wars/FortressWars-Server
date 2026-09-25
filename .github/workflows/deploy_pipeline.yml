@@ -28,7 +28,6 @@ jobs:
           mkdir build_files/configs/config
           mkdir build_files/configs/plugins
           mkdir build_files/configs/plugins/DiscordSRV
-          mkdir build_files/configs/plugins/FortressWars-Core
 
       # Paper
       - name: Copy Files (Paper)
