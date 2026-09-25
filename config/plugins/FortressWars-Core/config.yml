@@ -1,0 +1,156 @@
+version: "3.0.0"
+logLevel: "info"
+wiki: "https://wiki.fortresswars.net"
+
+# King of the Ladder
+kingOfTheLadder:
+  sign: lobby,40,66,27
+  radius: 6
+
+# Health Bars
+healthBars:
+  enabled: true
+achievements:
+  enabled: true
+
+# Game
+game:
+  voting:
+    maps:
+      enabled: true
+    gamerules:
+      enabled: true
+  pause:
+    unpauseCountdownSeconds: 3
+
+
+# Respawn
+defaultRespawnTimes:
+  low: 5
+  medium: 10
+  high: 15
+  waveWindow: 5
+
+# The low, medium, and high respawn times can be overridden in each map's config.
+# ```
+# respawnTimes:
+#  low: 5
+#  medium: 10
+#  high: 15
+# ```
+
+# Killstreaks
+killstreaks:
+  enabled: true
+  killsPerLevel: 5
+  glowingDurationFromLevelIncrease: 60
+
+# Combat
+combat:
+  enforceOutOfCombatKitSwitching: true
+
+# Cosmetic settings
+cosmetics:
+  particleEffects:
+    enabled: true
+  deathAnimations:
+    enabled: true
+  arrowTrails:
+    enabled: true
+  blockEffects:
+    enabled: true
+  enabled: true
+
+# Team Griefing
+teamGriefing:
+  enabled: true
+  maxBlocks: 200
+  decayDelaySeconds: 10
+  warningMessageThresholds:
+    - 175
+    - 100
+  blocksToIgnore:
+    - COBWEB # Example
+
+# Server automatic messaging settings
+messages:
+  enabled: true
+  broadcasting:
+    enabled: true
+    interval: 6000
+    randomize: true
+    messages:
+      - message:
+        padding: true
+        lines:
+          - content: "   &a&oChat with friends in-game — try the Simple Voice Chat mod!"
+          - content: "        &e&k|| &7&ohttps://modrinth.com/plugin/simple-voice-chat &e&k||"
+      - message:
+        padding: true
+        lines:
+          - content: "   &a&oJoin our Discord and keep up with the latest server news!"
+          - content: "                 &e&k|| &7&ohttps://discord.fortresswars.net &e&k||"
+      - message:
+        padding: true
+        lines:
+          - content: "      &d&oWant to support the server? Visit our webstore! "
+          - content: "               &e&k||&7&o https://store.fortresswars.net &e&k||"
+      - message:
+        padding: true
+        lines:
+          - content: "      &eNeed Credits? Earn up to &a90 &ecredits a day by voting!"
+          - content: "               &e&k||&7&o View all voting sites with ''/vote all'' &e&k||"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7Before a game starts, you can vote for a map with the &a/map &7command!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7You can view your overall stats with the &a/stats &7command!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7You can view your kit stats in the &eStatistics View&7 in the &a/kit &7menu!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7You can view information about a kit using &a/kit info <kit> &7or &aright-clicking &7a kit in the &a/kit &7menu!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7You can view your achievements with the &a/achievements &7command!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7You can change your kit at any time with the &a/kit &7command!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7Customize your preferences with the &a/preferences &7command!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7During build phase, you can sneak and place to build blocks in a &a3x3 &7pattern!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7Easily message with your teammates using the &a/tc &7command!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7Type &a/vc &7to turn team voice chat on or off!"
+      - message:
+        padding: false
+        lines:
+          - content: "&d[TIP] &7Need a quick way back to your base? Use the &a/k &7command to send yourself to the respawn box!"
+  tips:
+    enabled: true
+    messages:
+      enoughCreditsForKit:
+        padding: true
+        cooldown: 6000
+        delay: 800
+        lines:
+          - content: "      &3You have &6%fortresswars_credits% &3credits! You can purchase a new kit!"
+          - content: "                 &7&oOpen the shop menu with /shop!"

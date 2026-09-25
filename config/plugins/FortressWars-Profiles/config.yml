@@ -1,0 +1,9 @@
+# Don't touch this value unless you know what you are doing
+configVersion: 1
+
+api:
+  url: ${PPS_URL}
+  apiKey: ${PPS_API_KEY}
+  
+redis:
+  url: ${REDIS_URL}

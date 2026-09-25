@@ -28,7 +28,8 @@ jobs:
           mkdir build_files/configs/config
           mkdir build_files/configs/plugins
           mkdir build_files/configs/plugins/DiscordSRV
-          mkdir build_files/configs/plugins/FortressWars
+          mkdir build_files/configs/plugins/FortressWars-Core
+          mkdir build_files/configs/plugins/FortressWars-Profiles
 
       # Paper
       - name: Copy Files (Paper)
@@ -62,11 +63,10 @@ jobs:
         run: |
           cp -r config/plugins/DiscordSRV/messages.yml build_files/configs/plugins/DiscordSRV/messages.yml
 
-      # FortressWars - skip copying files that use environment variables
+      # FortressWars
       - name: Copy Files (FortressWars)
         run: |
-          cp -r config/plugins/FortressWars/gamerules build_files/configs/plugins/FortressWars/gamerules
-          cp -r config/plugins/FortressWars/settings.yml build_files/configs/plugins/FortressWars/settings.yml
+          cp -r config/plugins/FortressWars-Core build_files/configs/plugins/FortressWars-Core
 
       # PL-Hide-Free
       - name: Copy Files (Pl-Hide-Free)

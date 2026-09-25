@@ -13,16 +13,27 @@ Create an .env file in the root directory with the the following content and rep
 **Important**: See [Fortress-Wars/FortressWars-Proxy](https://github.com/Fortress-Wars/FortressWars-Proxy) for details on the `__value__` for `FORWARDING_SECRET`
 
 ```_
-FW_LOG_LEVEL=warn
+# Database
 MYSQL_HOST=__value__
 MYSQL_DATABASE=__value__
 MYSQL_USER=__value__
 MYSQL_PASSWORD=__value__
+
+# Player Profile Service
+PPS_URL=__value__
+PPS_API_KEY=__value__
+
+# Redis
+REDIS_URL=redis://default:<password>@localhost:6379
+
+# Discord
 DISCORDSRV_BOT_TOKEN=__value__
 DISCORDSRV_CHANNEL_GLOBAL=__value__
 DISCORDSRV_CHANNEL_GAME=__value__
 DISCORDSRV_CHANNEL_KILLFEED=__value__
-FORWARDING_SECRET=__value__
+
+# Proxy
+FORWARDING_SECRET=q1GErayXrfhGmv4Om50z3Ocmvxd9KHsq
 ```
 
 Download the latest versions of the following plugins and place them in the `/plugins` directory.
